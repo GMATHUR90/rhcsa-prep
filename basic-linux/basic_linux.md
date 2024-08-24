@@ -1,58 +1,58 @@
-#  Linux for Begineer
+#  Linux for Beginners
 
-kernal act as mediator between hardware and software(application/processes)
+The kernel acts as a mediator between hardware and software(application/processes)
 
-- Kernel perform: monolithic and modular
+- Kernel types: Monolithic and Modular
     1. Memory Management
     2. Process Management
     3. Device Driver
     4. System Calls and security
     
 
-![Untitled](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled.png)
 
-![Untitled](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%201.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%201.png)
 
 | Command | Use |
 | --- | --- |
 | dmesg | Display system messages related to hardware and drivers from kernel’s log |
-| udevadm | udev administraition tool used for managing nodes in the /dev directory |
+| udevadm | udev administration tool used for managing nodes in the /dev directory |
 | info | To display information about device |
 | - -query=path | Specify that you want to query the device path |
 | - -name=/dev/sda5 | specify the device for which you want to retrieve information |
-| udevadm info - -query=path - -name=/dev/sda5 | Retrieve the device path information for the specified device |
+| udevadm info --query=path - -name=/dev/sda5 | Retrieve the device path information for the specified device |
 | udevadm monitor | listen to kernel and udev events, display real-time activity on your system in one line |
 | udev | device manager for kernel that handles dynamic creation of device nodes in the /dev directory, manages device permissions and processes device event in user space |
-| lspci | list all Peripheral Connected device(e.g. Network Card, Sound Card, Graphic Card, USB controller and storage controller |
+| lspci | List all connected peripheral devices(e.g. Network Card, Sound Card, Graphic Card, USB controller and storage controller |
 | lsblk  | show list of all storage devices like usb or HDD and how they are divided up(like into different folder or spaces) |
-| lscpu | detail information about CPU architecture including CPU, cores, thread etc. |
+| lscpu | detailed information about CPU architecture including CPU, cores, thread etc. |
 
-![Untitled](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%202.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%202.png)
 
 | Commad | Use |
 | --- | --- |
-| lsmem - -summary | Quick overview of system’s memory. Show total memory and how it is divided into different section |
+| lsmem --summary | Quick overview of system’s memory. Show total memory and how it is divided into different section |
 | free -m | show amount of memory(RAM) free, used and available on your system |
-| lshw | display detail information about your computer’s hardware including CPU, memory, storage, and network devices |
+| lshw | display detailed information about your computer’s hardware including CPU, memory, storage, and network devices |
 |  |  |
 
 **Linux Boot Sequence:**
 
 Power ON — > BIOS/POST( Check hardware and make sure everything is working) — > Bootloader(It looks for bootloader in storage device(like GRUB). Bootloader is a small program that loads the OS —- > Kernel(Bootloader loads linux kernel in memory and starts it) — > Init System(Kernel start Init process and start all background services and processes )—- > Services and Processes(Networking, display manager, and other essential service)—- > Login screen
 
-![Untitled](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%203.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%203.png)
 
-![Untitled](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%204.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%204.png)
 
-![Untitled](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%205.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%205.png)
 
-![Untitled](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%206.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%206.png)
 
-![Untitled](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%207.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%207.png)
 
-![Untitled](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%208.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%208.png)
 
-![Untitled](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%209.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%209.png)
 
 1. Regular File(’ -’ ): Common file to store data like text file, executable , images etc. For ex-text(.txt),script(.sh),compiled output(.out).
 2. Directory(’d’): Special file that contains another file and directory, forming hierarchy.Ex-/home/username
@@ -62,7 +62,7 @@ Power ON — > BIOS/POST( Check hardware and make sure everything is working) �
 6. Socket(’s’) : Used for inter process communication.Ex- /var/run/docker.sock
 7. FIFO(Named Pipe)(’p’) : Data written by one process can be read by other
 
-![Untitled](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%2010.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Untitled%2010.png)
 
 /home: home directory for all user except root user
 
@@ -91,7 +91,7 @@ once task completed delete file from /tmp and unmount device from /mnt
 | df -hP | display any mounted device like keyboard or mouse |
 |  |  |
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image.png)
 
 Archieve File: tar -cvf test.tar file1 file 2 file 3
 
@@ -125,7 +125,7 @@ passwd:         compat
 group:          compat
 hosts:          files dns
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%201.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%201.png)
 
 google: second level domain 
 
@@ -181,17 +181,17 @@ google: second level domain
 - **nslookup**: If you need a quick, basic DNS lookup without too much detail. It's straightforward and easy to use.
 - **dig**: If you need detailed DNS information, want to query specific record types, or need advanced features like DNSSEC or tracing the resolution path.
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%202.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%202.png)
 
 `traceroute` is a network diagnostic tool used to trace the path that packets take from your computer to a specified destination (such as a website or an IP address) across the Internet.
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%203.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%203.png)
 
 `netstat` (short for "network statistics") is a command-line tool used to display various network-related information on a system, including active connections, routing tables, interface statistics, masquerade connections, and multicast memberships. It is a versatile tool for network diagnostics and troubleshooting.
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%204.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%204.png)
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%205.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%205.png)
 
 **Security and File Permission:**
 
@@ -209,9 +209,9 @@ Security-Enhanced Linux(SELinux): Security module to control access to files, pr
 
  
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%206.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%206.png)
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Screenshot_from_2024-08-21_15-13-48.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Screenshot_from_2024-08-21_15-13-48.png)
 
 Switching User: su -
 
@@ -225,28 +225,28 @@ Switching User: su -
 | passwd <user’s_name> | To add password to existing user |
 | chmod | change permission |
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Screenshot_from_2024-08-21_15-21-13.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/Screenshot_from_2024-08-21_15-21-13.png)
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%207.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%207.png)
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%208.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%208.png)
 
 SSH:
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%209.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%209.png)
 
 | ssh-keygen -t rsa | create ssh key |
 | --- | --- |
 | ssh-copy-id |  |
 |  |  |
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2010.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2010.png)
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2011.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2011.png)
 
 Storage Basic:
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2012.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2012.png)
 
 /dev/ : contains device files represents hardware devices
 
@@ -278,12 +278,12 @@ sudo fdisk -l /dev/sda : list the partition table of /dev/sda
     
     Store data: These partition can act as Primary Partions, meaning you can store files and install OS on them.
     
-    ![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2013.png)
+    ![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2013.png)
     
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2014.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2014.png)
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2015.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2015.png)
 
 comparison of MBR and GPT in tabular form:
 
@@ -335,11 +335,11 @@ a comparison of EXT2, EXT3, and EXT4 in tabular form:
 | **Special Features** | Simple, no journaling | Journaling, reliable recovery | Extent-based storage, delayed allocation, better defragmentation |
 | **Use Case** | Embedded systems, small devices | General-purpose, servers/desktops | Default for modern systems, supports large files and filesystems |
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2016.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2016.png)
 
 /etc/fstab(file system table): is a configuration file in linux that defines how disk partition, network shares, and other storage devices should be mounted to the system during boot.
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2017.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2017.png)
 
 Network File System(NFS): is a protocol in linux that allow to share file or directory over a network.
 
@@ -353,9 +353,9 @@ Benefit:
 1. Shared Access
 2. Centralized Management
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2018.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2018.png)
 
-![image.png](Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2019.png)
+![Placeholder](https://via.placeholder.com/150)(Kodekloud%20Linux%20for%20Begineer%201e89eb8aa7b147cbbe19d5bfa9534624/image%2019.png)
 
 Comparision between DAS, NAS and SAN
 
