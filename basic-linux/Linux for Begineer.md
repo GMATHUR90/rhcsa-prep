@@ -1,171 +1,130 @@
-# Linux for Begineer
+# Linux for Beginners
 
-kernal act as mediator between hardware and software(application/processes)
+The kernel acts as a mediator between hardware and software (applications/processes).
 
-- Kernel perform: monolithic and modular
-    1. Memory Management
-    2. Process Management
-    3. Device Driver
-    4. System Calls and security
-    
+## Kernel performs: 
+- Monolithic and modular tasks:
+  1. Memory Management
+  2. Process Management
+  3. Device Driver
+  4. System Calls and security
 
-![Untitled](rhcsa_images/1.png)
+![Kernel](rhcsa_images/1.png)
+![Kernel](rhcsa_images/2.png)
 
-![Untitled](rhcsa_images/2.png)
+### Commands Overview:
 
 | Command | Use |
 | --- | --- |
-| dmesg | Display system messages related to hardware and drivers from kernel’s log |
-| udevadm | udev administraition tool used for managing nodes in the /dev directory |
-| info | To display information about device |
-| - -query=path | Specify that you want to query the device path |
-| - -name=/dev/sda5 | specify the device for which you want to retrieve information |
-| udevadm info - -query=path - -name=/dev/sda5 | Retrieve the device path information for the specified device |
-| udevadm monitor | listen to kernel and udev events, display real-time activity on your system in one line |
-| udev | device manager for kernel that handles dynamic creation of device nodes in the /dev directory, manages device permissions and processes device event in user space |
-| lspci | list all Peripheral Connected device(e.g. Network Card, Sound Card, Graphic Card, USB controller and storage controller |
-| lsblk  | show list of all storage devices like usb or HDD and how they are divided up(like into different folder or spaces) |
-| lscpu | detail information about CPU architecture including CPU, cores, thread etc. |
+| `dmesg` | Display system messages related to hardware and drivers from the kernel’s log |
+| `udevadm` | udev administration tool for managing nodes in the `/dev` directory |
+| `info` | To display information about a device |
+| `--query=path` | Specify that you want to query the device path |
+| `--name=/dev/sda5` | Specify the device for which you want to retrieve information |
+| `udevadm info --query=path --name=/dev/sda5` | Retrieve device path information for the specified device |
+| `udevadm monitor` | Listen to kernel and udev events, display real-time activity on your system in one line |
+| `udev` | Device manager for kernel handling dynamic creation of device nodes in the `/dev` directory, managing device permissions, and processing device events in user space |
+| `lspci` | List all peripheral connected devices (e.g. Network Card, Sound Card, Graphic Card, USB controller, and storage controller) |
+| `lsblk` | Show a list of all storage devices like USB or HDD and how they are divided (into different folders or spaces) |
+| `lscpu` | Display detailed information about CPU architecture, including CPU, cores, threads, etc. |
 
-![Untitled](rhcsa_images/3.png)
+![Commands](rhcsa_images/3.png)
 
-| Commad | Use |
+### Memory Commands Overview:
+
+| Command | Use |
 | --- | --- |
-| lsmem - -summary | Quick overview of system’s memory. Show total memory and how it is divided into different section |
-| free -m | show amount of memory(RAM) free, used and available on your system |
-| lshw | display detail information about your computer’s hardware including CPU, memory, storage, and network devices |
-|  |  |
+| `lsmem --summary` | Quick overview of system’s memory; shows total memory and how it is divided |
+| `free -m` | Shows the amount of memory (RAM) free, used, and available on your system |
+| `lshw` | Displays detailed information about your computer’s hardware including CPU, memory, storage, and network devices |
 
-**Linux Boot Sequence:**
+### Linux Boot Sequence:
 
-Power ON — > BIOS/POST( Check hardware and make sure everything is working) — > Bootloader(It looks for bootloader in storage device(like GRUB). Bootloader is a small program that loads the OS —- > Kernel(Bootloader loads linux kernel in memory and starts it) — > Init System(Kernel start Init process and start all background services and processes )—- > Services and Processes(Networking, display manager, and other essential service)—- > Login screen
+Power ON → BIOS/POST (Check hardware and make sure everything is working) → Bootloader (It looks for bootloader in a storage device like GRUB) → Kernel (Bootloader loads Linux kernel in memory and starts it) → Init System (Kernel starts Init process and starts all background services and processes) → Services and Processes (Networking, display manager, and other essential services) → Login screen
 
-![Untitled](rhcsa_images/4.png)
+![Boot Sequence](rhcsa_images/4.png)
+![Boot Sequence](rhcsa_images/5.png)
+![Boot Sequence](rhcsa_images/6.png)
+![Boot Sequence](rhcsa_images/7.png)
+![Boot Sequence](rhcsa_images/8.png)
+![Boot Sequence](rhcsa_images/9.png)
+![Boot Sequence](rhcsa_images/10.png)
 
-![Untitled](rhcsa_images/5.png)
+### File Types:
 
-![Untitled](rhcsa_images/6.png)
+1. **Regular File ('-')**: Common files to store data like text, executables, images, etc.
+   - Examples: `.txt` (text), `.sh` (script), `.out` (compiled output)
+2. **Directory ('d')**: Special file that contains other files and directories, forming a hierarchy.
+   - Example: `/home/username`
+3. **Symbol Link ('l')**: A file that points to another file or directory. Similar to shortcuts in Windows.
+4. **Character Device ('c')**: Represents a hardware device that transmits data character by character.
+   - Example: `/dev/ttys0` (serial port), `/dev/console` (system console)
+5. **Block Device ('b')**: Represents a device that transfers data in blocks, such as a storage device.
+   - Example: `/dev/sda1`, `/dev/loop0`
+6. **Socket ('s')**: Used for inter-process communication.
+   - Example: `/var/run/docker.sock`
+7. **FIFO (Named Pipe) ('p')**: Data written by one process can be read by another.
 
-![Untitled](rhcsa_images/7.png)
+![File Types](rhcsa_images/11.png)
 
-![Untitled](rhcsa_images/8.png)
+### File System Hierarchy:
 
-![Untitled](rhcsa_images/9.png)
+- **/home**: Home directory for all users except the root user.
+- **/opt**: Directory for installing third-party programs.
+- **/mnt**: Directory to mount any file temporarily.
+- **/tmp**: Temporary data storage directory.
+- **/media**: External devices like USB connected here.
+- **/bin**: Contains basic binaries like `cp`, `mv`, `mkdir`.
+- **/etc**: Stores configuration files.
+- **/lib** or **/lib64**: Directory for shared libraries.
+- **/var**: Stores logs and cache data.
+- **/usr**: Directory for user-related programs, libraries, and data.
 
-![Untitled](rhcsa_images/10.png)
-
-1. Regular File(’ -’ ): Common file to store data like text file, executable , images etc. For ex-text(.txt),script(.sh),compiled output(.out).
-2. Directory(’d’): Special file that contains another file and directory, forming hierarchy.Ex-/home/username
-3. Symbol Link(’l’) : A file that point to another file or directory. Similar to shortcut in window.
-4. Character Device(’c’) : Represent a hardware device that transmit data character by character.Ex- ‘/dev/ttys0(serial port) and ‘/dev/console(system console)
-5. Block Device(’b’) : Represent a device that transfer data in blocks such as storage device like Hard Drive. Ex- /dev/sda1 , /dev/loop0
-6. Socket(’s’) : Used for inter process communication.Ex- /var/run/docker.sock
-7. FIFO(Named Pipe)(’p’) : Data written by one process can be read by other
-
-![Untitled](rhcsa_images/11.png)
-
-/home: home directory for all user except root user
-
-/opt: to install any third party program and are kept in it
-
-/mnt : to mount any file temporarily
-
-/tmp: data store here for temporarily
-
-once task completed delete file from /tmp and unmount device from /mnt
-
-/media: any external device like usb connected will be reflect here
-
-/bin: contain basic binary like cp, mv, mkdir
-
-/etc: store configuration file
-
-/lib or /lib64: look for shared library
-
-/var: store logs and cache data
-
-/usr: user-related programs, libraries, and data
-
-| command | use |
+| Command | Use |
 | --- | --- |
-| df -hP | display any mounted device like keyboard or mouse |
-|  |  |
+| `df -hP` | Display mounted devices like keyboard or mouse |
 
-![image.png](rhcsa_images/12.png)
+![File System](rhcsa_images/12.png)
 
-Archieve File: tar -cvf test.tar file1 file 2 file 3
+### Archiving Files:
 
-c: create a new archive
+- `tar -cvf test.tar file1 file2 file3`
+  - `c`: Create a new archive
+  - `f`: Specifies the file name of the archive to create
+  - `v`: Verbose
 
-f: specifies the file name of the archive to create
+- `tar -xf file_to_be_extracted.tar`
+  - `x`: Extract from tar file
 
-v: verbose
+- `tar -zcf archive_name.tar.gz /path/to/directory_or_files`
+  - Archive with gzip compression
 
-tar -xf file_to_be_extracted.tar
+- `gzip file1`: Compress a file
+- `gunzip filename.gz`: Unzip a file
 
-x: to extract from tar file
+### Network and DNS Files:
 
-tar -zcf : archive file with zip
+- `/etc/hosts`: Maps hostnames to IP addresses; used for local hostname resolution before DNS queries.
+- `/etc/resolv.conf`: Specifies the DNS server used for resolving domain names.
+- `/etc/nsswitch.conf`: Configures the system databases and name service switch (NSS) for various services like hostname resolution, user authentication.
 
-tar -zcf archive_name.tar.gz /path/to/directory_or_files
-
-gzip file1 : to compress a file
-
-gunzip filename.gz : Unzip a file
-
-**find and grep : To find a file**
-
-/etc/hosts : This file maps hostnames to IP address. It’s used for local hostname resolution before DNS queries.
-
-/etc/resolv.conf : This file specifies the DNS server used for resolving domain names.
-
-/etc/nsswitch.conf : This file configure the system databases and name service switch(NSS) for various services like hostname resolution , user authentication.
-
-passwd:         compat
-group:          compat
-hosts:          files dns
-
-![image.png](rhcsa_images/13.png)
-
-google: second level domain 
+### DNS Record Types:
 
 | **Record Type** | **Purpose** | **Example** | **Use Case** |
 | --- | --- | --- | --- |
-
 | **A** | Maps a domain to an IPv4 address | `example.com. IN A 93.184.216.34` | Directs `example.com` to an IPv4 address. |
-| --- | --- | --- | --- |
-
 | **AAAA** | Maps a domain to an IPv6 address | `example.com. IN AAAA 2606:2800:220:1:248:1893:25c8:1946` | Directs `example.com` to an IPv6 address. |
-| --- | --- | --- | --- |
-
 | **CNAME** | Maps an alias to the canonical domain name | `www.example.com. IN CNAME example.com.` | Redirects `www.example.com` to `example.com`. |
-| --- | --- | --- | --- |
-
 | **MX** | Specifies the mail server for a domain | `example.com. IN MX 10 mail.example.com.` | Directs emails for `@example.com` to `mail.example.com`. |
-| --- | --- | --- | --- |
-
 | **TXT** | Stores text information for various uses | `example.com. IN TXT "v=spf1 ip4:93.184.216.34 -all"` | Commonly used for SPF, DKIM, and other verifications. |
-| --- | --- | --- | --- |
-
 | **NS** | Specifies the authoritative DNS servers for a domain | `example.com. IN NS ns1.example.com.` | Indicates the DNS servers responsible for `example.com`. |
-| --- | --- | --- | --- |
-
 | **PTR** | Maps an IP address to a domain name (reverse DNS) | `34.216.184.93.in-addr.arpa. IN PTR example.com.` | Used in reverse DNS lookups to find the domain associated with an IP address. |
-| --- | --- | --- | --- |
-
 | **SRV** | Specifies information about services available for a domain | `_sip._tcp.example.com. IN SRV 10 60 5060 sipserver.example.com.` | Defines the location of servers for specific services like VoIP. |
-| --- | --- | --- | --- |
-
-| **SOA** | Contains administrative information about the domain | `example.com. IN SOA ns1.example.com. admin.example.com. (...` | Indicates the primary source of information for the domain, used in zone transfers. |
-| --- | --- | --- | --- |
-
+| **SOA** | Contains administrative information about the domain | `example.com. IN SOA ns1.example.com. admin.example.com.` (... | Indicates the primary source of information for the domain, used in zone transfers. |
 | **CAA** | Specifies which CAs can issue certificates for a domain | `example.com. IN CAA 0 issue "letsencrypt.org"` | Limits SSL/TLS certificate issuance to authorized Certificate Authorities. |
-| --- | --- | --- | --- |
-
 | **DNSSEC** | Provides authentication for DNS data | N/A | Secures DNS against attacks like cache poisoning and man-in-the-middle attacks using RRSIG, DNSKEY, etc. |
-| --- | --- | --- | --- |
 
-### **Comparison:**
+### Comparison of DNS Tools:
 
 | **Feature** | **nslookup** | **dig** |
 | --- | --- | --- |
@@ -177,197 +136,82 @@ google: second level domain
 | **Installation** | Available on most systems by default | May require installation on some systems |
 
 ### When to Use:
+- **nslookup**: Quick, basic DNS lookup without too much detail.
+- **dig**: Detailed DNS information, advanced features like DNSSEC or tracing the resolution path.
 
-- **nslookup**: If you need a quick, basic DNS lookup without too much detail. It's straightforward and easy to use.
-- **dig**: If you need detailed DNS information, want to query specific record types, or need advanced features like DNSSEC or tracing the resolution path.
+![DNS Tools](rhcsa_images/14.png)
 
-![image.png](rhcsa_images/14.png)
+### Networking Tools:
 
-`traceroute` is a network diagnostic tool used to trace the path that packets take from your computer to a specified destination (such as a website or an IP address) across the Internet.
+- `traceroute`: A network diagnostic tool used to trace the path packets take from your system to a target destination. It shows each hop along the route.
+  - Usage: `traceroute example.com`
 
-![image.png](rhcsa_images/15.png)
+- `mtr`: A combination of `ping` and `traceroute`. It continuously sends packets and provides live updates on the route taken to the destination, showing latency and packet loss for each hop.
+  - Usage: `mtr example.com`
 
-`netstat` (short for "network statistics") is a command-line tool used to display various network-related information on a system, including active connections, routing tables, interface statistics, masquerade connections, and multicast memberships. It is a versatile tool for network diagnostics and troubleshooting.
+### System Log Files:
 
-![image.png](rhcsa_images/16.png)
+- `/var/log/messages`: General system log file containing messages from various system services.
+- `/var/log/syslog`: A similar log file, found on some distributions, providing system-wide messages.
+- `/var/log/secure`: Contains security-related messages, such as authentication attempts and failures.
+- `/var/log/dmesg`: Captures kernel messages, particularly those generated during system startup.
 
-![image.png](rhcsa_images/17.png)
+### Disk Management Overview:
 
-**Security and File Permission:**
-
-![Screenshot from 2024-08-21 13-04-29.png](rhcsa_images/18.png)
-
-Access Control: define who can access files and directories and what permission they have. ACL is               managed through user, group and permissions.
-
-Pluggable Authentication Module(PAM) : manages authentication process.
-
-Network Security : protect linux system from unauthorised access , attacks and data breaches through the network.
-
-SSH Hardening: process of securing ssh service to prevent unauthorized access and reduce the risk of attack.
-
-Security-Enhanced Linux(SELinux): Security module to control access to files, processes and resources on the basis of strict policy.
-
- 
-
-![image.png](rhcsa_images/19.png)
-
-![image.png](rhcsa_images/20.png)
-
-Switching User: su -
-
-| Particular | Use |
+| Command | Use |
 | --- | --- |
-| cat /etc/sudoers | which group has permission to execute command as superuser |
-| cat /etc/passwd | contain information about user |
-| cat /etc/shadow | contain information about secure ;user account information like encrypted password |
-| cat /etc/group | contain information about group |
-| useradd | add user |
-| passwd <user’s_name> | To add password to existing user |
-| chmod | change permission |
+| `fdisk` | Manage disk partitions |
+| `df` | Display disk usage |
+| `du` | Show disk usage of files and directories |
+| `lsblk` | List information about block devices |
+| `blkid` | Identify block devices |
+| `parted` | Manipulate partition tables |
 
-![image.png](rhcsa_images/21.png)
+### Partitioning and Disk Layout:
 
-![image.png](rhcsa_images/22.png)
+- **MBR (Master Boot Record)**: 
+  - Can support up to 4 primary partitions or 3 primary and 1 extended partition.
+  - Each primary partition can only be 2TB in size.
+  - Used by older systems.
 
-![image.png](rhcsa_images/23.png)
+- **GPT (GUID Partition Table)**: 
+  - Can support up to 128 partitions.
+  - Each partition can be larger than 2TB.
+  - Used by newer systems, supports UEFI.
 
-SSH:
+![Partitioning](rhcsa_images/15.png)
 
-![image.png](rhcsa_images/24.png)
+### File Systems Overview:
 
-| ssh-keygen -t rsa | create ssh key |
-| --- | --- |
-| ssh-copy-id |  |
-|  |  |
+- **EXT2**: No journaling, suitable for USB drives and flash storage.
+- **EXT3**: Adds journaling to EXT2, offering better recovery in case of power failures.
+- **EXT4**: Improved performance and additional features like file system checksums, faster file access, and journaling.
 
-![image.png](rhcsa_images/25.png)
+### Advanced Storage Concepts:
 
-![image.png](rhcsa_images/26.png)
+1. **DAS (Direct Attached Storage)**: Storage that is directly attached to the server or workstation.
+2. **NAS (Network Attached Storage)**: Dedicated file storage that is connected to a network, allowing multiple clients to access the storage over the network.
+3. **SAN (Storage Area Network)**: High-speed network that provides block-level storage to servers. SAN storage appears as a local disk to the server.
+4. **LVM (Logical Volume Manager)**: Provides more flexible management of disk space by creating logical volumes, which can span across multiple physical disks.
 
-Storage Basic:
+![Advanced Storage](rhcsa_images/16.png)
 
-![image.png](rhcsa_images/27.png)
+### Network Security Overview:
 
-/dev/ : contains device files represents hardware devices
+- **SELinux (Security-Enhanced Linux)**: Mandatory access control system built into the Linux kernel. It enforces security policies that restrict programs to limited access.
+- **AppArmor**: Similar to SELinux but uses file paths instead of labels for enforcement. Easier to configure but less fine-grained.
+- **iptables**: Firewall utility for controlling network traffic, used to define rules for packet filtering, NAT, and port redirection.
+- **firewalld**: A dynamic firewall management tool with support for zones, making it easier to manage different trust levels for networks.
 
-“^b” : show output that start with letter b
+### Security Best Practices:
 
-lsblk: list all block devices. Block devices are storage devices that read and write data in blocks, such as hard drives, SSDs, USB drives, etc.
+1. Use complex passwords and enable password expiration policies.
+2. Disable unnecessary services to minimize attack surface.
+3. Keep software and systems up-to-date with security patches.
+4. Implement proper firewall rules to control incoming and outgoing traffic.
+5. Enable auditing and monitoring of system activities to detect potential security breaches.
 
-fdisk: tool to manage disk partition
+### Closing Note:
 
-sudo fdisk -l /dev/sda : list the partition table of /dev/sda
+Linux provides a robust and secure environment for various applications, from servers to personal computers. Mastering Linux involves continuous learning and hands-on practice.
 
-**Different Types of Partition:**
-
-- 1 Primary Partition:
-    
-    Main Storage Area: A hard drive can have upto four primary partition. Each primary partition can hold a separate OS or data.
-    
-    Bootable: One of the partition can be marked as bootable means we can boot our computer from it.
-    
-- 2 Extended Partition:
-    
-    If you need more than four partition, you can create an extended partition. It act as a container for additional partition.
-    
-    Not directly usable: You can’t store files directly on an extended partition. It needs to be divided into smaller sections called logical partitions.
-    
-- 3 Logical Partition:
-    
-    Inside the Extended Partition: Local Partitions are created within an extended partition. You can have as many logical partitions as you need.
-    
-    Store data: These partition can act as Primary Partions, meaning you can store files and install OS on them.
-    
-    ![image.png](rhcsa_images/28.png)
-    
-
-![image.png](rhcsa_images/29.png)
-
-![image.png](rhcsa_images/30.png)
-
-comparison of MBR and GPT in tabular form:
-
-| **Feature** | **MBR (Master Boot Record)** | **GPT (GUID Partition Table)** |
-| --- | --- | --- |
-| **Age** | Older standard (introduced in the 1980s) | Newer standard (part of UEFI, replacing MBR) |
-| **Partition Limit** | Up to 4 primary partitions | Up to 128 partitions (by default in Windows) |
-| **Support for Extended Partitions** | Yes, supports 1 extended partition with multiple logical partitions | Not needed, supports a large number of partitions directly |
-| **Disk Size Limit** | Supports disks up to 2 TB | Supports disks larger than 2 TB (up to 9.4 zettabytes) |
-| **Boot Data Location** | Boot data stored in the first sector | Boot data stored in multiple locations for redundancy |
-| **Data Corruption Resilience** | Susceptible to corruption (single point of failure) | More resilient (stores multiple copies of partition and boot data) |
-| **Compatibility** | Compatible with most older systems and software | Compatible with modern systems and required for UEFI booting |
-| **Usage** | Common in older or legacy systems | Standard for newer systems, especially for large drives and UEFI booting |
-
-gdisk: tool for partitioning disk that is GPT
-
-p: print current partition table
-
-n : Create a new partition table
-
-d: Delete a partition
-
-w: write changes to disk and exit
-
-q: quit without saving changes
-
-gdisk /dev/sdb: create partition in second disk assuming first disk is /dev/sda
-
-sudo fdisk -l /dev/sdb: display  details about /dev/sdb
-
-**Linux Filesystem**: is a way to store and organize data on a disk or storage disk.
-
-Disk—— > Partition—— > Create File System—— > Mount File System
-
-Journaling: After crash or power failure, speed up data recovery and data corruption,
-
-EXT: Extended File System
-
-a comparison of EXT2, EXT3, and EXT4 in tabular form:
-
-| **Feature** | **EXT2** | **EXT3** | **EXT4** |
-| --- | --- | --- | --- |
-| **Introduced** | 1993 | 2001 | 2008 |
-| **Journaling** | No | Yes | Yes |
-| **Performance** | Faster (no journaling overhead) | Slightly slower than EXT2 | Faster than EXT3 (due to enhancements like delayed allocation) |
-| **Max File Size** | 2 TB | 2 TB | 16 TB |
-| **Max Filesystem Size** | 32 TB | 32 TB | 1 EB (Exabyte) |
-| **Backward Compatibility** | No | Yes (upgrade from EXT2) | Yes (can mount EXT3) |
-| **Special Features** | Simple, no journaling | Journaling, reliable recovery | Extent-based storage, delayed allocation, better defragmentation |
-| **Use Case** | Embedded systems, small devices | General-purpose, servers/desktops | Default for modern systems, supports large files and filesystems |
-
-![image.png](rhcsa_images/31.png)
-
-/etc/fstab(file system table): is a configuration file in linux that defines how disk partition, network shares, and other storage devices should be mounted to the system during boot.
-
-![image.png](rhcsa_images/32.png)
-
-Network File System(NFS): is a protocol in linux that allow to share file or directory over a network.
-
-Key Concept of NFS:
-
-- Server-Client Model: The system where the files are physically stored is called NFS Server. The system that access the files over network are called NFS client.
-- Mounting: NFS client mounted the shared directory from the server and once mounted the shared directory behaves like a local file system on the client machine.
-
-Benefit:
-
-1. Shared Access
-2. Centralized Management
-
-![image.png](rhcsa_images/33.png)
-
-![image.png](rhcsa_images/34.png)
-
-Comparision between DAS, NAS and SAN
-
-| **Feature** | **DAS (Direct-Attached Storage)** | **NAS (Network-Attached Storage)** | **SAN (Storage Area Network)** |
-| --- | --- | --- | --- |
-| **Connection** | Directly attached (SATA, USB) | Over the network (Ethernet, Wi-Fi) | Dedicated storage network (Fibre Channel, iSCSI) |
-| **Access** | Single computer | Multiple computers over a network | Multiple servers in a data center |
-| **Performance** | High (local access) | Moderate (depends on network) | Very high (dedicated network) |
-| **Scalability** | Limited | Moderate | Very high |
-| **Cost** | Low | Moderate | High |
-| **Complexity** | Simple | Moderate | Complex |
-| **Typical Usage** | Personal use, small businesses | Small to medium businesses, home | Large enterprises, data centers |
-| Example | External USB hard drive attached to your laptop | Synology/QNAP NAS serving files to home computers over Wi-Fi | Synology/QNAP NAS serving files to home computers over Wi-Fi |
-
-**Logical Volume Manager(LVM):**  is a tool that makes managing disk space easier or more flexible. Instead of traditional fixed size partition, LVM allows you to combine multiple physical disk or partitions into one large pool of storage and then create flexible virtual partitions called logical volumes from the pool
