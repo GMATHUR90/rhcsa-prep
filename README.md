@@ -1,2 +1,3 @@
-# rhcsa-prep
-A repository documenting my journey towards RHCSA certification.
+# RHCSA Prep
+This repository documents my journey and resources for preparing for the RHCSA certification.
+
