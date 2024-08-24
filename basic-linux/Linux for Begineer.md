@@ -9,9 +9,9 @@ kernal act as mediator between hardware and software(application/processes)
     4. System Calls and security
     
 
-![Untitled](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/1.png)
+![Untitled](rhcsa_images/1.png)
 
-![Untitled](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/2.png)
+![Untitled](rhcsa_images/2.png)
 
 | Command | Use |
 | --- | --- |
@@ -27,7 +27,7 @@ kernal act as mediator between hardware and software(application/processes)
 | lsblk  | show list of all storage devices like usb or HDD and how they are divided up(like into different folder or spaces) |
 | lscpu | detail information about CPU architecture including CPU, cores, thread etc. |
 
-![Untitled](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/3.png)
+![Untitled](rhcsa_images/3.png)
 
 | Commad | Use |
 | --- | --- |
@@ -40,19 +40,19 @@ kernal act as mediator between hardware and software(application/processes)
 
 Power ON — > BIOS/POST( Check hardware and make sure everything is working) — > Bootloader(It looks for bootloader in storage device(like GRUB). Bootloader is a small program that loads the OS —- > Kernel(Bootloader loads linux kernel in memory and starts it) — > Init System(Kernel start Init process and start all background services and processes )—- > Services and Processes(Networking, display manager, and other essential service)—- > Login screen
 
-![Untitled](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/4.png)
+![Untitled](rhcsa_images/4.png)
 
-![Untitled](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/5.png)
+![Untitled](rhcsa_images/5.png)
 
-![Untitled](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/6.png)
+![Untitled](rhcsa_images/6.png)
 
-![Untitled](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/7.png)
+![Untitled](rhcsa_images/7.png)
 
-![Untitled](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/8.png)
+![Untitled](rhcsa_images/8.png)
 
-![Untitled](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/9.png)
+![Untitled](rhcsa_images/9.png)
 
-![Untitled](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/10.png)
+![Untitled](rhcsa_images/10.png)
 
 1. Regular File(’ -’ ): Common file to store data like text file, executable , images etc. For ex-text(.txt),script(.sh),compiled output(.out).
 2. Directory(’d’): Special file that contains another file and directory, forming hierarchy.Ex-/home/username
@@ -62,7 +62,7 @@ Power ON — > BIOS/POST( Check hardware and make sure everything is working) �
 6. Socket(’s’) : Used for inter process communication.Ex- /var/run/docker.sock
 7. FIFO(Named Pipe)(’p’) : Data written by one process can be read by other
 
-![Untitled](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/11.png)
+![Untitled](rhcsa_images/11.png)
 
 /home: home directory for all user except root user
 
@@ -91,7 +91,7 @@ once task completed delete file from /tmp and unmount device from /mnt
 | df -hP | display any mounted device like keyboard or mouse |
 |  |  |
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/12.png)
+![image.png](rhcsa_images/12.png)
 
 Archieve File: tar -cvf test.tar file1 file 2 file 3
 
@@ -125,7 +125,7 @@ passwd:         compat
 group:          compat
 hosts:          files dns
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/13.png)
+![image.png](rhcsa_images/13.png)
 
 google: second level domain 
 
@@ -181,21 +181,21 @@ google: second level domain
 - **nslookup**: If you need a quick, basic DNS lookup without too much detail. It's straightforward and easy to use.
 - **dig**: If you need detailed DNS information, want to query specific record types, or need advanced features like DNSSEC or tracing the resolution path.
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/14.png)
+![image.png](rhcsa_images/14.png)
 
 `traceroute` is a network diagnostic tool used to trace the path that packets take from your computer to a specified destination (such as a website or an IP address) across the Internet.
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/15.png)
+![image.png](rhcsa_images/15.png)
 
 `netstat` (short for "network statistics") is a command-line tool used to display various network-related information on a system, including active connections, routing tables, interface statistics, masquerade connections, and multicast memberships. It is a versatile tool for network diagnostics and troubleshooting.
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/16.png)
+![image.png](rhcsa_images/16.png)
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/17.png)
+![image.png](rhcsa_images/17.png)
 
 **Security and File Permission:**
 
-![Screenshot from 2024-08-21 13-04-29.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/18.png)
+![Screenshot from 2024-08-21 13-04-29.png](rhcsa_images/18.png)
 
 Access Control: define who can access files and directories and what permission they have. ACL is               managed through user, group and permissions.
 
@@ -209,9 +209,9 @@ Security-Enhanced Linux(SELinux): Security module to control access to files, pr
 
  
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/19.png)
+![image.png](rhcsa_images/19.png)
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/20.png)
+![image.png](rhcsa_images/20.png)
 
 Switching User: su -
 
@@ -225,28 +225,28 @@ Switching User: su -
 | passwd <user’s_name> | To add password to existing user |
 | chmod | change permission |
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/21.png)
+![image.png](rhcsa_images/21.png)
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/22.png)
+![image.png](rhcsa_images/22.png)
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/23.png)
+![image.png](rhcsa_images/23.png)
 
 SSH:
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/24.png)
+![image.png](rhcsa_images/24.png)
 
 | ssh-keygen -t rsa | create ssh key |
 | --- | --- |
 | ssh-copy-id |  |
 |  |  |
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/25.png)
+![image.png](rhcsa_images/25.png)
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/26.png)
+![image.png](rhcsa_images/26.png)
 
 Storage Basic:
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/27.png)
+![image.png](rhcsa_images/27.png)
 
 /dev/ : contains device files represents hardware devices
 
@@ -278,12 +278,12 @@ sudo fdisk -l /dev/sda : list the partition table of /dev/sda
     
     Store data: These partition can act as Primary Partions, meaning you can store files and install OS on them.
     
-    ![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/28.png)
+    ![image.png](rhcsa_images/28.png)
     
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/29.png)
+![image.png](rhcsa_images/29.png)
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/30.png)
+![image.png](rhcsa_images/30.png)
 
 comparison of MBR and GPT in tabular form:
 
@@ -335,11 +335,11 @@ a comparison of EXT2, EXT3, and EXT4 in tabular form:
 | **Special Features** | Simple, no journaling | Journaling, reliable recovery | Extent-based storage, delayed allocation, better defragmentation |
 | **Use Case** | Embedded systems, small devices | General-purpose, servers/desktops | Default for modern systems, supports large files and filesystems |
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/31.png)
+![image.png](rhcsa_images/31.png)
 
 /etc/fstab(file system table): is a configuration file in linux that defines how disk partition, network shares, and other storage devices should be mounted to the system during boot.
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/32.png)
+![image.png](rhcsa_images/32.png)
 
 Network File System(NFS): is a protocol in linux that allow to share file or directory over a network.
 
@@ -353,9 +353,9 @@ Benefit:
 1. Shared Access
 2. Centralized Management
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/33.png)
+![image.png](rhcsa_images/33.png)
 
-![image.png](rhcsa-prep/rhcsa-prep/basic-linux/rhcsa_images/34.png)
+![image.png](rhcsa_images/34.png)
 
 Comparision between DAS, NAS and SAN
 
