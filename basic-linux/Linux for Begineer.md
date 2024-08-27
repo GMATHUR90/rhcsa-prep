@@ -211,6 +211,54 @@ Power ON → BIOS/POST (Check hardware and make sure everything is working) → 
 4. Implement proper firewall rules to control incoming and outgoing traffic.
 5. Enable auditing and monitoring of system activities to detect potential security breaches.
 
+# Logical Volume Manager (LVM)
+
+## 1. Concept of LVM:
+- **Physical Volume (PV):** These are physical storage devices, e.g., Hard Disk, SSD.
+- **Volume Groups (VG):** A collection of physical volumes, pooling them together into a single large storage space.
+- **Logical Volume (LV):** These are created within Volume Groups and are used by the operating system to store data, similar to partitions but with more flexibility.
+
+## 2. Why Use LVM:
+- **Flexibility:** LVM allows resizing of volumes (both shrinking and expanding) without unmounting.
+- **Snapshots:** LVM supports creating snapshots, which are important for backup and restoring from previous states.
+- **Pooling Storage:**
+
+| **Commands**                           | **Use**                        |
+|----------------------------------------|---------------------------------|
+| `pvcreate /dev/sdx`                    | Create Physical Volume          |
+| `vgcreate myvg /dev/sdx`               | Create a Volume Group           |
+| `lvcreate -L 20G -n mylv myvg`         | Create a Logical Volume         |
+| `lvresize -L +10G /dev/myvg/mylv`      | Resize a Logical Volume         |
+
+## 3. LVM Architecture:
+- **Physical Extents (PE):** The smallest allocation unit in a volume group.
+- **Logical Extents (LE):** These map directly to physical extents and form the logical volume.
+
+## 4. Expanding/Reducing LVs:
+- **Expanding:** You can extend a logical volume with free space in the volume group.
+- **Reducing:** Reducing requires careful planning to avoid data loss.
+
+## 5. Snapshots in LVM:
+- Snapshots allow creating read-only or read-write copies of a logical volume at a specific point in time.
+
+## 6. Mirroring and Stripping:
+- **Mirroring:** LVM can mirror data across multiple disks for redundancy.
+- **Stripping:** LVM can stripe data across multiple disks to increase performance.
+
+![LVM](rhcsa_images/LVM_34.png)
+![LVM](rhcsa_images/LVM_35.png)
+![LVM](rhcsa_images/LVM_36.png)
+![LVM](rhcsa_images/LVM_37.png)
+![LVM](rhcsa_images/LVM_38.png)
+![LVM](rhcsa_images/LVM_39.png)
+![LVM](rhcsa_images/LVM_40.png)
+
+
+
+
+
+
+
 ### Closing Note:
 
 Linux provides a robust and secure environment for various applications, from servers to personal computers. Mastering Linux involves continuous learning and hands-on practice.
