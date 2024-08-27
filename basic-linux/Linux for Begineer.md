@@ -253,9 +253,52 @@ Power ON → BIOS/POST (Check hardware and make sure everything is working) → 
 ![LVM](rhcsa_images/LVM_39.png)
 ![LVM](rhcsa_images/LVM_40.png)
 
+# SYSTEMD and Service Management
 
+`systemd` is a service and service manager for the Linux operating system. It initializes the system during the boot process and manages services, ensuring they are started, stopped, and restarted as needed.
 
+## Unit Files
 
+Unit files are configuration files that `systemd` uses to manage services. These files describe how and when services are started.
+
+### Common Unit Types
+
+1. **`service`**: Defines a service.
+2. **`target`**: Groups multiple units for synchronization.
+3. **`socket`**: Activates services based on incoming sockets.
+4. **`path`**: Activates services based on filesystem changes.
+
+## Journald and Logging
+
+`systemd` uses `journald` for logging. You can view logs using the following command:
+
+```bash
+sudo journalctl
+```
+
+## Service Configuration
+
+Service unit files are located in `/etc/systemd/system/` or `/lib/systemd/system/`.
+
+To edit a service configuration, use:
+
+```bash
+sudo systemctl edit [service name]
+
+After making changes to a service, reload the systemd daemon to apply the changes:
+```bash
+sudo systemctl daemon-reload
+```
+
+Example: Creating a Custom Service
+To create a custom service, follow these steps:
+
+1. Create a new service unit file in /etc/systemd/system/.
+2. Define [Unit], [Service], and [Install] sections with the appropriate configuration.
+3. Enable and start the service using systemctl commands.
+
+![SYSTEMD](rhcsa_images/systemd_41.png)
+![SYSTEMD](rhcsa_images/systemd_42.png)
 
 
 
