@@ -143,4 +143,37 @@ Soft Link: A soft link is like a shortcut to another file or directory. It point
 
 ![octal_perm_17.png](rhcsa_images/octal_perm_17.png)
 
+**Search for files:**
+
+| **Command** | **Use** |
+| --- | --- |
+| find | used to search for files or directories within a directory hierarchy based on name, type, size, etc. |
+| find <path> <option> <expression> | syntax of find command |
+| -name | name (option) of pattern what we are searching for |
+| -size | size(option) of file what we are searching for |
+| -mmin | minimum minutes(option): last time files or directory got modified |
+| type -f | it represent looking for file only |
+| type -d | it represent looking for directory only |
+| -iname | search for files or directory by name but it is case insensitive |
+| -o | or operator |
+| **-not** / **\!** | negate a condition |
+| -perm | permission |
+
+![find_18.png](rhcsa_images/find_18.png)
+
+![find_19.png](rhcsa_images/find_19.png)
+
+![find_20.png](rhcsa_images/find_20.png)
+
+![find_21.png](rhcsa_images/find_21.png)
+
+![find_22.png](rhcsa_images/find_22.png)
+
+![find_23.png](rhcsa_images/find_23.png)
+
+![find_24.png](rhcsa_images/find_24.png)
+
+![find_25.png](rhcsa_images/find_25.png)
+
+![find_26.png](rhcsa_images/find_26.png)
 
