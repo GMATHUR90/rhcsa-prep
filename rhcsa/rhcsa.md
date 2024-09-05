@@ -107,3 +107,40 @@ Soft Link: A soft link is like a shortcut to another file or directory. It point
 ![Soft_link_8.png](rhcsa_images/Soft_link_8.png)
 
 ![Soft_link_9.png](rhcsa_images/Soft_link_9.png)
+
+**List, Set, and Change file Permission:**
+
+| **Command** | **Use** |
+| --- | --- |
+| chgrp <options> <group><file/directory | change group of file or directory |
+| chgrp -r <options> <group><file/directory | change group of file or directory recursivelyd |
+| groups | display groups a current user is member of |
+| chown | change ownership of file or directory |
+
+![owner_and_group_10.png](rhcsa_images/owner_and_group_10.png)
+
+![perm_11.png](rhcsa_images/perm_11.png)
+
+![perm_12.png](rhcsa_images/perm_12.png)
+
+| **Command** | **Use** |
+| --- | --- |
+| chmod | change permission of file or directory |
+| u | user |
+| g | group |
+| o | other |
+| r | read |
+| w | write |
+| x | execute |
+
+![add_perm_13.png](rhcsa_images/add_perm_13.png)
+
+![remove_perm_14.png](rhcsa_images/remove_perm_14.png)
+
+![setting_exact_perm_15.png](rhcsa_images/setting_exact_perm_15.png)
+
+![chaining_perm_16.png](rhcsa_images/chaining_perm_16.png)
+
+![octal_perm_17.png](rhcsa_images/octal_perm_17.png)
+
+
