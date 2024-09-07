@@ -199,11 +199,79 @@ Soft Link: A soft link is like a shortcut to another file or directory. It point
 | sed’ s/old-text/new-text/g’ sample_log.txt | To replace all occurrences of a pattern in each line, add the `g` flag. Global substitution |
 | sed -i ‘s/old-pattern/new-pattern/g’ sample_log.txt | **In-Place Editing:**To directly modify the file instead of just displaying the output, use the `-i` option. |
 | sed -e ‘s/old_pattern_1/new_pattern_1/g’ ‘s/old_pattern_2/new_pattern_2/g’ log_file.txt | You can chain multiple commands using the `-e` option. |
-| cut |  |
-| uniq |  |
-| sort |  |
-| diff |  |
-| diff -c |  |
-| diff –y file1 file2 |  |
+| cut [option] file_name.txt | used to extract sections from each line of files or input based on delimiters , fields , byte positions or character positions |
+| cut -b 1-4 file_1.txt | extract first four bytes from each line |
+| cut -c 2-5 file_1.txt | extract characters from position 2 to 5 from each line |
+| cut -d “:” -f 1 data.csv  | `-d ":"`: This sets the delimiter to `:`, meaning `cut` will treat the colon (`:`) as the field separator.                                                 -f 1: first column from each line  |
+| uniq [file] | uniq only removes consecutive duplicates. To handle non-consecutive duplicates, you should sort the file first using the sort command before using uniq |
+| sort file_1.txt | sort the lines in the file in ascending order (default behavior) |
+| diff [option] file1 file 2 | command is used to compare content of file side by side. |
+| diff -c file_1 file_2 | The `-c` option provides a context format, similar to unified but with more context lines around the changes. |
+| diff –y file1 file2 | -y provides side by side comparision |
+
+- Use `f` and `d` for structured text like CSVs or `/etc/passwd`.
+- Use `c` or `b` when working with fixed-width data.
+
+![cat_27.png](rhcsa_images/cat_27.png)
+
+![tail_28.png](rhcsa_images/tail_28.png)
+
+![tail_29.png](rhcsa_images/tail_29.png)
+
+![tail_30.png](rhcsa_images/tail_30.png)
+
+![tail_31.png](rhcsa_images/tail_31.png)
+
+![head_32.png](rhcsa_images/head_32.png)
+
+![head_33.png](rhcsa_images/head_33.png)
+
+![head_34.png](rhcsa_images/head_34.png)
+
+![cat_35.png](rhcsa_images/cat_35.png)
+
+![sed_36.png](rhcsa_images/sed_36.png)
+
+![sed_37.png](rhcsa_images/sed_37.png)
+
+![sed_38.png](rhcsa_images/sed_38.png)
+
+![cut_39.png](rhcsa_images/cut_39.png)
+
+![cut_40.png](rhcsa_images/cut_40.png)
+
+![cut_41.png](rhcsa_images/cut_41.png)
+
+![uniq_42.png](rhcsa_images/uniq_42.png)
+
+![sort_43.png](rhcsa_images/sort_43.png)
+
+![diff_44.png](rhcsa_images/diff_44.png)
+
+![diff_45.png](rhcsa_images/diff_45.png)
+
+![diff_46.png](rhcsa_images/diff_46.png)
+
+**Search files with Grep(Global Regular Expression Print):**
+
+grep is used for searching text or pattern within files. 
+
+Syntax: grep [option] pattern [file]
+
+Common Options:
+
+**-i:** ignore case(case-insensitive)
+
+**-v:** invert match(return lines that do not match)
+
+**-r:** Recursive search through directories
+
+**-n:** Show line numbers
+
+**-c:** Count the number of matching lines
+
+**-w:** Match whole words only
+
+**-l:** list the file names that contain the match
 
 
