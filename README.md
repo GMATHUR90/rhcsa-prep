@@ -36,4 +36,4 @@ The `notes.md` file contains detailed explanations and key points covered during
 - [Learning Linux Basics Course](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-exam)
 - [Shell Scripts for Beginners](https://learn.kodekloud.com/user/courses/shell-scripts-for-beginners)
 - [Red Hat Certified System Administrator(RHCSA)](https://learn.kodekloud.com/user/courses/red-hat-certified-system-administrator-rhcsa)
-- [Red Hat Official RHCSA Study Guide]([Red Hat Official RHCSA Study Guide](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam)
+- [Red Hat Official RHCSA Study Guide](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam)
