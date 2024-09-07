@@ -177,3 +177,33 @@ Soft Link: A soft link is like a shortcut to another file or directory. It point
 
 ![find_26.png](rhcsa_images/find_26.png)
 
+**Compare and Manipulate File Content:**
+
+| **Command** | **Use** |
+| --- | --- |
+| cat file_name.txt | used to concatenate and display content of file |
+| cat -n  file_name.txt | display line number |
+| cat file_name_1.txt  file_name_2.txt > combined.txt | concatenate multiple files |
+| cat file_name.txt > output_1.txt | redirect the output |
+| cat file_name.txt >> output_2.txt | appending a file |
+| tac output_2.txt | show content in reverse |
+| tail test_1.txt | display last 10 lines of a file |
+| tail -n 20 test_1.txt | display last 20 lines of a file |
+| tail -n 20 -f log_file.txt | This starts by showing the last 20 lines and then continues to follow the file as it grows. |
+| tail -n 20 -F log_file_renamed.txt | The `-F` option is like `-f`, but it checks if the file is rotated (e.g., renamed or deleted) and then **continues real time monitoring** the new file. |
+| head log_file.txt | display 10 lines of  beginning of file or stream of data |
+| head -n 20 log_file.txt | display 20 lines from the beginning of a file or stream of data |
+| head -c 50 log_file.txt | show first N bytes instead of line |
+| sed [options] ‘command’ file_name | sed stand for stream editor and it is use for searching, finding, replacing, inserting, or deleting text/ |
+| sed ‘s/old-text/new-text/’ sample_log.txt | replace first occurrence of “ old-text” with “new-text” in each line of “sample_log_txt” |
+| sed’ s/old-text/new-text/g’ sample_log.txt | To replace all occurrences of a pattern in each line, add the `g` flag. Global substitution |
+| sed -i ‘s/old-pattern/new-pattern/g’ sample_log.txt | **In-Place Editing:**To directly modify the file instead of just displaying the output, use the `-i` option. |
+| sed -e ‘s/old_pattern_1/new_pattern_1/g’ ‘s/old_pattern_2/new_pattern_2/g’ log_file.txt | You can chain multiple commands using the `-e` option. |
+| cut |  |
+| uniq |  |
+| sort |  |
+| diff |  |
+| diff -c |  |
+| diff –y file1 file2 |  |
+
+
