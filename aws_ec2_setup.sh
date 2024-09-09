@@ -1,10 +1,4 @@
 #!/bin/bash
 
-# Update system packages on AWS EC2 instance
-sudo yum update -y
-
-# Install vim text editor
-sudo yum install vim -y
-
-echo "AWS EC2 system updated and Vim installed successfully!"
-
+# Update, upgrade, and install Vim and Git
+sudo yum update -y && sudo yum upgrade -y && sudo yum install vim -y && sudo yum install git -y
