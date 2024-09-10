@@ -274,4 +274,23 @@ Common Options:
 
 **-l:** list the file names that contain the match
 
+**-o:** option prints only the matching part of the line.
+
+**-e:** option allows you to specify multiple patterns.
+
+![grep_47.png](rhcsa_images/grep_47.png)
+
+![grep_48.png](rhcsa_images/grep_48.png)
+
+![grep_49.png](rhcsa_images/grep_49.png)
+
+![grep_50.png](rhcsa_images/grep_50.png)
+
+![grep_51.png](rhcsa_images/grep_51.png)
+
+![grep_52.png](rhcsa_images/grep_52.png)
+
+![grep_53.png](rhcsa_images/grep_53.png)
+
+
 
