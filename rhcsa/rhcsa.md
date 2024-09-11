@@ -292,5 +292,33 @@ Common Options:
 
 ![grep_53.png](rhcsa_images/grep_53.png)
 
+**Analyze Text With Regular Expressions(Regex):**
+
+Regex are pattern used to match character combination in strings.
+
+Type of Regex in Linux:
+
+- 1) Basic Regular Expressions:
+    - Used in command like grep(without -E), sed, etc.
+    - Basic meta characters include ^, $, \ and more.
+    
+- 2) Extended Regular Expressions:
+    - Used with commands like grep -E, sed -E, egrep etc.
+    - Allows more complex patterns with additional meta characters such as +, ?, | , (), etc.
+
+**Regex Operators:**
+
+- **Caret(^)** : Matches the beginning of line.
+- **Dollar($)** : Matches the end of line
+- **Dot(.)** : Matches any single character except newline.
+- **Asterisk(*)** : Matches zero or more occurrences of the preceding characters.
+- **Plus(+)** : Matches one or more occurrences of the preceding characters(in ERE).
+- **Question Mark (?)** : Matches zero or one occurrence of the preceding characters(in ERE).
+- **Pipe(|)** : OR operator
+- **Square Brackets ( [ ] )** : Matches any one of the characters inside the brackets.
+- **Backslash ( \ )** : Escapes special characters.
+- **Parenthesis ( () ) :** Group expressions
+- **[ ^ ]** : It matches any character that **is not** inside the square brackets.
+
 
 
