@@ -386,4 +386,27 @@ Type of Regex in Linux:
 
 ![re_85.png](rhcsa_images/re_85.png)
 
+**Archive Files**
+
+**tar (Tape Archive):** used to create and manage archives
+
+tar [ option ] file.tar file1 file2 file2
+
+**Commonly used options:**
+
+**-c :** Create a new archive
+
+**-x :** Extract files from archive
+
+**-v :** Verbose mode
+
+**-f :** Specify the name of archive
+
+**-z :** Compress the archive using gzip
+
+**-j :** Compress the archive using bzip2
+
+**-t :** Lists the content of archive
+
+**-r :** Append to existing file
 

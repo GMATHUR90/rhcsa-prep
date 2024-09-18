@@ -1,1 +1,26 @@
+name: Upload RHCSA Content on 19 Sep 2024
+
+on:
+  schedule:
+    - cron: "0 0 19 9 *"  # Run on 19 September 2024
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Git
+      run: |
+        git config --global user.name 'GMATHUR90'
+        git config --global user.email 'ecegauravmathur90@gmail.com'
+
+    - name: Add content to RHCSA file
+      run: |
+        echo '**Archive Files**\n\n**tar (Tape Archive):** used to create and manage archives\n\n' >> rhcsa/rhcsa.md
+        git add rhcsa/rhcsa.md
+        git commit -m "Added archive files content"
+        git push
 
