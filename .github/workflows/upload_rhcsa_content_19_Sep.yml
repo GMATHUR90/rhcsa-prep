@@ -14,13 +14,14 @@ jobs:
 
     - name: Set up Git
       run: |
-        git config --global user.name 'GMATHUR90'
-        git config --global user.email 'ecegauravmathur90@gmail.com'
+        git config --global user.name 'Gaurav Mathur'
+        git config --global user.email 'youremail@example.com'
 
-    - name: Add content to RHCSA file
+    - name: Commit changes
       run: |
-        echo '**Archive Files**\n\n**tar (Tape Archive):** used to create and manage archives\n\n' >> rhcsa/rhcsa.md
         git add rhcsa/rhcsa.md
         git commit -m "Added archive files content"
         git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
