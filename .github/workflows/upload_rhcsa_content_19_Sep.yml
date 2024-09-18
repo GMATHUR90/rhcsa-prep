@@ -2,7 +2,7 @@ name: Upload RHCSA Content on 19 Sep 2024
 
 on:
   schedule:
-    - cron: "0 0 19 9 *"  # Run on 19 September 2024
+    - cron: "0 7 19 9 *"  # Run at 7 AM on 19 September 2024
 
 jobs:
   upload:
