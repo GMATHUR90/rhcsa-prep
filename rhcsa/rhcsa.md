@@ -352,6 +352,8 @@ Type of Regex in Linux:
 
 ![re_69.png](rhcsa_images/re_69.png)
 
+‘0+’ only look for only mentioned data in quotes but it will not find any 0 with sequence.
+
 ![re_70.png](rhcsa_images/re_70.png)
 
 ![re_71.png](rhcsa_images/re_71.png)
