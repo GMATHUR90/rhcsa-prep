@@ -410,3 +410,14 @@ tar [ option ] file.tar file1 file2 file2
 
 **-r :** Append to existing file
 
+![archive_86.png](rhcsa_images/archive_86.png)
+
+![archive_87.png](rhcsa_images/archive_87.png)
+
+![archive_88.png](rhcsa_images/archive_88.png)
+
+![archive_89.png](rhcsa_images/archive_89.png)
+
+![archive_90.png](rhcsa_images/archive_90.png)
+
+![archive_91.png](rhcsa_images/archive_91.png)
