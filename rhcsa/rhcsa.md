@@ -421,3 +421,20 @@ tar [ option ] file.tar file1 file2 file2
 ![archive_90.png](rhcsa_images/archive_90.png)
 
 ![archive_91.png](rhcsa_images/archive_91.png)
+
+**Compress and Decompress Files:**
+
+| gzip file_1 file_2 file_3 | Compress file using the gzip compression algorithm |
+| --- | --- |
+| gzip -k filename | keep the original file after compression |
+| gzip -d filename.gz | -d(decompress) a .gz file |
+| bzip2 file_1 file_2 file_3 | Compress file using the bzip2 compression algorithm, which usually provide better compression than gzip |
+| bzip2 -k file_1 file_2 file_3 | Keep the original file after compression |
+| bzip2 -d  file_1 file_2 file_3 | -d(decompress) a .bz2 file |
+| xz file_1 file_2 file_3 | Compression file using the xz compression algorithm, which provide better compression than bzip2 |
+| xz -k filename | keep the original file after compression |
+| xz -d filename | -d(decompress) a .xz file |
+| gunzip filename.gz | decompress files that were compressed using gzip |
+| bunzip2 filename.bz2 | decompress files that were compressed using bzip2 |
+| unxz filname.xz | decompress file that were compressed using xz. |
+
