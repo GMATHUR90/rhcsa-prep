@@ -438,3 +438,13 @@ tar [ option ] file.tar file1 file2 file2
 | bunzip2 filename.bz2 | decompress files that were compressed using bzip2 |
 | unxz filname.xz | decompress file that were compressed using xz. |
 
+![compress_92.png](rhcsa_images/compress_92.png)	
+
+![compress_93.png](rhcsa_images/compress_93.png)	
+
+![compress_94.png](rhcsa_images/compress_94.png)	
+
+![compress_95.png](rhcsa_images/compress_95.png)	
+
+![compress_96.png](rhcsa_images/compress_96.png)	
+
