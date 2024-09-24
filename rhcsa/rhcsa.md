@@ -448,3 +448,10 @@ tar [ option ] file.tar file1 file2 file2
 
 ![compress_96.png](rhcsa_images/compress_96.png)	
 
+
+| zip archive_name.zip file1.txt file2.txt | create a compressed .zip archive |
+| --- | --- |
+| zip -r archive_name.zip my_directory/ | compress an entire directory |
+| unzip archive_name.zip | extract file from a .zip file |
+| unzip archive_name.zip -d /path/to/directory | Extract to a specific directory |
+
