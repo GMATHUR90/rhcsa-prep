@@ -455,3 +455,4 @@ tar [ option ] file.tar file1 file2 file2
 | unzip archive_name.zip | extract file from a .zip file |
 | unzip archive_name.zip -d /path/to/directory | Extract to a specific directory |
 
+![zip_97.png](rhcsa_images/zip_97.png)
