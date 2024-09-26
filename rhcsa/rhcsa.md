@@ -458,3 +458,10 @@ tar [ option ] file.tar file1 file2 file2
 ![zip_97.png](rhcsa_images/zip_97.png)
 
 **Redirecting Input and Output:**
+
+![redirect_input_98.png](rhcsa_images/redirect_input_98.png)
+
+![redirect_input_99.png](rhcsa_images/redirect_input_99.png)
+
+![redirect_input_100.png](rhcsa_images/redirect_input_100.png)
+
