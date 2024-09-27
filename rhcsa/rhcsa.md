@@ -465,3 +465,10 @@ tar [ option ] file.tar file1 file2 file2
 
 ![redirect_input_100.png](rhcsa_images/redirect_input_100.png)
 
+
+| **>** | Output Redirection | Redirects output to a file, overwriting it |  |
+| --- | --- | --- | --- |
+| **>>** | Append Output Redirection | Redirects output to a file, appending to it |  |
+| **<** | Input Redirection | Redirects input from a file to a command |  |
+| **<<** | Here Document |  Redirects input to a command from a "here document," allowing multi-line input directly in the script or command |  |
+
