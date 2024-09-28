@@ -472,3 +472,14 @@ tar [ option ] file.tar file1 file2 file2
 | **<** | Input Redirection | Redirects input from a file to a command |  |
 | **<<** | Here Document |  Redirects input to a command from a "here document," allowing multi-line input directly in the script or command |  |
 
+![redirect_input_101.png](rhcsa_images/redirect_input_101.png)
+
+![redirect_input_102.png](rhcsa_images/redirect_input_102.png)
+
+![redirect_input_103.png](rhcsa_images/redirect_input_103.png)
+
+![redirect_input_104.png](rhcsa_images/redirect_input_104.png)
+
+![redirect_input_105.png](rhcsa_images/redirect_input_105.png)
+
+![redirect_input_106.png](rhcsa_images/redirect_input_106.png)
