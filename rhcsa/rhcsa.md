@@ -483,3 +483,27 @@ tar [ option ] file.tar file1 file2 file2
 ![redirect_input_105.png](rhcsa_images/redirect_input_105.png)
 
 ![redirect_input_106.png](rhcsa_images/redirect_input_106.png)
+
+**Archive, Compress, Pack and Unpack Files using Star:**
+
+Star command is a powerful tool for archiving, compressing, packing and unpacking files.
+
+**star [ option ] file=/path/to/archive.star files**
+
+Common Star Option:
+
+**-c** : Create a new archive
+
+**-x**: Extract files from an archive
+
+**-t**: List content of an archive
+
+**-f**: Specify the file name of the archve
+
+**-z**: Compress with gzip
+
+**-bz**: Compress with bzip2
+
+**-level**: Specify backup level(0 for full , 1 for incremental)
+
+-**sparsh**: Handle sparsh files more efficiently ( A sparsh file is a type of file that contains large block of empty or null data, which are not physically stored on disk).
