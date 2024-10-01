@@ -507,3 +507,48 @@ Common Star Option:
 **-level**: Specify backup level(0 for full , 1 for incremental)
 
 -**sparsh**: Handle sparsh files more efficiently ( A sparsh file is a type of file that contains large block of empty or null data, which are not physically stored on disk).
+
+
+**Securely Transfer Files Between Systems:**
+
+**scp** : secure copy
+
+**stfp**: secure file transfer process
+
+**Using scp (Secure Copy) :**
+
+**Syntax:**
+
+**Copy from a remote system to local system:**
+
+```jsx
+**scp username@remote_ip:/remote/path/to/file /local/path**
+```
+
+**Copy from a local system to remote system:**
+
+```jsx
+**scp /local/path/to/file username@remote_ip:/remote/path**
+```
+
+**Copy between two remote system:**
+
+```jsx
+**scp user1@remote_ip1:/path/to/file user2@remote_ip2:/path/to/file**
+```
+
+**Using sftp(SSH file transfer protocol):**
+
+- sftp is an interactive, file transfer program, similar to FTP but using SSH encryption.
+- It allows you to securely upload, download and manage files.
+
+**Syntax:**
+
+```jsx
+**sftp username@remote_ip**
+```
+
+Common Options:
+
+- get -r : download a directory recursively
+- put -r : Upload a directory recursively
