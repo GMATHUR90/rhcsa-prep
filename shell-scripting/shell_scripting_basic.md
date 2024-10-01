@@ -10,7 +10,7 @@ A shell script is a file containing a series of commands that are executed by th
 Before writing a shell script, it is important to have a clear understanding of what you want the script to achieve. Write down the steps and the associated commands needed to complete the task.
 
 ### Step 2: Create the Script File
-- Use a text editor to create a new file (e.g., `create-and-launch-rocket.sh`).
+- Use a text editor to create a new file (e.g., `print_hello_world.sh`).
 - Add the shell commands you need in the file in the order you want them executed.
 
 ### Step 3: Add Commands to the Script
@@ -19,7 +19,7 @@ Add the series of commands inside the script that were executed in the last lab 
 Example:
 ```bash
 #!/bin/bash
-echo "Launching the rocket..."
+echo "Hello World..."
 # Add additional commands as needed
 ```
 
@@ -29,13 +29,13 @@ To execute the script, you can either run it using the `bash` command or configu
 #### Option 1: Execute using `bash`
 Run the script directly using:
 ```bash
-bash create-and-launch-rocket.sh
+bash print_hello_world.sh
 ```
 
 #### Option 2: Make it Executable
 Remove the `.sh` extension and configure the script to run like a system command. Use the following command to make the script executable:
 ```bash
-chmod +x create-and-launch-rocket
+chmod +x print_hello_world
 ```
 
 ### Step 5: Handle Command Not Found Error
