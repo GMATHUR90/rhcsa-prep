@@ -55,7 +55,6 @@ This allows you to run the script from any location as a normal command.
 ![step_to_create_shell_script_3.png](shell_script_images/step_to_create_shell_script_3.png)
 ![step_to_create_shell_script_4.png](shell_script_images/step_to_create_shell_script_4.png)
 ![step_to_create_shell_script_5.png](shell_script_images/step_to_create_shell_script_5.png)
-![step_to_create_shell_script_6.png](shell_script_images/step_to_create_shell_script_6.png)
 
 
 
