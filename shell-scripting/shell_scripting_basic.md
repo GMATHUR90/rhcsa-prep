@@ -57,4 +57,44 @@ This allows you to run the script from any location as a normal command.
 ![step_to_create_shell_script_5.png](shell_script_images/step_to_create_shell_script_5.png)
 
 
+# Shell Script Basics: Variables and Static Values
+
+## 1. What is a Variable in Shell Script?
+
+A variable in a shell script is a placeholder or a symbolic name that holds a value, which can be used and modified during the script execution. Variables help to store data, such as strings, numbers, or filenames, which can be reused multiple times throughout the script.
+
+### Example:
+
+```bash
+#!/bin/bash
+# Defining a variable
+greeting="Hello, World!"
+
+# Using the variable
+echo $greeting
+```
+
+In this example, the variable `greeting` stores the string "Hello, World!" and is accessed using `$greeting`.
+
+## 2. How Do You Differentiate a Static Value from a Variable?
+
+A **static value** (also called a literal or constant) is a fixed value that does not change during the execution of the script, while a **variable** can hold different values and can be changed as needed.
+
+### Example:
+
+```bash
+#!/bin/bash
+
+# Static value
+echo "Hello, World!"
+
+# Using a variable
+greeting="Hello, World!"
+echo $greeting
+```
+
+In this example:
+- `"Hello, World!"` is a static value. It is directly printed without using any variable.
+- `greeting` is a variable that stores the same string, but it allows you to change the value if needed later in the script.
+
 
