@@ -97,4 +97,38 @@ In this example:
 - `"Hello, World!"` is a static value. It is directly printed without using any variable.
 - `greeting` is a variable that stores the same string, but it allows you to change the value if needed later in the script.
 
+# Best Practices for Variable Names in Shell Scripting
 
+In shell scripting, it is important to follow naming conventions to improve the readability and maintainability of the code. Here are some best practices:
+
+## Good Practice
+- Use lowercase letters for variable names.
+- Separate words with underscores (`_`) to improve readability.
+
+### Example:
+```sh
+mission_name="Apollo"
+```
+
+## Bad Practice
+- **Avoid** using capital letters for variable names.
+- **Avoid** using spaces in variable names.
+- **Avoid** using hyphens (`-`) in variable names as they can be confused with subtraction operators.
+
+### Bad Examples:
+```sh
+Mission_Name="Apollo"
+Mission Name="Apollo"  # Error due to space
+Mission-name="Apollo"  # Error due to hyphen
+```
+
+## Additional Recommendations:
+- Use descriptive names that make the purpose of the variable clear.
+- Avoid using single-letter variables unless in very small loops or temporary cases.
+- For constants (values that do not change), uppercase variable names are acceptable by convention:
+  
+  ```sh
+  MAX_LIMIT=100
+  ```
+
+By following these practices, your shell scripts will be more readable and easier to maintain.
