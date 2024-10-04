@@ -552,3 +552,12 @@ Common Options:
 
 - get -r : download a directory recursively
 - put -r : Upload a directory recursively
+- ls: list files and directories on the remote server
+- cd: Change the directory on the remote server
+- pwd: Print the current working directory on remote server
+- lpwd: Print the current working directory on local server
+- mget *.txt : Download multiple files
+- mput *.log: Upload multiple files
+- mkdir: Create a directory on the remote server
+- rmdir: Remove a directory on the remote server
+- rm: remove a file on the remote server
