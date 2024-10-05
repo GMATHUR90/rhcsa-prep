@@ -132,3 +132,39 @@ Mission-name="Apollo"  # Error due to hyphen
   ```
 
 By following these practices, your shell scripts will be more readable and easier to maintain.
+
+## 3.# Command Line Arguments
+
+Every time the script variable name changes, we have to update it in the script manually. This can be improved by specifying the variable name through the command line itself when a new script with different variable is launched.
+
+### Problem:
+
+Currently, the script requires updating the variable name inside the code every time, as shown below:
+
+![command_line_arg_with_using_variable_6.png](shell_script_images/command_line_arg_with_using_variable_6.png)
+
+### Solution:
+
+If we specify the script variable name in the command line when a new mission is launched, it simplifies the process. Here's how you can access the mission name through the command line and use it in the script:
+
+![command_line_arg_with_using_variable_7.png](shell_script_images/command_line_arg_with_using_variable_7.png)
+
+### Command Line Argument:
+
+- `$0`: Represents the script name.
+- `$1`: Represents the first command line argument 
+
+Here's an example of using command line arguments in a script:
+
+![command_line_arg_with_using_variable_8.png](shell_script_images/command_line_arg_with_using_variable_8.png)
+
+> **Note:** When someone else reviews the script in the future, the second part in the picture above may be hard to understand. Hence, it is recommended to use the format from the first picture for better clarity.
+
+---
+
+### Best Practices:
+
+1. **Make your script reusable**: Design your script to handle various inputs and conditions without needing manual updates.
+2. **Avoid hardcoding values**: The script should not require editing before running.
+3. **Use command line arguments**: Pass inputs like mission name using command line arguments to make the script flexible and easy to use.
+
