@@ -522,14 +522,18 @@ Common Star Option:
 **Copy from a remote system to local system:**
 
 ```jsx
-**scp username@remote_ip:/remote/path/to/file /local/path**
+**scp -i /home/username/Downloads/PEMfile.pem username@remote_ip:/remote/path/to/file /local/path**
 ```
+![scp_107.png](rhcsa_images/scp_107.png)
+
+![scp_108.png](rhcsa_images/scp_108.png)
 
 **Copy from a local system to remote system:**
 
 ```jsx
-**scp /local/path/to/file username@remote_ip:/remote/path**
+**scp -i /home/username/Downloads/PEMfile.pem /local/path/to/file username@remote_ip:/remote/path**
 ```
+![scp_109.png](rhcsa_images/scp_109.png)
 
 **Copy between two remote system:**
 
