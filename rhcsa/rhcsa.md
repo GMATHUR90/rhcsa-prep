@@ -549,9 +549,8 @@ Common Star Option:
 **Syntax:**
 
 ```jsx
-**sftp username@remote_ip**
+**sftp -i /path/to/your-key.pem username@remote_ip**
 ```
-
 Common Options:
 
 - get -r : download a directory recursively
@@ -565,3 +564,19 @@ Common Options:
 - mkdir: Create a directory on the remote server
 - rmdir: Remove a directory on the remote server
 - rm: remove a file on the remote server
+
+![sftp_110.png](rhcsa_images/sftp_110.png)
+
+![sftp_111.png](rhcsa_images/sftp_111.png)
+
+Upload a file from local to remote:
+
+![sftp_112.png](rhcsa_images/sftp_112.png)
+
+Upload a file from remote to local:
+
+![sftp_113 .png](rhcsa_images/sftp_113.png)
+
+![sftp_114.png](rhcsa_images/sftp_114.png)
+
+
