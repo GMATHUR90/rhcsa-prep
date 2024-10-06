@@ -176,5 +176,5 @@ In shell scripting, you can pass inputs in two primary ways:
 
 ### Using read Command for Input:
 
-
+![command_line_arg_with_read_command_9.png](shell_script_images/command_line_arg_with_read_command_9.png)
 
