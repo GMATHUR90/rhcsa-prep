@@ -168,3 +168,13 @@ Here's an example of using command line arguments in a script:
 2. **Avoid hardcoding values**: The script should not require editing before running.
 3. **Use command line arguments**: Pass inputs like mission name using command line arguments to make the script flexible and easy to use.
 
+# Shell Scripting: `read` Command and Command-line Arguments
+
+In shell scripting, you can pass inputs in two primary ways:
+1. **Command-line arguments**: e.g., `$1`, `$2`, etc.
+2. **Using `read` command**: To prompt users for input during execution.
+
+Using read Command for Input:
+
+
+
