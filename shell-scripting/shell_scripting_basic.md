@@ -178,3 +178,37 @@ In shell scripting, you can pass inputs in two primary ways:
 
 ![command_line_arg_with_read_command_9.png](shell_script_images/command_line_arg_with_read_command_9.png)
 
+# Arithmetic Operations and Lab
+
+This document covers various methods of performing arithmetic operations in shell scripting.
+
+## Methods of Performing Arithmetic Operations
+
+### 1. Using `expr` Command
+- The `expr` command is a standard utility for evaluating expressions.
+
+![Arithmetic Operation](arithmetic_operation_1.png)
+
+### 2. Using Double Parentheses `(( ))`
+- This method allows arithmetic evaluation similar to C programming.
+- You can assign the result to a variable or use `echo` to print it.
+- Example:
+    ```bash
+    A=20
+    B=10
+    echo "Sum is $((A + B))"
+    ```
+
+- **Important Notes:**
+  - No dollar symbol for variables within `(( ))`.
+  - No space is needed between operators and variables.
+  - For multiplication, no need to escape the `*`.
+
+### 3. Using `bc` Utility for Floating-Point Arithmetic
+- The `bc` utility functions as a basic calculator in Linux and can handle floating-point numbers.
+- Use `-l` option to enable floating-point calculations.
+- Example:
+    ```bash
+    echo "10/3" | bc -l
+    ```
+
