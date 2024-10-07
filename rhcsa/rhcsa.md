@@ -579,4 +579,19 @@ Upload a file from remote to local:
 
 ![sftp_114.png](rhcsa_images/sftp_114.png)
 
+**Boot, Reboot, and Shutdown Systems:**
 
+| **S.N.O** | **Command** | **Use** |
+| --- | --- | --- |
+| 1 | sudo systemctl reboot | reboot the system immediately |
+| 2 | sudo systemctl poweroff | shutdown and poweroff the system |
+| 3 | sudo systemctl reboot - -force | Forces a system to reboot, bypassing some checks |
+| 4 | sudo systemctl poweroff - -force | Forces to power off, similar to cutting off the system |
+| 5 | sudo systemctl reboot - -force - -force | More aggressive force reboot, equivalent to hardware reset |
+| 6 | sudo systemctl poweroff - -force - -force | System to power-off aggressively, bypassing all services clearly |
+| 7  | sudo shutdown 02:00 | Schedules a shutdown at 02:00 AM |
+| 8 | sudo shutdown +15 | Schedule a shutdown in 15 minutes |
+| 9 | sudo shutdown -r 02:00 | Schedule a system reboot at 02:00 AM |
+| 10 | sudo shutdown -r +15 | Schedule a system reboot in 15 minutes |
+| 11 | sudo shutdown -r +1 'Scheduled restart to do an offline-backup of our database’ | Schedules a reboot in 1 minute with a custom message to inform users about the reason for the restart.
+ |
