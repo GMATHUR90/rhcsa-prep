@@ -187,7 +187,9 @@ This document covers various methods of performing arithmetic operations in shel
 ### 1. Using `expr` Command
 - The `expr` command is a standard utility for evaluating expressions.
 
-![Arithmetic Operation](arithmetic_operation_1.png)
+![arithmetic_operation_10.png](shell_script_images/arithmetic_operation_10.png)
+
+![arithmetic_operation_11.png](shell_script_images/arithmetic_operation_11.png)
 
 ### 2. Using Double Parentheses `(( ))`
 - This method allows arithmetic evaluation similar to C programming.
@@ -211,4 +213,4 @@ This document covers various methods of performing arithmetic operations in shel
     ```bash
     echo "10/3" | bc -l
     ```
-...
+
