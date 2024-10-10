@@ -221,4 +221,5 @@ This document covers various methods of performing arithmetic operations in shel
     ```bash
     echo "10/3" | bc -l
     ```
+![arithmetic_operation_16.png](shell_script_images/arithmetic_operation_16.png)
 
