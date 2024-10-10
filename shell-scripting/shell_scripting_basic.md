@@ -207,6 +207,7 @@ This document covers various methods of performing arithmetic operations in shel
     B=10
     echo "Sum is $((A + B))"
     ```
+![arithmetic_operation_15.png](shell_script_images/arithmetic_operation_15.png)
 
 - **Important Notes:**
   - No dollar symbol for variables within `(( ))`.
