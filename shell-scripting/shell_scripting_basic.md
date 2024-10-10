@@ -195,6 +195,9 @@ This document covers various methods of performing arithmetic operations in shel
 
 ![arithmetic_operation_13.png](shell_script_images/arithmetic_operation_13.png)
 
+![arithmetic_operation_14.png](shell_script_images/arithmetic_operation_14.png)
+
+
 ### 2. Using Double Parentheses `(( ))`
 - This method allows arithmetic evaluation similar to C programming.
 - You can assign the result to a variable or use `echo` to print it.
