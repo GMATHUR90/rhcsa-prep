@@ -189,6 +189,8 @@ This document covers various methods of performing arithmetic operations in shel
 
 ![arithmetic_operation_10.png](shell_script_images/arithmetic_operation_10.png)
 
+![arithmetic_operation_12.png](shell_script_images/arithmetic_operation_12.png)
+
 ![arithmetic_operation_11.png](shell_script_images/arithmetic_operation_11.png)
 
 ### 2. Using Double Parentheses `(( ))`
