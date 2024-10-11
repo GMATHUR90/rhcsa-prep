@@ -178,13 +178,13 @@ In shell scripting, you can pass inputs in two primary ways:
 
 ![command_line_arg_with_read_command_9.png](shell_script_images/command_line_arg_with_read_command_9.png)
 
-# Arithmetic Operations and Lab
+# 4. Arithmetic Operations
 
 This document covers various methods of performing arithmetic operations in shell scripting.
 
 ## Methods of Performing Arithmetic Operations
 
-### 1. Using `expr` Command
+### a. Using `expr` Command
 - The `expr` command is a standard utility for evaluating expressions.
 
 ![arithmetic_operation_10.png](shell_script_images/arithmetic_operation_10.png)
@@ -198,7 +198,7 @@ This document covers various methods of performing arithmetic operations in shel
 ![arithmetic_operation_14.png](shell_script_images/arithmetic_operation_14.png)
 
 
-### 2. Using Double Parentheses `(( ))`
+### b. Using Double Parentheses `(( ))`
 - This method allows arithmetic evaluation similar to C programming.
 - You can assign the result to a variable or use `echo` to print it.
 - Example:
@@ -214,7 +214,7 @@ This document covers various methods of performing arithmetic operations in shel
   - No space is needed between operators and variables.
   - For multiplication, no need to escape the `*`.
 
-### 3. Using `bc` Utility for Floating-Point Arithmetic
+### c. Using `bc` Utility for Floating-Point Arithmetic
 - The `bc` utility functions as a basic calculator in Linux and can handle floating-point numbers.
 - Use `-l` option to enable floating-point calculations.
 - Example:
@@ -222,4 +222,47 @@ This document covers various methods of performing arithmetic operations in shel
     echo "10/3" | bc -l
     ```
 ![arithmetic_operation_16.png](shell_script_images/arithmetic_operation_16.png)
+
+
+## 5. Conditional Logic Explanation
+
+Using conditional logic, we can define actions based on specific conditions. In this case, we are using the `if` statement. If a condition is met, the corresponding action is executed.
+
+### IF Statement Example:
+
+```bash
+if [ condition ]
+then
+   # code to execute
+fi
+
+If the condition is true, the code inside the block will be executed.
+
+### Else and Elif Statements
+
+- **Elif**: If the initial condition is false, the script will check the `elif` condition. If it's true, it will execute that block.
+- **Else**: If none of the conditions match, the code inside the `else` block will be executed.
+
+```bash
+if [ condition1 ]
+then
+   # code to execute if condition1 is true
+elif [ condition2 ]
+then
+   # code to execute if condition2 is true
+else
+   # code to execute if none of the above conditions are true
+fi
+
+
+## Comparison Statements
+
+A comparison statement should be placed inside square brackets (`[]`) with spaces between the brackets and your statement. Here are a few common comparison operators used in shell scripting:
+
+- `-eq`: equal to
+- `-ne`: not equal to
+- `-gt`: greater than
+- `-lt`: less than
+- `-ge`: greater than or equal to
+- `-le`: less than or equal to
 
