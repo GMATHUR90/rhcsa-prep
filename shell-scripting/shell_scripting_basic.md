@@ -235,7 +235,7 @@ if [ condition ]
 then
    # code to execute
 fi
-
+```
 If the condition is true, the code inside the block will be executed.
 
 ### Else and Elif Statements
@@ -253,7 +253,7 @@ then
 else
    # code to execute if none of the above conditions are true
 fi
-
+```
 
 ## Comparison Statements
 
