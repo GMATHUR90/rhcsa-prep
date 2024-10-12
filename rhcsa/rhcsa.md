@@ -617,3 +617,17 @@ You will see columns like:
 - %CPU: CPU usage
 - %MEM: Memory usage
 - COMMAND: The command that started the process
+
+
+![ps_116.png](rhcsa_images/ps_116 .png)
+
+![ps_117.png](rhcsa_images/ps_117 .png)
+
+![ps_118.png](rhcsa_images/ps_118 .png)
+
+![ps_119.png](rhcsa_images/ps_119 .png)
+
+Show user friendly ps format:
+
+![ps_120.png](rhcsa_images/ps_120 .png)
+
