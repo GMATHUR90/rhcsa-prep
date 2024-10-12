@@ -594,6 +594,26 @@ Upload a file from remote to local:
 | 9 | sudo shutdown -r 02:00 | Schedule a system reboot at 02:00 AM |
 | 10 | sudo shutdown -r +15 | Schedule a system reboot in 15 minutes |
 | 11 | sudo shutdown -r +1 'Scheduled restart to do an offline-backup of our database’ | Schedules a reboot in 1 minute with a custom message to inform users about the reason for the restart.
- |
 
 ![shutdown_115.png](rhcsa_images/shutdown_115.png)
+
+
+**Diagnose and Manage the processes:**
+
+ps command in linux used to display information about processes.
+
+| Command/Flags | Use |
+| --- | --- |
+| ps  | list running process |
+| ps aux | list detailed process information |
+| a | All user’s process |
+| u | Display the user that owns each process |
+| x | Show processes without a controlling terminal(background processes) |
+
+You will see columns like:
+
+- USER: The owner of the process
+- PID: Process ID
+- %CPU: CPU usage
+- %MEM: Memory usage
+- COMMAND: The command that started the process
