@@ -631,3 +631,9 @@ Show user friendly ps format:
 
 ![ps_120.png](rhcsa_images/ps_120.png)
 
+
+![ps_121.png](rhcsa_images/ps_121.png)
+
+![ps_122.png](rhcsa_images/ps_122.png)
+
+
