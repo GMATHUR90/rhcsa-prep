@@ -636,4 +636,19 @@ Show user friendly ps format:
 
 ![ps_122.png](rhcsa_images/ps_122.png)
 
+**nice value** determines the **priority** of a process
+
+### Key Points about Nice Values:
+
+- **Range**: Nice values range from `20` (highest priority) to `19` (lowest priority).
+- **Default**: The default nice value for processes is `0`.
+- **Lower Nice Value**: Gives the process **higher priority** (it gets more CPU time).
+- **Higher Nice Value**: Gives the process **lower priority** (it gets less CPU time).
+
+### Summary:
+
+- **Lower nice value** (e.g., `10`) = higher priority.
+- **Higher nice value** (e.g., `10`) = lower priority.
+
+ps lax: show detailed information about processes running on your system.
 
