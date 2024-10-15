@@ -267,3 +267,5 @@ A comparison statement should be placed inside square brackets (`[]`) with space
 - `-le`: less than or equal to
 
 ![conditional_logic_17.png](shell_script_images/conditional_logic_17.png)
+
+![conditional_logic_18.png](shell_script_images/conditional_logic_18.png)
