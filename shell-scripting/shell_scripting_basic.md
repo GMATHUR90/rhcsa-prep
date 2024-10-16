@@ -269,3 +269,30 @@ A comparison statement should be placed inside square brackets (`[]`) with space
 ![conditional_logic_17.png](shell_script_images/conditional_logic_17.png)
 
 ![conditional_logic_18.png](shell_script_images/conditional_logic_18.png)
+
+
+# Loops in Shell Scripting: `for` Loop
+
+## 1. Introduction to Loops
+- A loop allows executing a block of code multiple times.
+- The `for` loop is particularly useful for iterating over a list of items.
+
+## 2. Syntax of the `for` Loop
+```bash
+for variable in list
+do
+   command1
+   command2
+   ...
+done
+
+- variable: Holds the value of the current item in the list.
+- list: Can be a series of strings or results of a command.
+- do: Begins the loop block.
+- done: Ends the loop block.
+
+
+
+## Best Practices
+- Always ensure your loop termination condition is well-defined.
+- Be cautious with large lists or infinite loops to avoid performance bottlenecks.
