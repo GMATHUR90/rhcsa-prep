@@ -292,6 +292,7 @@ done
 - do: Begins the loop block.
 - done: Ends the loop block.
 
+![loop_for_loop_19.png](shell_script_images/loop_for_loop_19.png)
 
 
 ## Best Practices
