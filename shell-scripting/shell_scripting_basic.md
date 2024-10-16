@@ -294,6 +294,12 @@ done
 
 ![loop_for_loop_19.png](shell_script_images/loop_for_loop_19.png)
 
+![loop_for_loop_20.png](shell_script_images/loop_for_loop_20.png)
+
+![loop_for_loop_21.png](shell_script_images/loop_for_loop_21.png)
+
+![loop_for_loop_22.png](shell_script_images/loop_for_loop_22.png)
+
 
 ## Best Practices
 - Always ensure your loop termination condition is well-defined.
