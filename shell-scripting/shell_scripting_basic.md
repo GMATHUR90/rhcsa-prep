@@ -286,6 +286,7 @@ do
    ...
 done
 
+```
 - variable: Holds the value of the current item in the list.
 - list: Can be a series of strings or results of a command.
 - do: Begins the loop block.
