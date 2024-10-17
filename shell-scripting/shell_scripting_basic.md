@@ -304,3 +304,19 @@ done
 ## Best Practices
 - Always ensure your loop termination condition is well-defined.
 - Be cautious with large lists or infinite loops to avoid performance bottlenecks.
+
+# Loops in Shell Scripting: `While` Loop
+
+- The while loop in shell scripting repeatedly executes a set of commands as long as a specified condition is true.
+
+```bash
+while [ condition ]
+do
+   # commands to be executed
+done
+```
+
+## Key Points:
+- Condition: The loop will run as long as the condition evaluates to true.
+- Commands: The block of code inside the do...done section will be executed in each iteration.
+- Condition Evaluation: The condition is evaluated before each iteration. If it becomes false, the loop terminates.
