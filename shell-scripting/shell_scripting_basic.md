@@ -320,3 +320,5 @@ done
 - Condition: The loop will run as long as the condition evaluates to true.
 - Commands: The block of code inside the do...done section will be executed in each iteration.
 - Condition Evaluation: The condition is evaluated before each iteration. If it becomes false, the loop terminates.
+
+![loop_while_loop_23.png](shell_script_images/loop_while_loop_23.png)
