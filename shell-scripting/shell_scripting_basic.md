@@ -322,3 +322,7 @@ done
 - Condition Evaluation: The condition is evaluated before each iteration. If it becomes false, the loop terminates.
 
 ![loop_while_loop_23.png](shell_script_images/loop_while_loop_23.png)
+
+![loop_while_loop_24.png](shell_script_images/loop_while_loop_24.png)
+
+![loop_while_loop_25.png](shell_script_images/loop_while_loop_25.png)
