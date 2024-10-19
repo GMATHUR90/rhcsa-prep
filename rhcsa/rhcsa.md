@@ -656,3 +656,14 @@ ps lax: show detailed information about processes running on your system.
 
 ![nice_124.png](rhcsa_images/nice_124.png)
 
+ps fax: show tree view of processes running on your system.
+
+![nice_125.png](rhcsa_images/nice_125.png)
+
+![nice_126.png](rhcsa_images/nice_126.png)
+
+ps faux: display tree like structure of processes running on your system along with user.
+
+![nice_127.png](rhcsa_images/nice_127.png)
+
+![nice_128.png](rhcsa_images/nice_128.png)
