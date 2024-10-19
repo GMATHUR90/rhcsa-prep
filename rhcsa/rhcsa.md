@@ -652,3 +652,7 @@ Show user friendly ps format:
 
 ps lax: show detailed information about processes running on your system.
 
+![nice_123.png](rhcsa_images/nice_123.png)
+
+![nice_124.png](rhcsa_images/nice_124.png)
+
