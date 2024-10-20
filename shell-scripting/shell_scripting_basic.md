@@ -336,7 +336,7 @@ done
 
 1. **Syntax**:
 The case statement follows a simple structure:
-   ```bash
+```bash
    case $variable in
      pattern1) 
        # commands ;;
@@ -345,7 +345,7 @@ The case statement follows a simple structure:
      *) 
        # default ;;
    esac
-  ```
+```
 ## Usage Scenarios:
 
 - Choosing between different operations based on user input.
