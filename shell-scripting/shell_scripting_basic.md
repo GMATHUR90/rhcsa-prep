@@ -306,7 +306,7 @@ done
 - Be cautious with large lists or infinite loops to avoid performance bottlenecks.
 
 # Loops in Shell Scripting: `While` Loop
-
+	
 - The while loop in shell scripting repeatedly executes a set of commands as long as a specified condition is true.
 
 ```bash
@@ -326,3 +326,31 @@ done
 ![loop_while_loop_24.png](shell_script_images/loop_while_loop_24.png)
 
 ![loop_while_loop_25.png](shell_script_images/loop_while_loop_25.png)
+
+
+# Loops in Shell Scripting: Case Statements
+
+**case statements** in shell scripting. The **case** construct is used for pattern matching and simplifies multiple conditional checks, offering a cleaner alternative to multiple `if-elif` conditions.
+
+## Key Concepts:
+
+1. **Syntax**:
+The case statement follows a simple structure:
+   ```bash
+   case $variable in
+     pattern1) 
+       # commands ;;
+     pattern2) 
+       # commands ;;
+     *) 
+       # default ;;
+   esac
+  ```
+## Usage Scenarios:
+
+- Choosing between different operations based on user input.
+- Automating tasks like starting services, file handling, or responding to arguments in a script.
+
+
+
+
