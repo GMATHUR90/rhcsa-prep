@@ -351,6 +351,8 @@ The case statement follows a simple structure:
 - Choosing between different operations based on user input.
 - Automating tasks like starting services, file handling, or responding to arguments in a script.
 
+![loop_case_statement_26.png](shell_script_images/loop_case_statement_26.png)
 
+![loop_case_statement_27.png](shell_script_images/loop_case_statement_27.png)
 
 
