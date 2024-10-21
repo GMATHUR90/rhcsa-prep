@@ -672,3 +672,6 @@ renice: change the priority(nice value) of running processes.
 
 sudo renice -n 7 pid
 
+![renice_129.png](rhcsa_images/renice_129.png)
+
+![renice_130.png](rhcsa_images/renice_130.png)
