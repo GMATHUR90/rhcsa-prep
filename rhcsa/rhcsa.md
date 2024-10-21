@@ -667,3 +667,8 @@ ps faux: display tree like structure of processes running on your system along w
 ![nice_127.png](rhcsa_images/nice_127.png)
 
 ![nice_128.png](rhcsa_images/nice_128.png)
+
+renice: change the priority(nice value) of running processes.
+
+sudo renice -n 7 pid
+
