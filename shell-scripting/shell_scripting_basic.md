@@ -355,4 +355,4 @@ The case statement follows a simple structure:
 
 ![loop_case_statement_27.png](shell_script_images/loop_case_statement_27.png)
 
-
+![loop_case_statement_28.png](shell_script_images/loop_case_statement_28.png)
