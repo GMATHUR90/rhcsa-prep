@@ -356,3 +356,28 @@ The case statement follows a simple structure:
 ![loop_case_statement_27.png](shell_script_images/loop_case_statement_27.png)
 
 ![loop_case_statement_28.png](shell_script_images/loop_case_statement_28.png)
+
+
+# **Shebang (`#!`) in Shell Scripting**
+
+The **shebang** is the first line in a shell script, written as `#!/path/to/interpreter`, which tells the operating system which interpreter should be used to execute the script. It begins with `#!` followed by the path to the shell or interpreter.
+
+## Purpose
+It defines the script's interpreter (e.g., Bash, Python, Perl) to ensure the script is executed in the correct environment.
+
+## Example
+```bash
+#!/bin/bash
+echo "Hello, World!"
+```
+
+## Common Shebangs
+- #!/bin/bash - Uses the Bash shell.
+- #!/bin/sh - Uses the default system shell.
+- #!/usr/bin/env python3 - Uses Python 3 interpreter.
+
+## Without Shebang
+If omitted, the script will run in the current shell, which might lead to inconsistencies if a different shell is expected.
+
+## Portability
+Using #!/usr/bin/env <interpreter> is considered more portable as it searches the environment for the specified interpreter.
