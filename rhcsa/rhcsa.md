@@ -685,6 +685,13 @@ In process management, signals are used to communicate with processes and contro
 - SIGSTOP pauses a process (it can be resumed)
 - SIGKILL forcefully kills a process (it can't be resumed).
 
+| **S.N.O** | **Command**          | **Use**                                                                                                   |
+|-----------|----------------------|-----------------------------------------------------------------------------------------------------------|
+| 1         | `kill -L`            | List all the available signal names that the `kill` command can send to processes.                         |
+| 2         | `kill SIGHUP <process_id>` | Instruct a process to reload its configuration without restarting.                                        |
+| 3         | `pgrep -a bash`       | Searches for all running processes with the name `bash` and displays both the process ID (PID) and the full command line used to start those processes. |
+| 4         | `pkill -KILL bash`    | Immediately kills all processes named `bash`, including interactive shell sessions and any scripts running in `bash`. |
+
 
 ![ps_management_131.png](rhcsa_images/ps_management_131.png)
 
