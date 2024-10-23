@@ -675,3 +675,15 @@ sudo renice -n 7 pid
 ![renice_129.png](rhcsa_images/renice_129.png)
 
 ![renice_130.png](rhcsa_images/renice_130.png)
+
+# Signals in Process Management(Sig stop and sig kill):
+
+In process management, signals are used to communicate with processes and control their behavior.
+
+## In summary:
+
+- SIGSTOP pauses a process (it can be resumed)
+- SIGKILL forcefully kills a process (it can't be resumed).
+
+
+
