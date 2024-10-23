@@ -686,4 +686,15 @@ In process management, signals are used to communicate with processes and contro
 - SIGKILL forcefully kills a process (it can't be resumed).
 
 
+![ps_management_131.png](rhcsa_images/ps_management_131.png)
+
+![ps_management_132.png](rhcsa_images/ps_management_132.png)
+
+![ps_management_133.png](rhcsa_images/ps_management_133.png)
+
+![ps_management_134.png](rhcsa_images/ps_management_134.png)
+
+![ps_management_135.png](rhcsa_images/ps_management_135.png)
+
+
 
