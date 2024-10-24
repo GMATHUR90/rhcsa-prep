@@ -456,3 +456,8 @@ Always return appropriate exit codes in your script to help track success or fai
 - Use `return` instead of `exit` within functions to prevent the script from stopping unexpectedly.
 - Pass necessary parameters to functions for flexible and reusable code.
 
+![shell_script_function_31.png](shell_script_images/shell_script_function_31.png)
+
+![shell_script_function_32.png](shell_script_images/shell_script_function_32.png)
+
+
