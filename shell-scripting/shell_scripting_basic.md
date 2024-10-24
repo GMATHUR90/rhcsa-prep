@@ -381,3 +381,28 @@ If omitted, the script will run in the current shell, which might lead to incons
 
 ## Portability
 Using #!/usr/bin/env <interpreter> is considered more portable as it searches the environment for the specified interpreter.
+
+# Exit Codes in Shell Scripting
+
+An **exit code** (also called return code) is a number returned by a script or command when it finishes execution. It indicates whether the script or command ran successfully or failed.
+
+### Exit Code `0`
+This generally means **success**. When a command or script finishes without any issues, it returns an exit code of `0`.
+
+### Exit Code `> 0`
+Any exit code greater than `0` indicates **failure**. The number helps specify the type of error, such as `1` for general errors or `127` for command not found errors.
+
+## Checking Exit Codes
+
+- To check the exit code of the last executed command, use:
+
+```bash
+echo $?
+```
+This will display the exit code.
+
+### Best Practice
+Always return appropriate exit codes in your script to help track success or failure.
+
+
+
