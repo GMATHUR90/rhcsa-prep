@@ -404,5 +404,7 @@ This will display the exit code.
 ### Best Practice
 Always return appropriate exit codes in your script to help track success or failure.
 
+![exit_code_29.png](shell_script_images/exit_code_29.png)
 
+![exit_code_30.png](shell_script_images/exit_code_30.png)
 
