@@ -408,3 +408,51 @@ Always return appropriate exit codes in your script to help track success or fai
 
 ![exit_code_30.png](shell_script_images/exit_code_30.png)
 
+
+# Shell Script Functions
+
+## Definition and Purpose:
+- A function in a shell script is a reusable block of code that can be invoked multiple times within the script.
+- Functions help modularize scripts, making the code cleaner and easier to manage.
+
+## Function Syntax:
+- Functions are defined at the beginning of the script.
+- A typical function structure:
+```bash
+    function_name() {
+       # function body
+    }
+```
+- After defining a function, you can call it from the main section of the script by simply using its name.
+
+## Function Parameters:
+- Functions can accept arguments (parameters). These parameters are accessed using `$1`, `$2`, etc., where `$1` refers to the first argument passed when calling the function.
+- Example:
+```bash
+    mission_name() {
+       echo "The mission name is $1"
+    }
+```
+- Calling the function: `mission_name "Apollo"`
+
+## Calling a Function:
+- When the script is executed, the function can be invoked multiple times with different arguments, depending on the requirements.
+- The script flows sequentially from top to bottom, executing the function when it encounters the function call.
+
+## Error Handling:
+- If a function is called before it is defined, the script will throw a "command not found" error.
+- It’s recommended to define functions at the top before calling them in the main script.
+
+## Return Statement:
+- The `return` statement is used within a function to return an exit status or value.
+- Unlike `exit`, which terminates the entire script, `return` only exits the function, allowing the script to continue running.
+- Using `return` is preferred for handling errors inside functions to avoid premature termination of the script.
+
+## Exit Codes:
+- Functions can return specific exit codes using `return <code>`, which can be checked in the main script to determine if the function executed successfully.
+
+## Best Practices:
+- Ensure functions are defined before they are called.
+- Use `return` instead of `exit` within functions to prevent the script from stopping unexpectedly.
+- Pass necessary parameters to functions for flexible and reusable code.
+
