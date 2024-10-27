@@ -714,3 +714,7 @@ To put a task in background: Use command of that task to be put in background  w
 using “jobs” command, we can see background command running
 
 ![ps_management_137.png](rhcsa_images/ps_management_137.png)
+
+fg bring background or stopped to the foreground
+
+![ps_management_138.png](rhcsa_images/ps_management_138.png)
