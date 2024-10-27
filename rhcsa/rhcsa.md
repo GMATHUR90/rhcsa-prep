@@ -709,4 +709,7 @@ when press fg(foreground), it will come back on front from background
 
 ![ps_management_136.png](rhcsa_images/ps_management_136.png)
 
+To put a task in background: Use command of that task to be put in background  with “&” symbol
+
+using “jobs” command, we can see background command running
 
