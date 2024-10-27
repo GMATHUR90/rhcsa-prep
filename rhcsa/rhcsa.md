@@ -718,3 +718,15 @@ using “jobs” command, we can see background command running
 fg bring background or stopped to the foreground
 
 ![ps_management_138.png](rhcsa_images/ps_management_138.png)
+
+bg [process id] resume a stopped job in background
+
+![ps_management_139.png](rhcsa_images/ps_management_139.png)
+
+lsof(list open file) are list of files that are currently open by processes.
+
+![ps_management_140.png](rhcsa_images/ps_management_140.png)
+
+![ps_management_141.png](rhcsa_images/ps_management_141.png)
+
+
