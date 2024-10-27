@@ -707,5 +707,6 @@ if you are running vim editor, press ctrl +z  then it will be exited
 
 when press fg(foreground), it will come back on front from background
 
+![ps_management_136.png](rhcsa_images/ps_management_136.png)
 
 
