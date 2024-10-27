@@ -703,5 +703,9 @@ In process management, signals are used to communicate with processes and contro
 
 ![ps_management_135.png](rhcsa_images/ps_management_135.png)
 
+if you are running vim editor, press ctrl +z  then it will be exited
+
+when press fg(foreground), it will come back on front from background
+
 
 
