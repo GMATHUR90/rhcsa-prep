@@ -460,4 +460,28 @@ Always return appropriate exit codes in your script to help track success or fai
 
 ![shell_script_function_32.png](shell_script_images/shell_script_function_32.png)
 
+# Tips & Tricks: ShellCheck & IDE
+
+### Overview
+This guide covers tools and tips for improving shell scripting efficiency and error-checking using ShellCheck and various IDEs.
+
+### 1. **VIM Syntax Highlighting**
+   - VIM provides syntax highlighting to help catch syntax errors in shell scripts.
+   - Useful for real-time error identification.
+
+### 2. **ShellCheck**
+   - ShellCheck is a command-line tool for analyzing shell scripts to detect bugs and improve script quality.
+   - Installation:
+     ```bash
+     apt-get install shellcheck   # For Debian-based systems
+     yum install shellcheck       # For RedHat-based systems
+     ```
+   - [ShellCheck GitHub Repository](https://github.com/koalaman/shellcheck)
+
+### 3. **Integrated Development Environments (IDEs)**
+   - **JetBrains PyCharm**: Primarily for Python but supports shell scripting with plugins, offering syntax highlighting and recommendations.
+   - **Visual Studio Code** and **Atom**: Versatile editors with shell scripting support and customizable plugins.
+
+### 4. **Style Guide**
+   - Adhering to a style guide ensures consistency and readability across scripts, enhancing maintainability.
 
