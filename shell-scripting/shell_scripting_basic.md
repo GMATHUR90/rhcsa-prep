@@ -478,6 +478,13 @@ This guide covers tools and tips for improving shell scripting efficiency and er
      ```
    - [ShellCheck GitHub Repository](https://github.com/koalaman/shellcheck)
 
+![shell_check_33.png](shell_script_images/shell_check_33.png)
+
+![shell_check_34.png](shell_script_images/shell_check_34.png)
+
+![shell_check_35.png](shell_script_images/shell_check_35.png)
+
+
 ### 3. **Integrated Development Environments (IDEs)**
    - **JetBrains PyCharm**: Primarily for Python but supports shell scripting with plugins, offering syntax highlighting and recommendations.
    - **Visual Studio Code** and **Atom**: Versatile editors with shell scripting support and customizable plugins.
