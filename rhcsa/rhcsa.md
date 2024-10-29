@@ -770,3 +770,11 @@ lsof(list open file) are list of files that are currently open by processes.
 ![locate_and_analyze_148.png](rhcsa_images/locate_and_analyze_148.png)
 
 ![locate_and_analyze_149.png](rhcsa_images/locate_and_analyze_149.png)
+
+
+| S.N.O | Command                            | Use                                                                                                                                                                              |
+|-------|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1     | `journalctl`                       | Used to query and view logs collected by the **systemd journal**, which is responsible for collecting system logs. It provides a powerful and flexible way to inspect logs, including system boot messages, application logs, kernel messages, and more. |
+| 2     | `sudo journalctl /usr/bin/sudo`    | Displays logs specifically related to the **`/usr/bin/sudo`** binary, showing all recorded `sudo` activities.                                                                    |
+| 3     | `sudo journalctl -u sshd.service`  | Views logs related specifically to the **`sshd` service** (the OpenSSH server daemon). It shows all entries for the `sshd.service` unit, including service start, stop, authentication attempts, and connection details. |
+
