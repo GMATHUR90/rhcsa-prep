@@ -755,3 +755,18 @@ lsof(list open file) are list of files that are currently open by processes.
 | 21    | -F option                        | Ideal for monitoring log files that are subject to regular rotation or replacement, such as those in `/var/log`         |
 | 22    | tail -F /var/log/secure          | **Follows the secure log file** in real-time                                                                          |
 
+![locate_and_analyze_142.png](rhcsa_images/locate_and_analyze_142.png)
+
+![locate_and_analyze_143.png](rhcsa_images/locate_and_analyze_143.png)
+
+![locate_and_analyze_144.png](rhcsa_images/locate_and_analyze_144.png)
+
+![locate_and_analyze_145.png](rhcsa_images/locate_and_analyze_145.png)
+
+![locate_and_analyze_146.png](rhcsa_images/locate_and_analyze_146.png)
+
+![locate_and_analyze_147.png](rhcsa_images/locate_and_analyze_147.png)
+
+![locate_and_analyze_148.png](rhcsa_images/locate_and_analyze_148.png)
+
+![locate_and_analyze_149.png](rhcsa_images/locate_and_analyze_149.png)
