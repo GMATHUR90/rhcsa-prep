@@ -778,3 +778,12 @@ lsof(list open file) are list of files that are currently open by processes.
 | 2     | `sudo journalctl /usr/bin/sudo`    | Displays logs specifically related to the **`/usr/bin/sudo`** binary, showing all recorded `sudo` activities.                                                                    |
 | 3     | `sudo journalctl -u sshd.service`  | Views logs related specifically to the **`sshd` service** (the OpenSSH server daemon). It shows all entries for the `sshd.service` unit, including service start, stop, authentication attempts, and connection details. |
 
+
+![journalctl_150.png](rhcsa_images/journalctl_150.png)
+
+![journalctl_151.png](rhcsa_images/journalctl_151.png)
+
+![journalctl_152.png](rhcsa_images/journalctl_152.png)
+
+![journalctl_153.png](rhcsa_images/journalctl_153.png)
+
