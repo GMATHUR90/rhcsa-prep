@@ -787,3 +787,18 @@ lsof(list open file) are list of files that are currently open by processes.
 
 ![journalctl_153.png](rhcsa_images/journalctl_153.png)
 
+| S.N.O | Command | Use |
+|-------|---------|------|
+| 1     | `journalctl -f` | Follow logs in real-time |
+| 2     | `journalctl -b` | Show logs for the current boot |
+| 3     | `journalctl -u sshd.service` | Show logs for a specific service |
+| 4     | `journalctl --since=today` | Filter logs by time |
+| 5     | `journalctl --since "2024-10-10 12:00" --until "2024-10-11 14:00"` | Filter logs between two dates |
+| 6     | `journalctl -k` | Show kernel logs |
+| 7     | `journalctl /usr/bin/sudo` | Show logs for a specific executable |
+| 8     | `journalctl _UID=1000` | View logs for a specific user |
+| 9     | `journalctl -n 20` | Limit the number of output lines |
+| 10    | `journalctl -p err` | View priority-level logs |
+| 11    | `journalctl -e` | Jump to the end of log |
+
+
