@@ -830,3 +830,13 @@ The command `journalctl -p info -g '^b'` is used to shows logs of **info priorit
 
 ![journalctl_160.png](rhcsa_images/journalctl_160.png)
 
+The command `journalctl -S 02:00` is used to display system logs starting from **2:00 AM** of the current day.
+
+![journalctl_161.png](rhcsa_images/journalctl_161.png)
+
+The command `journalctl -S 02:17 -U 02:28` is used to etrieves logs **from 2:17 AM to 2:28 AM** on the current day.
+
+![journalctl_162.png](rhcsa_images/journalctl_162.png)
+
+![journalctl_163.png](rhcsa_images/journalctl_163.png)
+
