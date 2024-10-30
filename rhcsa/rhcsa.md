@@ -803,4 +803,15 @@ lsof(list open file) are list of files that are currently open by processes.
 | 10    | `journalctl -p err` | View priority-level logs |
 | 11    | `journalctl -e` | Jump to the end of log |
 
+### Priority Levels
+
+- `emerg` (0): Emergency
+- `alert` (1): Alert
+- `crit` (2): Critical
+- `err` (3): Error
+- `warning` (4): Warning
+- `notice` (5): Notice
+- `info` (6): Informational
+- `debug` (7): Debugging
+
 
