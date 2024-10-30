@@ -824,4 +824,9 @@ lsof(list open file) are list of files that are currently open by processes.
 
 ![journalctl_158.png](rhcsa_images/journalctl_158.png)
 
+The command `journalctl -p info -g '^b'` is used to shows logs of **info priority** (or higher) that start with the letter 'b'.
+
+![journalctl_159.png](rhcsa_images/journalctl_159.png)
+
+![journalctl_160.png](rhcsa_images/journalctl_160.png)
 
