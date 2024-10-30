@@ -814,14 +814,14 @@ lsof(list open file) are list of files that are currently open by processes.
 - `info` (6): Informational
 - `debug` (7): Debugging
 
-[journalctl_154.png](rhcsa_images/journalctl_154.png)
+![journalctl_154.png](rhcsa_images/journalctl_154.png)
 
-[journalctl_155.png](rhcsa_images/journalctl_155.png)
+![journalctl_155.png](rhcsa_images/journalctl_155.png)
 
-[journalctl_156.png](rhcsa_images/journalctl_156.png)
+![journalctl_156.png](rhcsa_images/journalctl_156.png)
 
-[journalctl_157.png](rhcsa_images/journalctl_157.png)
+![journalctl_157.png](rhcsa_images/journalctl_157.png)
 
-[journalctl_158.png](rhcsa_images/journalctl_158.png)
+![journalctl_158.png](rhcsa_images/journalctl_158.png)
 
 
