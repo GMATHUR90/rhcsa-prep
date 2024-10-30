@@ -787,6 +787,8 @@ lsof(list open file) are list of files that are currently open by processes.
 
 ![journalctl_153.png](rhcsa_images/journalctl_153.png)
 
+**Common Option for Journalctl:**
+
 | S.N.O | Command | Use |
 |-------|---------|------|
 | 1     | `journalctl -f` | Follow logs in real-time |
