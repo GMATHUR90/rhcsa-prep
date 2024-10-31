@@ -860,4 +860,6 @@ The `last` command is used to display a list of the most recent logins and reboo
 
 ![journalctl_168.png](rhcsa_images/journalctl_168.png)
 
+The `lastlog` command is used to display information about the **most recent login** of all users on a Linux system. It reads from the `/var/log/lastlog` file, which stores information about the last login for each user.
 
+![journalctl_169.png](rhcsa_images/journalctl_169.png)
