@@ -850,4 +850,8 @@ The error message **"no persistent journal was found"** indicates that your syst
 
 ![journalctl_166.png](rhcsa_images/journalctl_166.png)
 
+To enable persistent logging:
+
+![journalctl_167.png](rhcsa_images/journalctl_167.png)
+
 
