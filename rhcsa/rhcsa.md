@@ -845,3 +845,9 @@ The command `journalctl -b 0` is used to display system logs from the **current 
 ![journalctl_164.png](rhcsa_images/journalctl_164.png)
 
 ![journalctl_165.png](rhcsa_images/journalctl_165.png)
+
+The error message **"no persistent journal was found"** indicates that your system does not have persistent logging enabled, meaning logs are cleared after a reboot.
+
+![journalctl_166.png](rhcsa_images/journalctl_166.png)
+
+
