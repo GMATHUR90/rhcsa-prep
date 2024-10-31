@@ -854,4 +854,10 @@ To enable persistent logging:
 
 ![journalctl_167.png](rhcsa_images/journalctl_167.png)
 
+After enabling persistent logging, `journalctl` will save logs to disk, and you should be able to retrieve logs from previous boots using `journalctl -b -1` (for the last boot).
+
+The `last` command is used to display a list of the most recent logins and reboots on a Linux system. It reads from the `/var/log/wtmp` file, which stores login records.
+
+![journalctl_168.png](rhcsa_images/journalctl_168.png)
+
 
