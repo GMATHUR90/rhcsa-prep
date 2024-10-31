@@ -841,3 +841,7 @@ The command `journalctl -S 02:17 -U 02:28` is used to etrieves logs **from 2:17 
 ![journalctl_163.png](rhcsa_images/journalctl_163.png)
 
 The command `journalctl -b 0` is used to display system logs from the **current boot**.
+
+![journalctl_164.png](rhcsa_images/journalctl_164.png)
+
+![journalctl_165.png](rhcsa_images/journalctl_165.png)
