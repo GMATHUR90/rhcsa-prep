@@ -915,3 +915,8 @@ Added ebs volume to aws ec2 instance to perform fdisk and cfdisk.
 lsblk: display block device information , their partitons and mountpoint
 
 ![manage_tuning_profile_183.png](rhcsa_images/manage_tuning_profile_183.png)
+
+fdisk(Flexible Disk): to create MBR and GPT partition of disk using command line tool.
+
+cfdisk(curses-based fdisk): user-friendly , interactive, menu driven partition tool that uses text based ui
+
