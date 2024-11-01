@@ -863,3 +863,10 @@ The `last` command is used to display a list of the most recent logins and reboo
 The `lastlog` command is used to display information about the **most recent login** of all users on a Linux system. It reads from the `/var/log/lastlog` file, which stores information about the last login for each user.
 
 ![journalctl_169.png](rhcsa_images/journalctl_169.png)
+
+# Manage Tuning Profiles:
+
+Tuned is a system tuning tool that helps optimize system performance by dynamically adjusting various parameter based on the current workload.
+
+
+
