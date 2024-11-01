@@ -868,5 +868,9 @@ The `lastlog` command is used to display information about the **most recent log
 
 Tuned is a system tuning tool that helps optimize system performance by dynamically adjusting various parameter based on the current workload.
 
+![manage_tuning_profile_170.png](rhcsa_images/manage_tuning_profile_170.png)
 
+![manage_tuning_profile_171.png](rhcsa_images/manage_tuning_profile_171.png)
+
+![manage_tuning_profile_172.png](rhcsa_images/manage_tuning_profile_172.png)
 
