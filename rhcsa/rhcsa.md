@@ -920,3 +920,6 @@ fdisk(Flexible Disk): to create MBR and GPT partition of disk using command line
 
 cfdisk(curses-based fdisk): user-friendly , interactive, menu driven partition tool that uses text based ui
 
+![physical_storage_partiton_184.png](rhcsa_images/physical_storage_partiton_184.png)
+
+
