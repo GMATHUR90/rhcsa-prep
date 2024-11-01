@@ -874,3 +874,19 @@ Tuned is a system tuning tool that helps optimize system performance by dynamica
 
 ![manage_tuning_profile_172.png](rhcsa_images/manage_tuning_profile_172.png)
 
+| **S.N.O** | **Command** | **Use** |
+| --- | --- | --- |
+| 1 | `tuned-adm active` | To check the active **tuned** profile |
+| 2 | `tuned-adm verify` | Checks whether the current system settings match the active **tuned** profile |
+| 3 | `ls /usr/lib/tuned` | Lists the contents of the `/usr/lib/tuned` directory, which usually contains the available profiles and plugins for **tuned** |
+| 4 | `ls /etc/tuned` | Lists the contents of the `/etc/tuned` directory, which typically contains custom configurations or overrides for **tuned** profiles |
+| 5 | `tuned-adm list` | Displays a list of all available tuning profiles on your system |
+| 6 | `sudo tuned-adm profile balanced` | General-purpose profile that provides a good compromise between performance and power saving. It's usually the default profile in many Linux distributions. |
+| 7 | `sudo tuned-adm profile_info <profile_name>` | Specific tuning profile used by the `tuned` service, which optimizes system performance for various workloads |
+| 8 | `sudo tuned-adm recommend` | Suggests the most suitable performance tuning profile based on your system's hardware and workload characteristics. |
+| 9 | `sudo tuned-adm auto_profile` | Enables or disables the automatic selection of a tuning profile based on the system's characteristics and usage. When enabled, the `tuned` service dynamically adjusts the profile to match the system's current workload or hardware changes. |
+| 10 | `sudo tuned-adm profile_mode` | Command that adjusts system performance based on predefined tuning profiles in Linux. It switches between performance modes like power-saving, throughput, or low-latency to optimize system resources for different workloads. |
+| 11 | `sudo tuned-adm profile throughput-performance` | Applies the "throughput-performance" profile in Linux, which is optimized for maximum data throughput. This profile adjusts system settings like CPU frequency scaling and I/O scheduler to enhance performance for high-throughput workloads such as networking and disk operations. |
+| 12 | Dynamic tuning | When enabled (`1`), allows the system to automatically adjust certain performance parameters based on current system load. Since it is set to `0`, the system will not dynamically adjust its performance settings, and will rely solely on the static profile you've set, such as `throughput-performance` or others you may configure. |
+
+
