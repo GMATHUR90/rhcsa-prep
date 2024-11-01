@@ -889,4 +889,23 @@ Tuned is a system tuning tool that helps optimize system performance by dynamica
 | 11 | `sudo tuned-adm profile throughput-performance` | Applies the "throughput-performance" profile in Linux, which is optimized for maximum data throughput. This profile adjusts system settings like CPU frequency scaling and I/O scheduler to enhance performance for high-throughput workloads such as networking and disk operations. |
 | 12 | Dynamic tuning | When enabled (`1`), allows the system to automatically adjust certain performance parameters based on current system load. Since it is set to `0`, the system will not dynamically adjust its performance settings, and will rely solely on the static profile you've set, such as `throughput-performance` or others you may configure. |
 
+![manage_tuning_profile_173.png](rhcsa_images/manage_tuning_profile_173.png)
+
+![manage_tuning_profile_174.png](rhcsa_images/manage_tuning_profile_174.png)
+
+![manage_tuning_profile_175.png](rhcsa_images/manage_tuning_profile_175.png)
+
+![manage_tuning_profile_176.png](rhcsa_images/manage_tuning_profile_176.png)
+
+![manage_tuning_profile_177.png](rhcsa_images/manage_tuning_profile_177.png)
+
+![manage_tuning_profile_178.png](rhcsa_images/manage_tuning_profile_178.png)
+
+![manage_tuning_profile_179.png](rhcsa_images/manage_tuning_profile_179.png)
+
+![manage_tuning_profile_180.png](rhcsa_images/manage_tuning_profile_180.png)
+
+![manage_tuning_profile_181.png](rhcsa_images/manage_tuning_profile_181.png)
+
+![manage_tuning_profile_182.png](rhcsa_images/manage_tuning_profile_182.png)
 
