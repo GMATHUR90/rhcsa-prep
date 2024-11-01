@@ -914,3 +914,4 @@ Added ebs volume to aws ec2 instance to perform fdisk and cfdisk.
 
 lsblk: display block device information , their partitons and mountpoint
 
+![manage_tuning_profile_183.png](rhcsa_images/manage_tuning_profile_183.png)
