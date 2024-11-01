@@ -909,3 +909,8 @@ Tuned is a system tuning tool that helps optimize system performance by dynamica
 
 ![manage_tuning_profile_182.png](rhcsa_images/manage_tuning_profile_182.png)
 
+# List, Create, Delete,and Modify Physical Storage Partitions:
+Added ebs volume to aws ec2 instance to perform fdisk and cfdisk.
+
+lsblk: display block device information , their partitons and mountpoint
+
