@@ -951,3 +951,5 @@ After select yes then select quit
 | 1 | swapon - -show | list active swap areas |
 | 2 | lsblk | view block devices and their usage |
 
+![swap_space_192.png](rhcsa_images/swap_space_192.png)
+
