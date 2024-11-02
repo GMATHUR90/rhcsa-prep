@@ -953,3 +953,13 @@ After select yes then select quit
 
 ![swap_space_192.png](rhcsa_images/swap_space_192.png)
 
+1. Create and Enable Swap on a Partition:
+
+| **S.N.O** | **Command** | **Use** |
+| --- | --- | --- |
+| 1. | sudo mkswap /dev/vdb3 | Create  on partition |
+| 2. | sudo swapon - -verbose /dev/vdb3 | Enable swap |
+| 3. | sudo swapoff /dev/vdb3 | Disable swap |
+| 4. | sudo dd if=/dev/zero of=/swap bs=1M count=2048 status=progress | Create a 2GB Swap File |
+| 5. | sudo chmod 600 /swap | Set correct permission |
+
