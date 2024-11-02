@@ -926,3 +926,15 @@ n: new partition
 
 w: write
 
+![fdisk_and_cfdisk_185.png](rhcsa_images/fdisk_and_cfdisk_185.png)
+
+![fdisk_and_cfdisk_186.png](rhcsa_images/fdisk_and_cfdisk_186.png)
+
+![fdisk_and_cfdisk_187.png](rhcsa_images/fdisk_and_cfdisk_187.png)
+
+![fdisk_and_cfdisk_188.png](rhcsa_images/fdisk_and_cfdisk_188.png)
+
+![fdisk_and_cfdisk_189.png](rhcsa_images/fdisk_and_cfdisk_189.png)
+
+![fdisk_and_cfdisk_190.png](rhcsa_images/fdisk_and_cfdisk_190.png)
+
