@@ -963,3 +963,16 @@ After select yes then select quit
 | 4. | sudo dd if=/dev/zero of=/swap bs=1M count=2048 status=progress | Create a 2GB Swap File |
 | 5. | sudo chmod 600 /swap | Set correct permission |
 
+![swap_space_193.png](rhcsa_images/swap_space_193.png)
+
+![swap_space_194.png](rhcsa_images/swap_space_194.png)
+
+![swap_space_195.png](rhcsa_images/swap_space_195.png)
+
+![swap_space_196.png](rhcsa_images/swap_space_196.png)
+
+![swap_space_197.png](rhcsa_images/swap_space_197.png)
+
+![swap_space_198.png](rhcsa_images/swap_space_198.png)
+
+![swap_space_199.png](rhcsa_images/swap_space_199.png)
