@@ -922,4 +922,7 @@ cfdisk(curses-based fdisk): user-friendly , interactive, menu driven partition t
 
 ![physical_storage_partiton_184.png](rhcsa_images/physical_storage_partiton_184.png)
 
+n: new partition
+
+w: write
 
