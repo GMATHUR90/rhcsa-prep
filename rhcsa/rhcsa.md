@@ -944,7 +944,7 @@ After select yes then select quit
 
 # Configure and Manage Swap Space:
 
-1. Check existing Swap Space:
+## 1. Check existing Swap Space:
 
 | **S.N.O** | **Command**  | **Use** |
 | --- | --- | --- |
@@ -953,7 +953,7 @@ After select yes then select quit
 
 ![swap_space_192.png](rhcsa_images/swap_space_192.png)
 
-1. Create and Enable Swap on a Partition:
+## 2. Create and Enable Swap on a Partition:
 
 | **S.N.O** | **Command** | **Use** |
 | --- | --- | --- |
@@ -976,3 +976,9 @@ After select yes then select quit
 ![swap_space_198.png](rhcsa_images/swap_space_198.png)
 
 ![swap_space_199.png](rhcsa_images/swap_space_199.png)
+
+### Summary:
+
+- You have a 2GB swap partition (`/dev/nvme1n1p1`) and a 2GB swap file (`/swap`) configured.
+- Swap areas were managed and configured using `swapon`, `swapoff`, `mkswap`, and `dd` commands.
+- You can prioritize swap areas by adjusting the `PRIO` value.
