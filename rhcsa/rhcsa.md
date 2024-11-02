@@ -941,3 +941,13 @@ w: write
 After select yes then select quit
 
 ![fdisk_and_cfdisk_191.png](rhcsa_images/fdisk_and_cfdisk_191.png)
+
+# Configure and Manage Swap Space:
+
+1. Check existing Swap Space:
+
+| **S.N.O** | **Command**  | **Use** |
+| --- | --- | --- |
+| 1 | swapon - -show | list active swap areas |
+| 2 | lsblk | view block devices and their usage |
+
