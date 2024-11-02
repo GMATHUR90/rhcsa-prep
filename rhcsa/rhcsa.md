@@ -938,3 +938,6 @@ w: write
 
 ![fdisk_and_cfdisk_190.png](rhcsa_images/fdisk_and_cfdisk_190.png)
 
+After select yes then select quit
+
+![fdisk_and_cfdisk_191.png](rhcsa_images/fdisk_and_cfdisk_191.png)
