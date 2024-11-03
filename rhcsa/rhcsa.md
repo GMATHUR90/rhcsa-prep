@@ -982,3 +982,17 @@ After select yes then select quit
 - You have a 2GB swap partition (`/dev/nvme1n1p1`) and a 2GB swap file (`/swap`) configured.
 - Swap areas were managed and configured using `swapon`, `swapoff`, `mkswap`, and `dd` commands.
 - You can prioritize swap areas by adjusting the `PRIO` value.
+
+## **Manage and Configure LVM storage:**
+
+LVM provides a flexible way to manage disk storage by allowing administrators to dynamically allocate, resize, and manage disk space without rebooting the system.
+
+### 1. Understanding LVM Components:
+
+- Physical Volume(PV) : The physical storage device, like a disk or partition, initialised for LVM use.
+- Volume Group(VG) : A pool of storage that combines multiple physical volumes. Logical volumes are created from this pool.
+- Logical Volume(LV) : A virtual partition from the volume group, which you can mount and use as a regular file system.
+
+### 2. Creating and Configuring LVM
+
+1. Creating a Physical Volume:
