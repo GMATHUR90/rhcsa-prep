@@ -996,3 +996,5 @@ LVM provides a flexible way to manage disk storage by allowing administrators to
 ### 2. Creating and Configuring LVM
 
 1. Creating a Physical Volume:
+
+![lvm_storage_200.png](rhcsa_images/lvm_storage_200.png)
