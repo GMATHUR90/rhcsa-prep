@@ -1001,4 +1001,10 @@ LVM provides a flexible way to manage disk storage by allowing administrators to
 
 - Install local volume manger using lvm2 package.
 
+![lvm_storage_201.png](rhcsa_images/lvm_storage_201.png)
+
+![lvm_storage_202.png](rhcsa_images/lvm_storage_202.png)
+
+![lvm_storage_203.png](rhcsa_images/lvm_storage_203.png)
+
 
