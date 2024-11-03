@@ -1012,3 +1012,7 @@ b. Creating a Volume Group(VG):
 ![lvm_storage_204.png](rhcsa_images/lvm_storage_204.png)
 
 ![lvm_storage_205.png](rhcsa_images/lvm_storage_205.png)
+
+c) Creating a Logical Volume:
+
+![lvm_storage_206.png](rhcsa_images/lvm_storage_206.png)
