@@ -1007,4 +1007,8 @@ LVM provides a flexible way to manage disk storage by allowing administrators to
 
 ![lvm_storage_203.png](rhcsa_images/lvm_storage_203.png)
 
+b. Creating a Volume Group(VG):
 
+![lvm_storage_204.png](rhcsa_images/lvm_storage_204.png)
+
+![lvm_storage_205.png](rhcsa_images/lvm_storage_205.png)
