@@ -1016,3 +1016,11 @@ b. Creating a Volume Group(VG):
 c) Creating a Logical Volume:
 
 ![lvm_storage_206.png](rhcsa_images/lvm_storage_206.png)
+
+d) **Formatting and Mounting the Logical Volume:**
+
+1. Format the LV:
+
+![format_lv_207.png](rhcsa_images/format_lv_207.png)
+
+![format_lv_208.png](rhcsa_images/format_lv_208.png)
