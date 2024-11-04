@@ -1037,6 +1037,22 @@ LVM provides a flexible way to manage disk storage by allowing administrators to
 
 ## 3. **Resizing Logical Volumes**
 
-## 1. Extend a Logical Volume:
+### i. Extend a Logical Volume:
 
 ![extend_lv_212.png](rhcsa_images/extend_lv_212.png)
+
+### ii) Reduce a Logical Volume (Be Careful):
+
+- Step to reduce an XFS Logical Volume:
+a. **Back Up Data: We have no data in logical volume**
+
+```bash
+sudo mkdir /backup
+sudo rsync -a /mnt/my_lv/ /backup/
+
+```
+b. Unmount the LV:
+
+![unmount_lv_213.png](rhcsa_images/unmount_lv_213.png)
+
+
