@@ -1029,3 +1029,10 @@ LVM provides a flexible way to manage disk storage by allowing administrators to
 
 ![mount_lv_209.png](rhcsa_images/mount_lv_209.png)
 
+### iii) Persist the Mount Point:  it to `/etc/fstab` to mount it automatically on boot
+
+![persist_mount_lv_210.png](rhcsa_images/persist_mount_lv_210.png)
+
+![persist_mount_lv_211.png](rhcsa_images/persist_mount_lv_211.png)
+
+
