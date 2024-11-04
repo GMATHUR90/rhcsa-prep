@@ -1059,3 +1059,9 @@ b. Unmount the LV:
 c.  Remove the existing Logical Volume:
 
 ![remove_existing_lv_214.png](rhcsa_images/remove_existing_lv_214.png)
+
+d) Recreate the Logical Volume with smaller size:
+
+![recreate_lv_215.png](rhcsa_images/recreate_lv_215.png)
+
+
