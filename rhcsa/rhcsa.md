@@ -995,7 +995,7 @@ LVM provides a flexible way to manage disk storage by allowing administrators to
 
 ### 2. Creating and Configuring LVM
 
-1. Creating a Physical Volume:
+## 1. Creating a Physical Volume:
 
 ![lvm_storage_200.png](rhcsa_images/lvm_storage_200.png)
 
@@ -1007,20 +1007,25 @@ LVM provides a flexible way to manage disk storage by allowing administrators to
 
 ![lvm_storage_203.png](rhcsa_images/lvm_storage_203.png)
 
-b. Creating a Volume Group(VG):
+## b. Creating a Volume Group(VG):
 
 ![lvm_storage_204.png](rhcsa_images/lvm_storage_204.png)
 
 ![lvm_storage_205.png](rhcsa_images/lvm_storage_205.png)
 
-c) Creating a Logical Volume:
+## c) Creating a Logical Volume:
 
 ![lvm_storage_206.png](rhcsa_images/lvm_storage_206.png)
 
-d) **Formatting and Mounting the Logical Volume:**
+## d) **Formatting and Mounting the Logical Volume:**
 
-1. Format the LV:
+### 1. Format the LV:
 
 ![format_lv_207.png](rhcsa_images/format_lv_207.png)
 
 ![format_lv_208.png](rhcsa_images/format_lv_208.png)
+
+### ii) Mount the LV:
+
+![mount_lv_209.png](rhcsa_images/mount_lv_209.png)
+
