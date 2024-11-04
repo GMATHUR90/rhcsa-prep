@@ -1110,3 +1110,9 @@ sudo rsync -a /backup/ /mnt/my_lv/
 |  |  | `sudo vgremove my_vg` | Deletes volume group `my_vg`. |
 |  |  | `sudo pvremove /dev/sdb` | Deletes physical volume `/dev/sdb`. |
 
+### Best Practices
+
+- Always unmount logical volumes before resizing or deleting them.
+- Backup important data before performing LVM operations, especially resizing and deletion.
+- Use the `pvmove` command to safely migrate data from one physical volume to another within the same volume group.
+
