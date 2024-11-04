@@ -1035,4 +1035,8 @@ LVM provides a flexible way to manage disk storage by allowing administrators to
 
 ![persist_mount_lv_211.png](rhcsa_images/persist_mount_lv_211.png)
 
+## 3. **Resizing Logical Volumes**
 
+## 1. Extend a Logical Volume:
+
+![extend_lv_212.png](rhcsa_images/extend_lv_212.png)
