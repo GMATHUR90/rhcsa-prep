@@ -1043,7 +1043,8 @@ LVM provides a flexible way to manage disk storage by allowing administrators to
 
 ### ii) Reduce a Logical Volume (Be Careful):
 
-- Step to reduce an XFS Logical Volume:
+Step to reduce an XFS Logical Volume:
+
 a. **Back Up Data: We have no data in logical volume**
 
 ```bash
@@ -1055,4 +1056,6 @@ b. Unmount the LV:
 
 ![unmount_lv_213.png](rhcsa_images/unmount_lv_213.png)
 
+c.  Remove the existing Logical Volume:
 
+![remove_existing_lv_214.png](rhcsa_images/remove_existing_lv_214.png)
