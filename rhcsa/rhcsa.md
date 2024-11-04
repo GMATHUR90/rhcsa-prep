@@ -1064,4 +1064,7 @@ d) Recreate the Logical Volume with smaller size:
 
 ![recreate_lv_215.png](rhcsa_images/recreate_lv_215.png)
 
+e) Format and Mount the New Logical Volume with XFS:
+
+![format_and_mount_newlv_216.png](rhcsa_images/format_and_mount_newlv_216.png)
 
