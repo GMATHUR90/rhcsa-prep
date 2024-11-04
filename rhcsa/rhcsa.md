@@ -1068,3 +1068,10 @@ e) Format and Mount the New Logical Volume with XFS:
 
 ![format_and_mount_newlv_216.png](rhcsa_images/format_and_mount_newlv_216.png)
 
+**f) Restore Data:**
+
+```bash
+sudo rsync -a /backup/ /mnt/my_lv/
+
+```
+
