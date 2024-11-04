@@ -1074,4 +1074,39 @@ e) Format and Mount the New Logical Volume with XFS:
 sudo rsync -a /backup/ /mnt/my_lv/
 
 ```
+### Commands used in LVM:
+
+
+| Step No. | Task | Command | Description |
+| --- | --- | --- | --- |
+| **2** | **Creating and Configuring LVM** |  |  |
+| a | Creating a Physical Volume (PV) | `sudo pvcreate /dev/sdb` | Initializes `/dev/sdb` as a physical volume for LVM. |
+| b | Creating a Volume Group (VG) | `sudo vgcreate my_vg /dev/sdb` | Creates a volume group named `my_vg` using the `/dev/sdb` physical volume. |
+| c | Creating a Logical Volume (LV) | `sudo lvcreate -L 10G -n my_lv my_vg` | Creates a 10GB logical volume named `my_lv` within the volume group `my_vg`. |
+| d | Formatting and Mounting the LV | `sudo mkfs.xfs /dev/my_vg/my_lv` | Formats the logical volume with the XFS filesystem. |
+|  |  | `sudo mkdir /mnt/my_lv` | Creates a directory to mount the logical volume. |
+|  |  | `sudo mount /dev/my_vg/my_lv /mnt/my_lv` | Mounts the logical volume at `/mnt/my_lv`. |
+|  | Persist the Mount Point | `/dev/my_vg/my_lv /mnt/my_lv xfs defaults 0 0` | Adds entry to `/etc/fstab` to mount automatically on boot. |
+| **3** | **Resizing Logical Volumes** |  |  |
+|  | Extend a Logical Volume | `sudo lvextend -L +5G /dev/my_vg/my_lv` | Increases LV size by 5GB. |
+|  |  | `sudo resize2fs /dev/my_vg/my_lv` | Adjusts filesystem size (for ext4). |
+|  |  | `sudo xfs_growfs /mnt/my_lv` | Adjusts filesystem size (for XFS). |
+|  | Reduce a Logical Volume | `sudo umount /mnt/my_lv` | Unmounts the logical volume. |
+|  |  | `sudo resize2fs /dev/my_vg/my_lv 5G` | Shrinks filesystem to 5GB (for ext4). |
+|  |  | `sudo lvreduce -L 5G /dev/my_vg/my_lv` | Reduces the LV size to 5GB. |
+|  |  | `sudo mount /dev/my_vg/my_lv /mnt/my_lv` | Mounts the LV again. |
+| **4** | **Managing Volume Groups and Physical Volumes** |  |  |
+|  | Extend Volume Group | `sudo pvcreate /dev/sdc` | Initializes a new physical volume `/dev/sdc`. |
+|  |  | `sudo vgextend my_vg /dev/sdc` | Adds `/dev/sdc` to `my_vg`. |
+|  | Remove Physical Volume | `sudo pvmove /dev/sdb` | Moves data off `/dev/sdb`. |
+|  |  | `sudo vgreduce my_vg /dev/sdb` | Removes `/dev/sdb` from `my_vg`. |
+|  |  | `sudo pvremove /dev/sdb` | Deletes the physical volume `/dev/sdb`. |
+| **5** | **Useful Commands for Monitoring and Management** |  |  |
+|  | View PVs, VGs, LVs | `sudo pvs` / `sudo vgs` / `sudo lvs` | Lists PVs, VGs, and LVs. |
+|  | Detailed Information | `sudo pvdisplay /dev/sdb` | Shows detailed info for `/dev/sdb`. |
+|  |  | `sudo vgdisplay my_vg` | Shows detailed info for `my_vg`. |
+|  |  | `sudo lvdisplay /dev/my_vg/my_lv` | Shows detailed info for `my_lv`. |
+|  | Removing LVM Components | `sudo lvremove /dev/my_vg/my_lv` | Deletes logical volume `my_lv`. |
+|  |  | `sudo vgremove my_vg` | Deletes volume group `my_vg`. |
+|  |  | `sudo pvremove /dev/sdb` | Deletes physical volume `/dev/sdb`. |
 
