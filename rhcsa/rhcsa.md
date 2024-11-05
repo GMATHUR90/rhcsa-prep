@@ -1158,4 +1158,12 @@ A RAID Level defines how data is stored in the array. Every level(like RAID 0 , 
 
  Parity is a way to protect data by storing extra information. If one disk fails, the parity data helps recreate the lost data without needing all the original disks.
 
+Here's a tabular comparison of the different RAID levels:
 
+| **RAID Level** | **Minimum Disks Required** | **Purpose** | **Fault Tolerance** |
+| --- | --- | --- | --- |
+| RAID 0 | 2 | Increases performance (no redundancy) | None – failure of any disk results in data loss |
+| RAID 1 | 2 | Mirroring for redundancy | 1 disk failure |
+| RAID 5 | 3 | Balances redundancy and performance | 1 disk failure |
+| RAID 6 | 4 | Double parity for enhanced redundancy | 2 disk failures |
+| RAID 10 | 4 (must be even) | High performance and redundancy (RAID 1 + 0) | Multiple disks, as long as each mirrored pair has one working disk |
