@@ -1116,3 +1116,12 @@ sudo rsync -a /backup/ /mnt/my_lv/
 - Backup important data before performing LVM operations, especially resizing and deletion.
 - Use the `pvmove` command to safely migrate data from one physical volume to another within the same volume group.
 
+## Create and Configure Encrypted Storage:
+
+1. **Install cryptsetup** (if not already installed):
+
+![encrypted_storage_217.png](rhcsa_images/encrypted_storage_217.png)
+
+![encrypted_storage_218.png](rhcsa_images/encrypted_storage_218.png)
+
+
