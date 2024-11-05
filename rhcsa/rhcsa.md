@@ -1167,3 +1167,10 @@ Here's a tabular comparison of the different RAID levels:
 | RAID 5 | 3 | Balances redundancy and performance | 1 disk failure |
 | RAID 6 | 4 | Double parity for enhanced redundancy | 2 disk failures |
 | RAID 10 | 4 (must be even) | High performance and redundancy (RAID 1 + 0) | Multiple disks, as long as each mirrored pair has one working disk |
+
+### 1. RAID Setup Requirement:
+- Install the `mdadm` utility to create and manage RAID devices.
+
+![raid_224.png](rhcsa_images/raid_224.png)
+
+
