@@ -1142,5 +1142,20 @@ sudo rsync -a /backup/ /mnt/my_lv/
 
 ![encrypted_storage_223.png](rhcsa_images/encrypted_storage_223.png)
 
+## Creating and Managing Raid(Redundant Array of Independent Disks) Devices
+
+**RAID** is a way of storing data in different places(redundantly) on multiple hard disks to improve performance and data reliability.
+
+**Array:** 
+
+An array is a group of two or more combined disks to form a single storage unit . Data is spread across these disks based on the RAID configuration.
+
+**RAID Level:**
+
+A RAID Level defines how data is stored in the array. Every level(like RAID 0 , RAID 1 , RAID 5)  has a specific method of distributing and protecting data , balancing performance , storage capacity and redundancy.
+
+**Parity:**
+
+ Parity is a way to protect data by storing extra information. If one disk fails, the parity data helps recreate the lost data without needing all the original disks.
 
 
