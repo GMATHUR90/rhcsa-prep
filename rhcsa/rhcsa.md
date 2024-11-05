@@ -1118,10 +1118,13 @@ sudo rsync -a /backup/ /mnt/my_lv/
 
 ## Create and Configure Encrypted Storage:
 
-1. **Install cryptsetup** (if not already installed):
+### 1. **Install cryptsetup** (if not already installed):
 
 ![encrypted_storage_217.png](rhcsa_images/encrypted_storage_217.png)
 
 ![encrypted_storage_218.png](rhcsa_images/encrypted_storage_218.png)
 
+### 2. **Encrypt the Disk**:
+
+![encrypted_storage_219.png](rhcsa_images/encrypted_storage_219.png)
 
