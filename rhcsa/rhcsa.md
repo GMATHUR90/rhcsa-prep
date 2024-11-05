@@ -1173,4 +1173,12 @@ Here's a tabular comparison of the different RAID levels:
 
 ![raid_224.png](rhcsa_images/raid_224.png)
 
+### 2. Creating a RAID Array:
+
+#### a. RAID 1 Example (Mirrored Array):
+
+![raid_225.png](rhcsa_images/raid_225.png)
+
+![raid_226.png](rhcsa_images/raid_226.png)
+
 
