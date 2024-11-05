@@ -1181,4 +1181,10 @@ Here's a tabular comparison of the different RAID levels:
 
 ![raid_226.png](rhcsa_images/raid_226.png)
 
+#### b) Verify the RAID Array:
+
+![raid_227.png](rhcsa_images/raid_227.png)
+
+![raid_228.png](rhcsa_images/raid_228.png)
+
 
