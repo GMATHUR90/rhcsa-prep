@@ -1128,3 +1128,7 @@ sudo rsync -a /backup/ /mnt/my_lv/
 
 ![encrypted_storage_219.png](rhcsa_images/encrypted_storage_219.png)
 
+### 3. **Format the Encrypted Disk**:
+
+![encrypted_storage_220.png](rhcsa_images/encrypted_storage_220.png)
+
