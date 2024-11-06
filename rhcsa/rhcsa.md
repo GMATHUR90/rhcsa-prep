@@ -1265,3 +1265,4 @@ ACL allows you to set permissions for individual users or groups beyond just the
     - Default ACL: Set default permissions for new files/directories created within a directory.
 2. Basic Permissions: Like standard permissions, ACLs use read(r), write(w), and execute(x) permissions.
 
+![acl_234.png](rhcsa_images/acl_234.png)
