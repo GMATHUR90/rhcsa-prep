@@ -1209,4 +1209,19 @@ Here's a tabular comparison of the different RAID levels:
 
 ![raid_233.png](rhcsa_images/raid_233.png)
 
+#### e) **. Add/Remove Disks from RAID**:
+
+- **Add** a new disk:
+    
+```bash
+    sudo mdadm --manage /dev/md0 --add /dev/sdd
+```
+    
+- **Remove** a disk:
+    
+```bash
+    sudo mdadm --manage /dev/md0 --fail /dev/sdb
+    sudo mdadm --manage /dev/md0 --remove /dev/sdb
+    
+```
 
