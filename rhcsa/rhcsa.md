@@ -1201,4 +1201,12 @@ Here's a tabular comparison of the different RAID levels:
 
 ![raid_231.png](rhcsa_images/raid_231.png)
 
+#### d) Managing the RAID Array:
+
+-  Stop the Raid Array(if needed)
+
+![raid_232.png](rhcsa_images/raid_232.png)
+
+![raid_233.png](rhcsa_images/raid_233.png)
+
 
