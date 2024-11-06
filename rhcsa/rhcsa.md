@@ -1187,4 +1187,8 @@ Here's a tabular comparison of the different RAID levels:
 
 ![raid_228.png](rhcsa_images/raid_228.png)
 
+#### c)  **Formatting and Mounting the RAID Device**
 
+- Format the RAID device with a filesystem (e.g., ext4):
+
+![raid_229.png](rhcsa_images/raid_229.png)
