@@ -1258,3 +1258,10 @@ RAID offers robust data protection but does not replace regular backups, as it p
 
 ACL allows you to set permissions for individual users or groups beyond just the owner, group and others.
 
+**Key ACL Concepts:**
+
+1. ACL Types
+    - Access ACL: Set permissions on files and directories for users and groups.
+    - Default ACL: Set default permissions for new files/directories created within a directory.
+2. Basic Permissions: Like standard permissions, ACLs use read(r), write(w), and execute(x) permissions.
+
