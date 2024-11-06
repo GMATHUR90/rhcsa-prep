@@ -1192,3 +1192,7 @@ Here's a tabular comparison of the different RAID levels:
 - Format the RAID device with a filesystem (e.g., ext4):
 
 ![raid_229.png](rhcsa_images/raid_229.png)
+
+- Create a mount point and mount the RAID device:
+
+![raid_230.png](rhcsa_images/raid_230.png)
