@@ -1196,3 +1196,9 @@ Here's a tabular comparison of the different RAID levels:
 - Create a mount point and mount the RAID device:
 
 ![raid_230.png](rhcsa_images/raid_230.png)
+
+#### c) To make the RAID array mount at boot, add it to `/etc/fstab`:
+
+![raid_231.png](rhcsa_images/raid_231.png)
+
+
