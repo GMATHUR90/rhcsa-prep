@@ -1225,3 +1225,23 @@ Here's a tabular comparison of the different RAID levels:
     
 ```
 
+#### f) **Monitoring and Maintaining RAID**
+
+- **Check RAID Status**:
+    
+```bash
+    cat /proc/mdstat
+```
+    
+- **Send Email Alerts** (configure in `/etc/mdadm/mdadm.conf`):
+    
+```bash
+    sudo mdadm --monitor --scan --mail=user@example.com --delay=300 --syslog
+```
+    
+- **Assemble RAID on Reboot** (ensure it’s configured in `/etc/mdadm/mdadm.conf`):
+    
+```bash
+    sudo mdadm --detail --scan | sudo tee -a /etc/mdadm/mdadm.conf
+```
+
