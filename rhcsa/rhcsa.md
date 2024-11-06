@@ -1252,3 +1252,9 @@ Here's a tabular comparison of the different RAID levels:
 
 RAID offers robust data protection but does not replace regular backups, as it primarily ensures data availability and redundancy.
 
+## Create, Manage and Diagnose Advanced Filesystem Permissions:
+
+### Access Control Lists:
+
+ACL allows you to set permissions for individual users or groups beyond just the owner, group and others.
+
