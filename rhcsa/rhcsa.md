@@ -1323,3 +1323,13 @@ The term **effective** in ACLs represents the actual permissions that are applie
 ![acl_248.png](rhcsa_images/acl_248.png)
 
 ![acl_249.png](rhcsa_images/acl_249.png)
+
+## **User and Group Disk Quotas For Filesystem:**
+
+Limiting disk usage per user and group on a specified filesystem.
+
+### 1. Install Quota Package:
+
+![disk_quota_filesystem_250.png](rhcsa_images/disk_quota_filesystem_250.png)
+
+![disk_quota_filesystem_251.png](rhcsa_images/disk_quota_filesystem_251.png)
