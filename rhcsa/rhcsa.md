@@ -1284,5 +1284,9 @@ setfacl -m u:username:permissions filesname
 ![acl_236.png](rhcsa_images/acl_236.png)
 mask is maximum permission allowed that can be granted to user.
 
+Modify Mask:
 
+![acl_237.png](rhcsa_images/acl_237.png)
+
+The term **effective** in ACLs represents the actual permissions that are applied to a user or group after the **mask** is taken into account.
 
