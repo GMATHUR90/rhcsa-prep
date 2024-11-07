@@ -1260,17 +1260,20 @@ ACL allows you to set permissions for individual users or groups beyond just the
 
 **Key ACL Concepts:**
 
-a) ACL Types
+1. ACL Types
     - Access ACL: Set permissions on files and directories for users and groups.
     - Default ACL: Set default permissions for new files/directories created within a directory.
-b) Basic Permissions: Like standard permissions, ACLs use read(r), write(w), and execute(x) permissions.
+2.  Basic Permissions: Like standard permissions, ACLs use read(r), write(w), and execute(x) permissions.
 
 ![acl_234.png](rhcsa_images/acl_234.png)
 
 ACL Commands:
 
-1. Set ACL:
+#### a.  Set ACL:
 
 ```bash
 setfacl -m u:username:permissions filesname
 ```
+
+![acl_235.png](rhcsa_images/acl_235.png)
+
