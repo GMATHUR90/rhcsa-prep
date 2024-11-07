@@ -1277,3 +1277,12 @@ setfacl -m u:username:permissions filesname
 
 ![acl_235.png](rhcsa_images/acl_235.png)
 
++mark indicates it is an acl
+
+#### b. **View ACL**:
+
+![acl_236.png](rhcsa_images/acl_236.png)
+mask is maximum permission allowed that can be granted to user.
+
+
+
