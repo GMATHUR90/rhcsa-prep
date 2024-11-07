@@ -1293,3 +1293,11 @@ The term **effective** in ACLs represents the actual permissions that are applie
 ### Set ACL for a Group
 
 ![acl_238.png](rhcsa_images/acl_238.png)
+
+#### Remove ACL permission for user:
+
+![acl_239.png](rhcsa_images/acl_239.png)
+
+![acl_240.png](rhcsa_images/acl_240.png)
+
+![acl_241.png](rhcsa_images/acl_241.png)
