@@ -1294,7 +1294,7 @@ The term **effective** in ACLs represents the actual permissions that are applie
 
 ![acl_238.png](rhcsa_images/acl_238.png)
 
-#### Remove ACL permission for user:
+### Remove ACL permission for user:
 
 ![acl_239.png](rhcsa_images/acl_239.png)
 
@@ -1302,7 +1302,7 @@ The term **effective** in ACLs represents the actual permissions that are applie
 
 ![acl_241.png](rhcsa_images/acl_241.png)
 
-#### Change Recurssively:
+### Change Recurssively:
 
 ![acl_242.png](rhcsa_images/acl_242.png)
 
@@ -1310,8 +1310,16 @@ The term **effective** in ACLs represents the actual permissions that are applie
 
 ![acl_244.png](rhcsa_images/acl_244.png)
 
-#### Append Attribute to a file:
+### Append Attribute to a file:
 
 ![acl_245.png](rhcsa_images/acl_245.png)
 
 ![acl_246.png](rhcsa_images/acl_246.png)
+
+### list attribute for a file:
+
+![acl_247.png](rhcsa_images/acl_247.png)
+
+![acl_248.png](rhcsa_images/acl_248.png)
+
+![acl_249.png](rhcsa_images/acl_249.png)
