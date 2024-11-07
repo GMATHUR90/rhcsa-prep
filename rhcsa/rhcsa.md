@@ -1290,3 +1290,6 @@ Modify Mask:
 
 The term **effective** in ACLs represents the actual permissions that are applied to a user or group after the **mask** is taken into account.
 
+### Set ACL for a Group
+
+![acl_238.png](rhcsa_images/acl_238.png)
