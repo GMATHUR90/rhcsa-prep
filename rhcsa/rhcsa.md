@@ -1309,3 +1309,9 @@ The term **effective** in ACLs represents the actual permissions that are applie
 ![acl_243.png](rhcsa_images/acl_243.png)
 
 ![acl_244.png](rhcsa_images/acl_244.png)
+
+#### Append Attribute to a file:
+
+![acl_245.png](rhcsa_images/acl_245.png)
+
+![acl_246.png](rhcsa_images/acl_246.png)
