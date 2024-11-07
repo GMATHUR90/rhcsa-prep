@@ -1301,3 +1301,11 @@ The term **effective** in ACLs represents the actual permissions that are applie
 ![acl_240.png](rhcsa_images/acl_240.png)
 
 ![acl_241.png](rhcsa_images/acl_241.png)
+
+#### Change Recurssively:
+
+![acl_242.png](rhcsa_images/acl_242.png)
+
+![acl_243.png](rhcsa_images/acl_243.png)
+
+![acl_244.png](rhcsa_images/acl_244.png)
