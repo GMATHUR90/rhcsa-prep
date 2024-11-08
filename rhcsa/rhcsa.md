@@ -1336,3 +1336,12 @@ Limiting disk usage per user and group on a specified filesystem.
 
 ### 2. Edit /etc/fstab:
 
+![disk_quota_filesystem_252.png](rhcsa_images/disk_quota_filesystem_252.png)
+
+![disk_quota_filesystem_253.png](rhcsa_images/disk_quota_filesystem_253.png)
+
+![disk_quota_filesystem_254.png](rhcsa_images/disk_quota_filesystem_254.png)
+
+![disk_quota_filesystem_255.png](rhcsa_images/disk_quota_filesystem_255.png)
+
+![disk_quota_filesystem_256.png](rhcsa_images/disk_quota_filesystem_256.png)
