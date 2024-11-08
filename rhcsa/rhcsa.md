@@ -1358,3 +1358,5 @@ Limiting disk usage per user and group on a specified filesystem.
 
 
 **Verify Quotas with `report`**:
+
+![disk_quota_filesystem_259.png](rhcsa_images/disk_quota_filesystem_259.png)
