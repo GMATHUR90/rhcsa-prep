@@ -1345,3 +1345,8 @@ Limiting disk usage per user and group on a specified filesystem.
 ![disk_quota_filesystem_255.png](rhcsa_images/disk_quota_filesystem_255.png)
 
 ![disk_quota_filesystem_256.png](rhcsa_images/disk_quota_filesystem_256.png)
+
+### 3. **Reboot the System**:
+
+
+
