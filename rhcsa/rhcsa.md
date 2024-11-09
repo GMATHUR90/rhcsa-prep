@@ -1375,3 +1375,10 @@ Limiting disk usage per user and group on a specified filesystem.
 
 - Edit the quota to specify soft and hard limits for ec2-user on `/dev/nvme2n1`.
 
+**Check User Quota**:
+
+
+
+
+- Soft and hard limits control how much disk space the user can use (soft limit with grace period, hard limit as an absolute max).
+
