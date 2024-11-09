@@ -1364,3 +1364,7 @@ Limiting disk usage per user and group on a specified filesystem.
 **Set User Quota**:
 
 1.
+
+![disk_quota_filesystem_260.png](rhcsa_images/disk_quota_filesystem_260.png)
+
+
