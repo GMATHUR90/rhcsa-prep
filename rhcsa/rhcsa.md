@@ -1369,7 +1369,9 @@ Limiting disk usage per user and group on a specified filesystem.
 
 2.
 
+![disk_quota_filesystem_261.png](rhcsa_images/disk_quota_filesystem_261.png)
 
+![disk_quota_filesystem_262.png](rhcsa_images/disk_quota_filesystem_262.png)
 
 - Edit the quota to specify soft and hard limits for ec2-user on `/dev/nvme2n1`.
 
