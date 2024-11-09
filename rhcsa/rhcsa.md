@@ -1387,4 +1387,7 @@ Limiting disk usage per user and group on a specified filesystem.
 
 - Create files to test quota limit:
 
+![disk_quota_filesystem_265.png](rhcsa_images/disk_quota_filesystem_265.png)
+
+
 
