@@ -1404,3 +1404,6 @@ mkfs.ext4: ext4 Filesystem
 ![configure_filesystem_267.png](rhcsa_images/configure_filesystem_267.png)
 
 2. Creating an EXT4 File System:
+
+![configure_filesystem_268.png](rhcsa_images/configure_filesystem_268.png)
+
