@@ -1411,4 +1411,4 @@ mkfs.ext4: ext4 Filesystem
 
 a) XFS:
 
-
+![configure_filesystem_269.png](rhcsa_images/configure_filesystem_269.png)
