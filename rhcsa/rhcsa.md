@@ -1407,3 +1407,8 @@ mkfs.ext4: ext4 Filesystem
 
 ![configure_filesystem_268.png](rhcsa_images/configure_filesystem_268.png)
 
+### Remove File System:
+
+a) XFS:
+
+
