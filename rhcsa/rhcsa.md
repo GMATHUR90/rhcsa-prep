@@ -1401,3 +1401,6 @@ mkfs.ext4: ext4 Filesystem
 
 1. Creating an XFS File System:
 
+![configure_filesystem_267.png](rhcsa_images/configure_filesystem_267.png)
+
+
