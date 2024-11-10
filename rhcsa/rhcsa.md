@@ -1393,3 +1393,11 @@ Limiting disk usage per user and group on a specified filesystem.
 
 ![disk_quota_filesystem_266.png](rhcsa_images/disk_quota_filesystem_266.png)
 
+### Create and Configure File Systems:
+
+mkfs.xfs : XFS Filesystem
+
+mkfs.ext4: ext4 Filesystem
+
+1. Creating an XFS File System:
+
