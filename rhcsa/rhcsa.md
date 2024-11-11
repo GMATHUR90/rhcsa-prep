@@ -1428,3 +1428,7 @@ b) Display current label for XFS:
 ![configure_filesystem_272.png](rhcsa_images/configure_filesystem_272.png)
 
 c) Change Label of XFS:
+
+![configure_filesystem_273.png](rhcsa_images/configure_filesystem_273.png)
+
+
