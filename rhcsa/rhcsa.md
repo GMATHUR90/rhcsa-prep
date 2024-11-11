@@ -1416,3 +1416,8 @@ a) XFS:
 b) ext4:
 
 ![configure_filesystem_270.png](rhcsa_images/configure_filesystem_270.png)
+
+### 1. Various flags for XFS and EXT4 file system:
+
+a) Create Label for disk using XFS:
+
