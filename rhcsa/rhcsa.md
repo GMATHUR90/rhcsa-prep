@@ -1423,4 +1423,4 @@ a) Create Label for disk using XFS:
 
 ![configure_filesystem_271.png](rhcsa_images/configure_filesystem_271.png)
 
-
+b) Display current label for XFS:
