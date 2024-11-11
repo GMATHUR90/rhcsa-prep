@@ -1415,3 +1415,4 @@ a) XFS:
 
 b) ext4:
 
+![configure_filesystem_270.png](rhcsa_images/configure_filesystem_270.png)
