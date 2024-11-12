@@ -1436,3 +1436,7 @@ d) Create Label and inode for ext4:
 ![configure_filesystem_274.png](rhcsa_images/configure_filesystem_274.png)
 
 e) Change Label for ext4:
+
+![configure_filesystem_275.png](rhcsa_images/configure_filesystem_275.png)
+
+
