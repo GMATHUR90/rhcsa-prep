@@ -1431,4 +1431,4 @@ c) Change Label of XFS:
 
 ![configure_filesystem_273.png](rhcsa_images/configure_filesystem_273.png)
 
-
+d) Create Label and inode for ext4:
