@@ -1439,4 +1439,4 @@ e) Change Label for ext4:
 
 ![configure_filesystem_275.png](rhcsa_images/configure_filesystem_275.png)
 
-
+f) Man Page of ext4 and xfs:
