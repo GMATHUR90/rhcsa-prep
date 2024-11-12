@@ -1445,3 +1445,7 @@ f) Man Page of ext4 and xfs:
 
 ![configure_filesystem_277.png](rhcsa_images/configure_filesystem_277.png)
 
+## **Create, Mount, and use vfat File Systems:**
+
+vfat32: Virtual File Allocation Table
+
