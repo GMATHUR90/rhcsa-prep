@@ -1471,4 +1471,6 @@ Created one partition on 10G using fdisk
 - **Choosing the Right FAT Type**:
     - Use **FAT16** for volumes up to 2GB.
     - Use **FAT32** for volumes larger than 2GB.
+### 2. Mount the `vfat` File System:
 
+Step 1: Create a Mount Point:
