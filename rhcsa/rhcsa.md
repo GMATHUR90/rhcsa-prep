@@ -1463,4 +1463,12 @@ Created one partition on 10G using fdisk
 
 ![vfat_280.png](rhcsa_images/vfat_280.png)
 
+- Use `n` to create a new partition.
+- Press `t` to change the partition type, then enter `b` for W95 FAT32.
+
+`F 32` specifies FAT32, which supports larger file systems (up to 16TB with 4096-byte sector size).
+
+- **Choosing the Right FAT Type**:
+    - Use **FAT16** for volumes up to 2GB.
+    - Use **FAT32** for volumes larger than 2GB.
 
