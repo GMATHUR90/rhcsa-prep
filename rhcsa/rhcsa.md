@@ -1450,3 +1450,6 @@ f) Man Page of ext4 and xfs:
 vfat32: Virtual File Allocation Table
 
 ### 1. Create a `vfat` File System :
+
+Step 1: Identify the Disk/Partition
+
