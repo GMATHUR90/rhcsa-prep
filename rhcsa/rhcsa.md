@@ -1478,3 +1478,5 @@ Step 1: Create a Mount Point:
 ![vfat_281.png](rhcsa_images/vfat_281.png)
 
 Step 2: Mount the File System:
+
+![vfat_282.png](rhcsa_images/vfat_282.png)
