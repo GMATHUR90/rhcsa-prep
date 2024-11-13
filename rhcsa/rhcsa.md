@@ -1453,3 +1453,8 @@ vfat32: Virtual File Allocation Table
 
 Step 1: Identify the Disk/Partition
 
+![vfat_278.png](rhcsa_images/vfat_278.png)
+
+![vfat_279.png](rhcsa_images/vfat_279.png)
+
+
