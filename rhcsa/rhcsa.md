@@ -1457,4 +1457,7 @@ Step 1: Identify the Disk/Partition
 
 ![vfat_279.png](rhcsa_images/vfat_279.png)
 
+Step 2: Create the `vfat` File System:
+
+Created one partition on 10G using fdisk
 
