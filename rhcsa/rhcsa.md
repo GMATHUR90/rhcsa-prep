@@ -1474,3 +1474,5 @@ Created one partition on 10G using fdisk
 ### 2. Mount the `vfat` File System:
 
 Step 1: Create a Mount Point:
+
+![vfat_281.png](rhcsa_images/vfat_281.png)
