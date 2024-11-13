@@ -1461,3 +1461,6 @@ Step 2: Create the `vfat` File System:
 
 Created one partition on 10G using fdisk
 
+![vfat_280.png](rhcsa_images/vfat_280.png)
+
+
