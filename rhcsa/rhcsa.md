@@ -1492,3 +1492,9 @@ Add the following line to automatically mount at boot:
 ### 4. **Unmount the File System**:
 
 ![vfat_285.png](rhcsa_images/vfat_285.png)
+
+### 5. Integrity Checks for vfat File Systems:
+
+Step1: **Check File System Integrity**:
+
+Use dosfsck to check for errors:
