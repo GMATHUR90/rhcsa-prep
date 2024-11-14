@@ -1480,3 +1480,5 @@ Step 1: Create a Mount Point:
 Step 2: Mount the File System:
 
 ![vfat_282.png](rhcsa_images/vfat_282.png)
+
+### **3. Persistent Mount via /etc/fstab**:
