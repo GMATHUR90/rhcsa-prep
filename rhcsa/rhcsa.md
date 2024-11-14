@@ -1485,3 +1485,8 @@ Step 2: Mount the File System:
 
 ![vfat_283.png](rhcsa_images/vfat_283.png)
 
+Add the following line to automatically mount at boot:
+
+![vfat_284.png](rhcsa_images/vfat_284.png)
+
+
