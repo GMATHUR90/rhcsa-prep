@@ -1489,4 +1489,6 @@ Add the following line to automatically mount at boot:
 
 ![vfat_284.png](rhcsa_images/vfat_284.png)
 
+### 4. **Unmount the File System**:
+
 
