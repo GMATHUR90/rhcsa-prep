@@ -1498,3 +1498,7 @@ Add the following line to automatically mount at boot:
 Step1: **Check File System Integrity**:
 
 Use dosfsck to check for errors:
+
+![vfat_286.png](rhcsa_images/vfat_286.png)
+
+
