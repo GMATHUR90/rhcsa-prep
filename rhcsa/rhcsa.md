@@ -1548,5 +1548,13 @@ The sixth field determines the order in which `fsck` (filesystem check) runs dur
 - **Value of `1`**: Check this filesystem first (used for critical filesystems like root `/`).
 - **Value of `2`**: Check this filesystem after the root filesystem (used for non-root filesystems).
     
+### **4. Reload `systemd` Daemon (if on a `systemd`based system):**
 
+```bash
+sudo systemctl daemon-reload
+```
+
+- **Test the Configuration:**
+    - Reboot the system to check if the mount persists:
+    
 
