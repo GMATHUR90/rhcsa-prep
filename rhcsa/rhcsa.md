@@ -1511,5 +1511,12 @@ Use dosfsck to check for errors:
 sudo mkdir /mybackups
 ```
 
-### 2. 1. **Mount the Filesystem Temporarily (to verify):**
+### 2. **Mount the Filesystem Temporarily (to verify):**
+
+```bash
+sudo mount /dev/vdb1 /mnt/
+sudo touch /mnt/testfile
+ls -l /mnt/
+sudo umount /mnt/
+```
 
