@@ -1540,6 +1540,13 @@ UUID=9ab8cfa5-2813-4b70-ada0-7abd0ad9d289 /mybackups xfs defaults 0 0
 - **`0` (Fifth Field)**: This filesystem will not be included in the backup routine.
 - **`2` (Sixth Field)**: `fsck` will check this filesystem after checking the root filesystem.
 
+### Field 6: Filesystem Check Order
+
+The sixth field determines the order in which `fsck` (filesystem check) runs during boot to check the integrity of the filesystem. The `fsck` command is used to detect and fix filesystem errors.
+
+- **Value of `0`**: Do not check the filesystem at boot.
+- **Value of `1`**: Check this filesystem first (used for critical filesystems like root `/`).
+- **Value of `2`**: Check this filesystem after the root filesystem (used for non-root filesystems).
     
 
 
