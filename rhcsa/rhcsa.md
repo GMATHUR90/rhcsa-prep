@@ -1556,5 +1556,13 @@ sudo systemctl daemon-reload
 
 - **Test the Configuration:**
     - Reboot the system to check if the mount persists:
-    
+```bash
+sudo systemctl reboot
+```
+    - After rebooting, verify that the filesystem is mounted:
+```bash
+lsblk
+ls -l /mybackups/
+```
+          
 
