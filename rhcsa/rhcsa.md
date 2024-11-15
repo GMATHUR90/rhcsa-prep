@@ -1568,6 +1568,11 @@ ls -l /mybackups/
 ```
 ## **Configure Disk Compression:(VDO service was part of RHEL8, to use VDO it come under lvm in RHEL9)**
 
-Virtual Data Optimizer (VDO) is a tool designed to optimize storage through feature like deduplication, compression and zero block filtering.
+**Virtual Data Optimizer (VDO)** is a tool designed to optimize storage through feature like deduplication, compression and zero block filtering.
           
+**Deduplication:** removing duplicate copies of repeating  data to save space.
+
+**Compression:** Reducing the size of data by encoding it in more efficient format to save storage space.
+
+**Zero-block Filtering**: Eliminating block of filtering data that are entirely filled with zeros to reduce storage overhead.
 
