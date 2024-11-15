@@ -1525,3 +1525,21 @@ Open the `/etc/fstab` file with a text editor:
 ```bash
 sudo vim /etc/fstab
 ```
+Add entries similar to the following, adjusting for device names, mount points, and filesystem types:
+
+```bash
+/dev/vdb1 /mybackups xfs defaults 0 2
+/dev/vdb2 /mybackups ext4 defaults 0 2
+
+```
+Alternatively, you can use the UUID instead of device names for more reliability:
+
+```bash
+UUID=9ab8cfa5-2813-4b70-ada0-7abd0ad9d289 /mybackups xfs defaults 0 0
+```
+- **`0` (Fifth Field)**: This filesystem will not be included in the backup routine.
+- **`2` (Sixth Field)**: `fsck` will check this filesystem after checking the root filesystem.
+
+    
+
+
