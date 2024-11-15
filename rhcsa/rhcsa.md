@@ -1559,7 +1559,9 @@ sudo systemctl daemon-reload
 ```bash
 sudo systemctl reboot
 ```
+
     - After rebooting, verify that the filesystem is mounted:
+
 ```bash
 lsblk
 ls -l /mybackups/
