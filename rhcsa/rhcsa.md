@@ -1560,11 +1560,14 @@ sudo systemctl daemon-reload
 sudo systemctl reboot
 ```
 
-    - After rebooting, verify that the filesystem is mounted:
+- After rebooting, verify that the filesystem is mounted:
 
 ```bash
 lsblk
 ls -l /mybackups/
 ```
+## **Configure Disk Compression:(VDO service was part of RHEL8, to use VDO it come under lvm in RHEL9)**
+
+Virtual Data Optimizer (VDO) is a tool designed to optimize storage through feature like deduplication, compression and zero block filtering.
           
 
