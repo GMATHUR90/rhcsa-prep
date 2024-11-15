@@ -1501,14 +1501,15 @@ Use dosfsck to check for errors:
 
 ![vfat_286.png](rhcsa_images/vfat_286.png)
 
-### Configure Systems to Mount File systems At or During Boot:
+## Configure Systems to Mount File systems At or During Boot:
 
-### Step-by-Step Guide
+## Step-by-Step Guide
 
-1. **Create a Mount Point (if not existing):**
+### 1. **Create a Mount Point (if not existing):**
 
 ```jsx
 sudo mkdir /mybackups
 ```
 
+### 2. 1. **Mount the Filesystem Temporarily (to verify):**
 
