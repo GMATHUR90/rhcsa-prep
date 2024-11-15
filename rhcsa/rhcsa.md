@@ -1506,3 +1506,9 @@ Use dosfsck to check for errors:
 ### Step-by-Step Guide
 
 1. **Create a Mount Point (if not existing):**
+
+```jsx
+sudo mkdir /mybackups
+```
+
+
