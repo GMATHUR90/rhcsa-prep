@@ -1519,4 +1519,9 @@ sudo touch /mnt/testfile
 ls -l /mnt/
 sudo umount /mnt/
 ```
-
+### 3. **Edit `/etc/fstab` to Add Filesystem Entries:**
+Open the `/etc/fstab` file with a text editor:
+    
+```bash
+sudo vim /etc/fstab
+```
