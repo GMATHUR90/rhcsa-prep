@@ -1580,4 +1580,7 @@ Prerequisite: lvm2 installed already.
 
 To set up VDO (Virtual Data Optimizer) using LVM on RHEL 9, follow these steps:
 
-### **Step 1: Create Physical Volume (PV)**
+### **Step 1: Create Physical Volume (PV)**:
+
+![vd0_287.png](rhcsa_images/vd0_287.png)
+
