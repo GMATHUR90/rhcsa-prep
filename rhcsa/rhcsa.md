@@ -1584,3 +1584,4 @@ To set up VDO (Virtual Data Optimizer) using LVM on RHEL 9, follow these steps:
 
 ![vd0_287.png](rhcsa_images/vd0_287.png)
 
+### Step 2: Create Volume Group (VG)
