@@ -1576,3 +1576,8 @@ ls -l /mybackups/
 
 **Zero-block Filtering**: Eliminating block of filtering data that are entirely filled with zeros to reduce storage overhead.
 
+Prerequisite: lvm2 installed already.
+
+To set up VDO (Virtual Data Optimizer) using LVM on RHEL 9, follow these steps:
+
+### **Step 1: Create Physical Volume (PV)**
