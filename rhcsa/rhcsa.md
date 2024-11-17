@@ -1602,6 +1602,11 @@ Create the logical volume with the `--type vdo` flag.
 
 ![vd0_291.png](rhcsa_images/vd0_291.png)
 
-## 2. Create a mount point and mount the volume.
+#### 2. Create a mount point and mount the volume.
 
 ![vd0_292.png](rhcsa_images/vd0_292.png)
+
+### Step 5: Configure Auto-Mount on Boot
+
+- 1. Get the UUID of the VDO volume.
+
