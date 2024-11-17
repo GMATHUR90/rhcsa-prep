@@ -1604,3 +1604,4 @@ Create the logical volume with the `--type vdo` flag.
 
 ## 2. Create a mount point and mount the volume.
 
+![vd0_292.png](rhcsa_images/vd0_292.png)
