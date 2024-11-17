@@ -1598,3 +1598,7 @@ Create the logical volume with the `--type vdo` flag.
 
 - Format the created VDO volume (e.g., `/dev/vg-vdo/lv-vdo`)
 
+![vd0_290.png](rhcsa_images/vd0_290.png)
+
+![vd0_291.png](rhcsa_images/vd0_291.png)
+
