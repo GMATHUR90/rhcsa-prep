@@ -1610,3 +1610,4 @@ Create the logical volume with the `--type vdo` flag.
 
 - 1. Get the UUID of the VDO volume.
 
+![vd0_293.png](rhcsa_images/vd0_293.png)
