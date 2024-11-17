@@ -1614,3 +1614,8 @@ Create the logical volume with the `--type vdo` flag.
 
 - 2. Add an entry to `/etc/fstab` to ensure the volume is mounted automatically on boot:
 
+![vd0_294.png](rhcsa_images/vd0_294.png)
+
+![vd0_295.png](rhcsa_images/vd0_295.png)
+
+
