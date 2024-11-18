@@ -1645,3 +1645,8 @@ Create the logical volume with the `--type vdo` flag.
 ![stratis_296.png](rhcsa_images/stratis_296.png)
 
 ![stratis_297.png](rhcsa_images/stratis_297.png)
+
+### 2.  **Creating a Stratis Pool**:
+
+Create a pool with one or multiple devices:
+
