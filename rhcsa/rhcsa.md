@@ -1653,3 +1653,7 @@ Create a pool with one or multiple devices:
 ![stratis_298.png](rhcsa_images/stratis_298.png)
 
 ![stratis_299.png](rhcsa_images/stratis_299.png)
+
+List pool details:
+
+
