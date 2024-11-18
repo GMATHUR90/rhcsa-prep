@@ -1641,3 +1641,7 @@ Create the logical volume with the `--type vdo` flag.
 **Tiering:** Tiering automatically moves data between faster and slower storage based on usage, balancing performance, cost by storing frequently accessed data on faster disks. 
 
 ### 1. Installing Stratis:
+
+![stratis_296.png](rhcsa_images/stratis_296.png)
+
+![stratis_297.png](rhcsa_images/stratis_297.png)
