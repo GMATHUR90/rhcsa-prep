@@ -1627,3 +1627,16 @@ Create the logical volume with the `--type vdo` flag.
 - sudo mkdir /mnt/vdo
 - sudo mount /dev/vg-vdo/lv-vdo /mnt/vdo
 - sudo blkid /dev/vg-vdo/lv-vdo
+
+### Manage Layered Storage Using Stratis:
+
+**Managed Layered Storage** simplifies storage management by creating a virtualized storage layer over physical devices.
+
+**Stratis** a storage management tool focusing on managing and deploying layered structure with features like snapshot, thin provisioning , and tiering.
+
+**Snapshot:** Snapshot capture the current state of a filesystem, allowing you to revert to it later if needed, useful for backup and recovery.
+
+**Thin Provisioning:** Thin Provisioning allocates storage on demand, optimizing space by only using capacity as data is written, rather than pre-allocationg all storage.
+
+**Tiering:** Tiering automatically moves data between faster and slower storage based on usage, balancing performance, cost by storing frequently accessed data on faster disks. 
+
