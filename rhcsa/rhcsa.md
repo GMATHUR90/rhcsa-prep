@@ -1656,4 +1656,5 @@ Create a pool with one or multiple devices:
 
 List pool details:
 
+![stratis_300.png](rhcsa_images/stratis_300.png)
 
