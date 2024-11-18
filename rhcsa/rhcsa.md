@@ -1618,12 +1618,12 @@ Create the logical volume with the `--type vdo` flag.
 
 ![vd0_295.png](rhcsa_images/vd0_295.png)
 
-Summary of Commands:
+### Summary of Commands:
 
-sudo pvcreate /dev/nvme2n1
-sudo vgcreate vg-vdo /dev/nvme2n1
-sudo lvcreate --type vdo -n lv-vdo -l 100%FREE /dev/vg-vdo
-sudo mkfs.xfs /dev/vg-vdo/lv-vdo
-sudo mkdir /mnt/vdo
-sudo mount /dev/vg-vdo/lv-vdo /mnt/vdo
-sudo blkid /dev/vg-vdo/lv-vdo
+- sudo pvcreate /dev/nvme2n1
+- sudo vgcreate vg-vdo /dev/nvme2n1
+- sudo lvcreate --type vdo -n lv-vdo -l 100%FREE /dev/vg-vdo
+- sudo mkfs.xfs /dev/vg-vdo/lv-vdo
+- sudo mkdir /mnt/vdo
+- sudo mount /dev/vg-vdo/lv-vdo /mnt/vdo
+- sudo blkid /dev/vg-vdo/lv-vdo
