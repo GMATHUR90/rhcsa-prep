@@ -1672,3 +1672,5 @@ Create a file system in the pool:
 
 - a. **Create a Mount Directory**:
 
+![stratis_303.png](rhcsa_images/stratis_303.png)
+
