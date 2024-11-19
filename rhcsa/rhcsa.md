@@ -1679,3 +1679,8 @@ Create a file system in the pool:
   - To ensure the filesystem mounts automatically on boot, add an entry to `/etc/fstab`.
   - Open `/etc/fstab` in a text editor, such as `vi` or `nano`.
 
+![stratis_304.png](rhcsa_images/stratis_304.png)
+
+![stratis_305.png](rhcsa_images/stratis_305.png)
+
+![stratis_306.png](rhcsa_images/stratis_306.png)
