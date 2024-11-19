@@ -1658,3 +1658,7 @@ List pool details:
 
 ![stratis_300.png](rhcsa_images/stratis_300.png)
 
+### 3. **Creating a Filesystem**:
+
+Create a file system in the pool:
+
