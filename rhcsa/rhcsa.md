@@ -1664,3 +1664,5 @@ Create a file system in the pool:
 
 ![stratis_301.png](rhcsa_images/stratis_301.png)
 
+- View filesystem details:
+
