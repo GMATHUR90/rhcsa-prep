@@ -1668,3 +1668,7 @@ Create a file system in the pool:
 
 ![stratis_302.png](rhcsa_images/stratis_302.png)
 
+### 4. **Mounting the Filesystem**:
+
+- a. **Create a Mount Directory**:
+
