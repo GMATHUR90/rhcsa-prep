@@ -1687,3 +1687,10 @@ Create a file system in the pool:
 
 - c. **Verify the Mount**:
 
+![stratis_307.png](rhcsa_images/stratis_307.png)
+
+![stratis_308.png](rhcsa_images/stratis_308.png)
+
+![stratis_309.png](rhcsa_images/stratis_309.png)
+
+
