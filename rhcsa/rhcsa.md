@@ -1705,3 +1705,7 @@ Create a file system in the pool:
 sudo stratis pool add-data my-pool /dev/vdd
 ```
 
+## **Filesystem Snapshots With Stratis**:
+
+### 1. **Create a Snapshot**:
+
