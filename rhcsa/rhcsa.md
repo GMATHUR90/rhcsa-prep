@@ -1698,3 +1698,10 @@ Create a file system in the pool:
 ![stratis_310.png](rhcsa_images/stratis_310.png)
 
 ![stratis_311.png](rhcsa_images/stratis_311.png)
+
+## **Adding Storage Devices To the Stratis Pool:**
+
+```bash
+sudo stratis pool add-data my-pool /dev/vdd
+```
+
