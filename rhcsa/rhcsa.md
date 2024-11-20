@@ -1684,3 +1684,6 @@ Create a file system in the pool:
 ![stratis_305.png](rhcsa_images/stratis_305.png)
 
 ![stratis_306.png](rhcsa_images/stratis_306.png)
+
+- c. **Verify the Mount**:
+
