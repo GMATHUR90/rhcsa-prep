@@ -1693,4 +1693,5 @@ Create a file system in the pool:
 
 ![stratis_309.png](rhcsa_images/stratis_309.png)
 
+- d. ** Copy Data to /mnt/mystratis:**:
 
