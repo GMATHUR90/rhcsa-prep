@@ -1720,3 +1720,11 @@ sudo stratis pool add-data my-pool /dev/vdd
 ![stratis_314.png](rhcsa_images/stratis_314.png)
 
 ### 4. **Rename Filesystems to Restore from Snapshot**:
+
+![stratis_316.png](rhcsa_images/stratis_316.png)
+
+![stratis_317.png](rhcsa_images/stratis_317.png)
+
+![stratis_318.png](rhcsa_images/stratis_318.png)
+
+
