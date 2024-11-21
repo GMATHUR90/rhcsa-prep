@@ -1715,8 +1715,8 @@ sudo stratis pool add-data my-pool /dev/vdd
 
 ![stratis_313.png](rhcsa_images/stratis_313.png)
 
-### 3. Verify the Snapshot:
+### 3. Delete a File:
 
 ![stratis_314.png](rhcsa_images/stratis_314.png)
 
-### 4. **Delete a File**:
+### 4. **Rename Filesystems to Restore from Snapshot**:
