@@ -1715,3 +1715,6 @@ sudo stratis pool add-data my-pool /dev/vdd
 
 ![stratis_313.png](rhcsa_images/stratis_313.png)
 
+### 3. Verify the Snapshot:
+
+
