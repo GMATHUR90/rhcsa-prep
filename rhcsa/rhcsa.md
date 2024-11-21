@@ -1727,4 +1727,5 @@ sudo stratis pool add-data my-pool /dev/vdd
 
 ![stratis_318.png](rhcsa_images/stratis_318.png)
 
+This renames the original filesystem (`mys1`) to `mys1-old` and renames the snapshot (`mys1-snapshot`) back to `myfs1`, effectively restoring the snapshot.
 
