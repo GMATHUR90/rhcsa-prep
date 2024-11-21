@@ -1718,3 +1718,5 @@ sudo stratis pool add-data my-pool /dev/vdd
 ### 3. Verify the Snapshot:
 
 ![stratis_314.png](rhcsa_images/stratis_314.png)
+
+### 4. **Delete a File**:
