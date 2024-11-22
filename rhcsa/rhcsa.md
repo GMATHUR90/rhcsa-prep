@@ -1755,3 +1755,7 @@ Specifiers:
 ![schedule_task_cron_321.png](rhcsa_images/schedule_task_cron_321.png)
 
 ### a. Use sudo vi /etc/crontab:
+
+![schedule_task_cron_322.png](rhcsa_images/schedule_task_cron_322.png)
+
+![schedule_task_cron_323.png](rhcsa_images/schedule_task_cron_323.png)
