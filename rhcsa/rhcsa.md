@@ -1732,3 +1732,5 @@ This renames the original filesystem (`mys1`) to `mys1-old` and renames the snap
 ### 5. **Remount the Filesystem**:
 
 ![stratis_319.png](rhcsa_images/stratis_319.png)
+
+After unmounting and remounting, the filesystem is now restored to the snapshot state.
