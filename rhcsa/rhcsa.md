@@ -1741,3 +1741,13 @@ After unmounting and remounting, the filesystem is now restored to the snapshot 
 - Cron Job are scheduled in the /etc/crontab file or by using the crontab -e command.
 
 ![schedule_task_cron_320.png](rhcsa_images/schedule_task_cron_320.png)
+
+```bash
+* : Every Possible Value for that time limit.
+
+Specifiers:
+, : list specific times(e.g, 15,45 runs at 15 and 45 mins.
+- : create a range( e.g. , 2-4 runs from 2 to 4 )
+*/n: denotes steps (e.g., */4 runs every 4 hours.
+```
+
