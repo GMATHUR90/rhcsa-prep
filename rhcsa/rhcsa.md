@@ -1752,3 +1752,4 @@ Specifiers:
 ```
 - System-wide cron schedules are stored in `/etc/cron.hourly`, `/etc/cron.daily`, `/etc/cron.weekly`, and `/etc/cron.monthly`.
 
+![schedule_task_cron_321.png](rhcsa_images/schedule_task_cron_321.png)
