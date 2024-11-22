@@ -1750,4 +1750,5 @@ Specifiers:
 - : create a range( e.g. , 2-4 runs from 2 to 4 )
 */n: denotes steps (e.g., */4 runs every 4 hours.
 ```
+- System-wide cron schedules are stored in `/etc/cron.hourly`, `/etc/cron.daily`, `/etc/cron.weekly`, and `/etc/cron.monthly`.
 
