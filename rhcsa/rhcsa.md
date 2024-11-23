@@ -1776,3 +1776,9 @@ Specifiers:
 
 - crontab -r : delete cron script
  
+### Verify script running:
+
+```bash
+sudo cat /var/log/cron | grep <script_name>
+```
+
