@@ -1766,4 +1766,13 @@ Specifiers:
 
 ![schedule_task_cron_325.png](rhcsa_images/schedule_task_cron_325.png)
 
-![schedule_task_cron_326.png](rhcsa_images/schedule_task_cron_326.png) 
+![schedule_task_cron_326.png](rhcsa_images/schedule_task_cron_326.png)
+
+### Crontab Commands:
+
+- crontab -e: create or edit crontab script
+
+- crontab -l : show cron script on terminal
+
+- crontab -r : delete cron script
+ 
