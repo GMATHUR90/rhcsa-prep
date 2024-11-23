@@ -1782,3 +1782,8 @@ Specifiers:
 sudo cat /var/log/cron | grep <script_name>
 ```
 ![verify_cron_task_327.png](rhcsa_images/verify_cron_task_327.png)
+
+### 2. Anacron:
+- Anacron is for task that run daily, weekly, or monthly but may have not fixed time.
+- `Anacron` is preferred for ensuring task completion on systems that do not have guaranteed uptime, whereas `cron` is suited for servers and systems that run continuously.
+
