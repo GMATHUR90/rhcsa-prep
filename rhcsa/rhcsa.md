@@ -1781,4 +1781,4 @@ Specifiers:
 ```bash
 sudo cat /var/log/cron | grep <script_name>
 ```
-
+![verify_cron_task_327.png](rhcsa_images/verify_cron_task_327.png)
