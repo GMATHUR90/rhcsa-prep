@@ -1788,3 +1788,12 @@ sudo cat /var/log/cron | grep <script_name>
 - `Anacron` is preferred for ensuring task completion on systems that do not have guaranteed uptime, whereas `cron` is suited for servers and systems that run continuously.
 
 ![anacron_328.png](rhcsa_images/anacron_328.png)
+
+- **Syntax:**
+
+  - The `/etc/anacrontab` file is used tofdefine tasks for `anacron`. The syntax for each entry is:
+
+```bash
+period_in_days   delay_in_minutes   job-identifier   command
+```
+
