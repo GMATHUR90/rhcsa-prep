@@ -1802,3 +1802,6 @@ period_in_days   delay_in_minutes   job-identifier   command
 - **`job-identifier`**: A unique name for the job.
 - **`command`**: The command or script to execute.
 
+![anacron_329.png](rhcsa_images/anacron_329.png)
+
+![anacron_330.png](rhcsa_images/anacron_330.png)
