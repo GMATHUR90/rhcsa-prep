@@ -1760,4 +1760,10 @@ Specifiers:
 
 ![schedule_task_cron_323.png](rhcsa_images/schedule_task_cron_323.png)
 
-### b. Using crontab -e: 
+### b. Using crontab -e:
+
+![schedule_task_cron_324.png](rhcsa_images/schedule_task_cron_324.png)
+
+![schedule_task_cron_325.png](rhcsa_images/schedule_task_cron_325.png)
+
+![schedule_task_cron_326.png](rhcsa_images/schedule_task_cron_326.png) 
