@@ -1797,3 +1797,8 @@ sudo cat /var/log/cron | grep <script_name>
 period_in_days   delay_in_minutes   job-identifier   command
 ```
 
+- **`period_in_days`**: Frequency in days to run the job (e.g., `1` for daily, `7` for weekly).
+- **`delay_in_minutes`**: The delay (in minutes) before running the job after the system starts.
+- **`job-identifier`**: A unique name for the job.
+- **`command`**: The command or script to execute.
+
