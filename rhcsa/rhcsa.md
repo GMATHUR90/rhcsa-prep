@@ -1821,4 +1821,6 @@ period_in_days   delay_in_minutes   job-identifier   command
 
 Step 2: Start and Enable the `atd` Service:
 
+![at_334.png](rhcsa_images/at_334.png)
 
+![at_335.png](rhcsa_images/at_335.png)
