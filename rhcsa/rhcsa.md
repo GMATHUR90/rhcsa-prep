@@ -1805,3 +1805,5 @@ period_in_days   delay_in_minutes   job-identifier   command
 ![anacron_329.png](rhcsa_images/anacron_329.png)
 
 ![anacron_330.png](rhcsa_images/anacron_330.png)
+
+- Run `anacron` in test mode to verify: sudo anacron -T
