@@ -1837,4 +1837,6 @@ press ctrl+d(signifies end of input)
 
 ![at_337.png](rhcsa_images/at_337.png)
 
+- b. Remove a job if necessary with:
+
 
