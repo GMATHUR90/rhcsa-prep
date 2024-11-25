@@ -1831,3 +1831,7 @@ press ctrl+d(signifies end of input)
 
 ![at_336.png](rhcsa_images/at_336.png)
 
+### Step 4: Verify the `at` Job
+
+- a. List pending jobs using:
+
