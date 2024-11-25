@@ -1835,3 +1835,6 @@ press ctrl+d(signifies end of input)
 
 - a. List pending jobs using:
 
+![at_337.png](rhcsa_images/at_337.png)
+
+
