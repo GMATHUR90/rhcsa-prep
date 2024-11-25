@@ -1841,3 +1841,5 @@ press ctrl+d(signifies end of input)
 
 ![at_338.png](rhcsa_images/at_338.png)
 
+- c. Job execution:
+
