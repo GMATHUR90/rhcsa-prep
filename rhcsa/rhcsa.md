@@ -1819,8 +1819,13 @@ period_in_days   delay_in_minutes   job-identifier   command
 
 ![at_333.png](rhcsa_images/at_333.png)
 
-Step 2: Start and Enable the `atd` Service:
+### Step 2: Start and Enable the `atd` Service:
 
 ![at_334.png](rhcsa_images/at_334.png)
 
 ![at_335.png](rhcsa_images/at_335.png)
+
+### Step 3: Try the `at` Command
+
+press ctrl+d(signifies end of input)
+
