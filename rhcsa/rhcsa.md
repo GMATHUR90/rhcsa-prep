@@ -1847,3 +1847,5 @@ press ctrl+d(signifies end of input)
 
 - d. Using at ‘now + time’:
 
+![at_340.png](rhcsa_images/at_340.png)
+
