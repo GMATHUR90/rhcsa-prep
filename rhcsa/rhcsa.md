@@ -1859,3 +1859,13 @@ press ctrl+d(signifies end of input)
   - 3. device: Manages device-related events.
   - 4. timer: Handles scheduled tasks.
 
+### Working with services:
+
+- 1. Service Configuration:
+  - Configuration files end with .services.
+  - Defined sections:
+    - 1. Unit: General settings ( description, dependencies).
+    - 2. Service: Process-related configurations( e.g., ExecStart, Restart policies)
+    - 3. Install: Installations settings(e.g., targets like multi-user.target).
+
+
