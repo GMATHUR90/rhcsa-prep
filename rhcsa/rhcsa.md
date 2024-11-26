@@ -1849,3 +1849,13 @@ press ctrl+d(signifies end of input)
 
 ![at_340.png](rhcsa_images/at_340.png)
 
+## Manage Startup Processes and Services:
+
+### 1. System Initialization:
+- init system initialize the system and manages startup services.
+- Units: The basic object in systemd. Types include:
+  - 1. service: Manages processes.
+  - 2. socket: Manages inter-process communication.
+  - 3. device: Manages device-related events.
+  - 4. timer: Handles scheduled tasks.
+
