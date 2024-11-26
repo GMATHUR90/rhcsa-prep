@@ -1874,3 +1874,5 @@ press ctrl+d(signifies end of input)
 
 ![start_up_process_341.png](rhcsa_images/start_up_process_341.png)
 
+ - b. Edit service configuration:
+
