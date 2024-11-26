@@ -1876,6 +1876,6 @@ press ctrl+d(signifies end of input)
 
  - b. Edit service configuration:
 
-![start_up_process_342.png](rhcsa_images/[start_up_process_342.png)
+![start_up_process_342.png](rhcsa_images/start_up_process_342.png)
 
-![start_up_process_343.png](rhcsa_images/[start_up_process_343.png)
+![start_up_process_343.png](rhcsa_images/start_up_process_343.png)
