@@ -1864,8 +1864,12 @@ press ctrl+d(signifies end of input)
 - 1. Service Configuration:
   - Configuration files end with .services.
   - Defined sections:
-    - 1. Unit: General settings ( description, dependencies).
-    - 2. Service: Process-related configurations( e.g., ExecStart, Restart policies)
-    - 3. Install: Installations settings(e.g., targets like multi-user.target).
+    - a. Unit: General settings ( description, dependencies).
+    - b. Service: Process-related configurations( e.g., ExecStart, Restart policies)
+    - c. Install: Installations settings(e.g., targets like multi-user.target).
+
+- 2. Viewing and Editing services:
+
+  - a. View service details:
 
 
