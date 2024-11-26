@@ -1872,5 +1872,5 @@ press ctrl+d(signifies end of input)
 
   - a. View service details:
 
-![start_up_process_341.png](rhcsa_images/[start_up_process_341.png)
+![start_up_process_341.png](rhcsa_images/start_up_process_341.png)
 
