@@ -1880,6 +1880,9 @@ press ctrl+d(signifies end of input)
 
 ![start_up_process_343.png](rhcsa_images/start_up_process_343.png)
 
- - c. Revert to default
+ - c. Revert to default:
 
 ![start_up_process_344.png](rhcsa_images/start_up_process_344.png)
+
+ - d. Show status of service:
+
