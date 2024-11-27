@@ -1887,3 +1887,5 @@ press ctrl+d(signifies end of input)
  - d. Show status of service:
 
 ![start_up_process_345.png](rhcsa_images/start_up_process_345.png)
+
+ - e. Start and Stop a service:
