@@ -1893,3 +1893,5 @@ press ctrl+d(signifies end of input)
 ![start_up_process_346.png](rhcsa_images/start_up_process_346.png)
 
 ![start_up_process_347.png](rhcsa_images/start_up_process_347.png)
+
+ - f. **Restart and Reload**:
