@@ -1889,3 +1889,7 @@ press ctrl+d(signifies end of input)
 ![start_up_process_345.png](rhcsa_images/start_up_process_345.png)
 
  - e. Start and Stop a service:
+
+![start_up_process_346.png](rhcsa_images/start_up_process_346.png)
+
+![start_up_process_347.png](rhcsa_images/start_up_process_347.png)
