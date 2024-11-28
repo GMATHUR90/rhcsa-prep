@@ -1901,3 +1901,7 @@ press ctrl+d(signifies end of input)
 ![start_up_process_349.png](rhcsa_images/start_up_process_349.png)
 
  - **g. Enable and Disable**:
+
+![start_up_process_350.png](rhcsa_images/start_up_process_350.png)
+
+![start_up_process_351.png](rhcsa_images/start_up_process_351.png)
