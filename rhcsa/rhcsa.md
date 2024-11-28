@@ -1914,3 +1914,8 @@ press ctrl+d(signifies end of input)
 - **Masking** is useful to completely disable services that you don't want running under any circumstances.
 - **Unmasking** restores the default behavior of the service, allowing it to be controlled as usual.
 
+![start_up_process_353.png](rhcsa_images/start_up_process_353.png)
+
+![start_up_process_354.png](rhcsa_images/start_up_process_354.png)
+
+
