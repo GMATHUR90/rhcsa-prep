@@ -1907,3 +1907,6 @@ press ctrl+d(signifies end of input)
 ![start_up_process_351.png](rhcsa_images/start_up_process_351.png)
 
  - h) Reload-or-Restart service:
+
+![start_up_process_352.png](rhcsa_images/start_up_process_352.png)
+
