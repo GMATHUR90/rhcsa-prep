@@ -1955,3 +1955,4 @@ sudo subscription-manager attach --auto
 sudo subscription-manager repos --enable <repo-id>
 ```
 
+![install_and_update_software_packages_356.png](rhcsa_images/install_and_update_software_packages_356.png)
