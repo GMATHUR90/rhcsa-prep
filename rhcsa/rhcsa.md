@@ -1918,9 +1918,18 @@ press ctrl+d(signifies end of input)
 
 ![start_up_process_354.png](rhcsa_images/start_up_process_354.png)
 
-Install and Update Software Packages:
+## Install and Update Software Packages:
 
-1. Subscription Manager:
+### 1. Subscription Manager:
 
 Subscription Manager is a tool in RHEL used to manage subscription, ensure that you can access Red Hat’s Official Repositories and updates. 
 
+### **Key Commands**
+
+### a. **Register Your System**
+    
+    To access software and updates, register your system with your Red Hat account:
+    
+```bash
+sudo subscription-manager register --username <your-username> --password <your-password>
+```
