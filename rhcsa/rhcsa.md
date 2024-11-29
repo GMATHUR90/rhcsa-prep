@@ -1942,3 +1942,8 @@ Automatically assigns the best-matched subscription to your system:
 sudo subscription-manager attach --auto
 
 ```
+
+### **2. Managing Repositories**
+
+### a.  **List active repositories:**
+
