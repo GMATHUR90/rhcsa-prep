@@ -1926,10 +1926,19 @@ Subscription Manager is a tool in RHEL used to manage subscription, ensure that 
 
 ### **Key Commands**
 
-### a. **Register Your System**
+### a. **Register Your System**:
     
     To access software and updates, register your system with your Red Hat account:
     
 ```bash
 sudo subscription-manager register --username <your-username> --password <your-password>
+```
+
+### b. **Attach a Subscription Automatically**: 
+
+Automatically assigns the best-matched subscription to your system:
+
+```bash
+sudo subscription-manager attach --auto
+
 ```
