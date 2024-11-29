@@ -1963,4 +1963,9 @@ sudo subscription-manager repos --enable <repo-id>
 sudo subscription-manager repos --disable <repo-id>
 
 ```
+### **d. Add a custom repository:**
+
+```bash
+sudo yum-config-manager --add-repo <repo-url>
+```
 
