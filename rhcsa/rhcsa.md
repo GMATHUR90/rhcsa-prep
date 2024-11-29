@@ -1974,5 +1974,5 @@ sudo yum-config-manager --add-repo <repo-url>
 ```bash
 sudo yum repolist -v
 ```
-
+![install_and_update_software_packages_357.png](rhcsa_images/install_and_update_software_packages_357.png)
 
