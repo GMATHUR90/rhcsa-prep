@@ -1945,7 +1945,13 @@ sudo subscription-manager attach --auto
 
 ### **2. Managing Repositories**
 
-### a.  **List active repositories:**:
+### a.  **List active repositories:**
 
 ![install_and_update_software_packages_355.png](rhcsa_images/install_and_update_software_packages_355.png)
+
+### b. *Enable a repository:*
+
+```bash
+sudo subscription-manager repos --enable <repo-id>
+```
 
