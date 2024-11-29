@@ -1969,3 +1969,10 @@ sudo subscription-manager repos --disable <repo-id>
 sudo yum-config-manager --add-repo <repo-url>
 ```
 
+### **e. View repository details:**
+
+```bash
+sudo yum repolist -v
+```
+
+
