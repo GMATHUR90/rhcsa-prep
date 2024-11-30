@@ -2021,3 +2021,7 @@ sudo yum autoremove
 
 ```
 
+## 4. Group Package Management:
+
+### a. View and manage package groups:
+
