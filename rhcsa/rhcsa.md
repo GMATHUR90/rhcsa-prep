@@ -1998,4 +1998,12 @@ sudo yum search 'description'
 
 ![install_and_update_software_packages_359.png](rhcsa_images/install_and_update_software_packages_359.png)
 
+### c. Install, reinstall, or remove packages:
+
+```bash
+sudo yum install <package-name>
+sudo yum reinstall <package-name>
+sudo yum remove <package-name>
+
+```
 
