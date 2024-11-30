@@ -2007,3 +2007,10 @@ sudo yum remove <package-name>
 
 ```
 
+### d. Install packages from URL or local file:
+
+```bash
+sudo yum install <file-path-or-URL>
+
+```
+
