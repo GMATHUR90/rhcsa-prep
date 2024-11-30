@@ -1982,5 +1982,5 @@ sudo yum repolist -v
 ```bash
 sudo yum repolist --all
 ```
- 
+![install_and_update_software_packages_358.png](rhcsa_images/install_and_update_software_packages_358.png) 
 
