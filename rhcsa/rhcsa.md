@@ -1984,3 +1984,14 @@ sudo yum repolist --all
 ```
 ![install_and_update_software_packages_358.png](rhcsa_images/install_and_update_software_packages_358.png) 
 
+### **3. Managing Packages with `yum`:**
+
+1. Search for a package:
+
+```bash
+sudo yum search <package-name>
+sudo yum search 'description'
+
+```
+
+
