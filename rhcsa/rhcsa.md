@@ -1996,3 +1996,6 @@ sudo yum search 'description'
 
 ### b. Get package details:
 
+![install_and_update_software_packages_359.png](rhcsa_images/install_and_update_software_packages_359.png)
+
+
