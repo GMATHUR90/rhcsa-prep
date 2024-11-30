@@ -1976,3 +1976,11 @@ sudo yum repolist -v
 ```
 ![install_and_update_software_packages_357.png](rhcsa_images/install_and_update_software_packages_357.png)
 
+
+### **f. View all repo:**
+
+```bash
+sudo yum repolist --all
+```
+ 
+
