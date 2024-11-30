@@ -1986,7 +1986,7 @@ sudo yum repolist --all
 
 ### **3. Managing Packages with `yum`:**
 
-1. Search for a package:
+### a. Search for a package:
 
 ```bash
 sudo yum search <package-name>
@@ -1994,4 +1994,5 @@ sudo yum search 'description'
 
 ```
 
+### b. Get package details:
 
