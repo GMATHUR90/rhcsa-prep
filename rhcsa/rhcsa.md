@@ -2014,3 +2014,10 @@ sudo yum install <file-path-or-URL>
 
 ```
 
+### e. Autoremove unused dependencies:
+
+```bash
+sudo yum autoremove
+
+```
+
