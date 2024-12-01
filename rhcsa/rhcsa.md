@@ -2025,3 +2025,10 @@ sudo yum autoremove
 
 ### a. View and manage package groups:
 
+![install_and_update_software_packages_360.png](rhcsa_images/install_and_update_software_packages_360.png)
+
+![install_and_update_software_packages_361.png](rhcsa_images/install_and_update_software_packages_361.png)
+
+![install_and_update_software_packages_362.png](rhcsa_images/install_and_update_software_packages_362.png)
+
+
