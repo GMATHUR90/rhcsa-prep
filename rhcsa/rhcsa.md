@@ -2058,3 +2058,5 @@ sudo yum group remove '<group-name>'
 - b. List Details for a Specific Module (e.g., maven):
 
 ![install_and_update_software_packages_364.png](rhcsa_images/install_and_update_software_packages_364.png)
+
+- c. View Installed Module Streams:
