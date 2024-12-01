@@ -2031,4 +2031,8 @@ sudo yum autoremove
 
 ![install_and_update_software_packages_362.png](rhcsa_images/install_and_update_software_packages_362.png)
 
+```bash
+sudo yum group install '<group-name>'
+sudo yum group remove '<group-name>'
+```
 
