@@ -2051,7 +2051,8 @@ sudo yum group remove '<group-name>'
 
 ## Working With Package Module Streams
 
-1. List Available Modules:
+- a. List Available Modules:
 
 ![install_and_update_software_packages_363.png](rhcsa_images/install_and_update_software_packages_363.png)
 
+- b. List Details for a Specific Module (e.g., maven):
