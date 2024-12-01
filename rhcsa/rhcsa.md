@@ -2039,3 +2039,7 @@ sudo yum group remove '<group-name>'
 
 - Check available updates:
 
+```bash
+    sudo yum check-upgrade
+```
+
