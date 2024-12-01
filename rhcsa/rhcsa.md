@@ -2053,4 +2053,5 @@ sudo yum group remove '<group-name>'
 
 1. List Available Modules:
 
+![install_and_update_software_packages_363.png](rhcsa_images/install_and_update_software_packages_363.png)
 
