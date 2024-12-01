@@ -2035,4 +2035,7 @@ sudo yum autoremove
 sudo yum group install '<group-name>'
 sudo yum group remove '<group-name>'
 ```
+## 5. **Updating and Upgrading**
+
+- Check available updates:
 
