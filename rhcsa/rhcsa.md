@@ -2064,3 +2064,7 @@ sudo yum group remove '<group-name>'
 ![install_and_update_software_packages_365.png](rhcsa_images/install_and_update_software_packages_365.png)
 
 - d) Switch Streams by Resetting and Reinstalling:
+
+![install_and_update_software_packages_366.png](rhcsa_images/install_and_update_software_packages_366.png)
+
+![install_and_update_software_packages_367.png](rhcsa_images/install_and_update_software_packages_367.png)
