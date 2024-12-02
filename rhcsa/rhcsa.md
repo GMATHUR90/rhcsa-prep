@@ -2062,3 +2062,5 @@ sudo yum group remove '<group-name>'
 - c. View Installed Module Streams:
 
 ![install_and_update_software_packages_365.png](rhcsa_images/install_and_update_software_packages_365.png)
+
+- d) Switch Streams by Resetting and Reinstalling:
