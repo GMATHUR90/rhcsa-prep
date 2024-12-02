@@ -2076,4 +2076,6 @@ sudo yum group remove '<group-name>'
 
 ### a. Check network connections:
 
+![configure_networking_and_hostname_368.png](rhcsa_images/configure_networking_and_hostname_368.png)
+
 
