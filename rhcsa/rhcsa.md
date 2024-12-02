@@ -2078,4 +2078,6 @@ sudo yum group remove '<group-name>'
 
 ![configure_networking_and_hostname_368.png](rhcsa_images/configure_networking_and_hostname_368.png)
 
+### b. Modify network connection:
+
 
