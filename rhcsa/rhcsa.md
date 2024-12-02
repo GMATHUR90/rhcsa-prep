@@ -2068,3 +2068,8 @@ sudo yum group remove '<group-name>'
 ![install_and_update_software_packages_366.png](rhcsa_images/install_and_update_software_packages_366.png)
 
 ![install_and_update_software_packages_367.png](rhcsa_images/install_and_update_software_packages_367.png)
+
+### Configure Networking and Hostname:
+
+- Use appropriate IP address, gateway, and other configurations based on your network setup.
+- Tools such as `nmcli` can assist with managing network configurations directly from the command line.
