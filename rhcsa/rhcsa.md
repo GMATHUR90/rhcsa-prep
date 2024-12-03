@@ -2086,16 +2086,20 @@ sudo yum group remove '<group-name>'
 
 Ensure the `NetworkManager.service` is enabled and active for managing network connections.
 
-### 1. Check status: 
+### a. Check status: 
 
 ![configure_networking_and_hostname_370.png](rhcsa_images/configure_networking_and_hostname_370.png)
 
-b. Install Network Manager:
+### b. Install Network Manager:
 
 ![configure_networking_and_hostname_371.png](rhcsa_images/configure_networking_and_hostname_371.png)
 
-c. Start and enable:
+### c. Start and enable:
 
 ![configure_networking_and_hostname_372.png](rhcsa_images/configure_networking_and_hostname_372.png) 
 
+## Start, Stop, and Check Network Services
 
+### **Key Commands:**
+
+### **a. Use `ss` to Check Active Network Connections**
