@@ -2086,3 +2086,5 @@ sudo yum group remove '<group-name>'
 
 Ensure the `NetworkManager.service` is enabled and active for managing network connections.
 
+### 1. Check status: 
+
