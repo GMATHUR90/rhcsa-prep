@@ -2090,3 +2090,4 @@ Ensure the `NetworkManager.service` is enabled and active for managing network c
 
 ![configure_networking_and_hostname_370.png](rhcsa_images/configure_networking_and_hostname_370.png)
 
+b. Install Network Manager: 
