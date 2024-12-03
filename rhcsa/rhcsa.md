@@ -2092,4 +2092,6 @@ Ensure the `NetworkManager.service` is enabled and active for managing network c
 
 b. Install Network Manager:
 
-![configure_networking_and_hostname_371.png](rhcsa_images/configure_networking_and_hostname_371.png) 
+![configure_networking_and_hostname_371.png](rhcsa_images/configure_networking_and_hostname_371.png)
+
+c. Start and enable: 
