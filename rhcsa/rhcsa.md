@@ -2102,4 +2102,6 @@ Ensure the `NetworkManager.service` is enabled and active for managing network c
 
 ### **Key Commands:**
 
-### **a. Use `ss` to Check Active Network Connections**
+### **a. Use `ss` to Check Active Network Connections**:
+
+![configure_networking_and_hostname_373.png](rhcsa_images/configure_networking_and_hostname_373.png)
