@@ -2114,3 +2114,7 @@ Options:
 - `n`: Display numeric values for addresses and ports.
 - `p`: Display process information.
 
+### **2. Using `systemctl` to Manage Services**
+
+- a.  **Check Service Status**:
+
