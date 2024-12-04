@@ -2136,3 +2136,4 @@ Options:
 
 ### a. Get details about a process:
 
+![configure_networking_and_hostname_379.png](rhcsa_images/configure_networking_and_hostname_379.png)
