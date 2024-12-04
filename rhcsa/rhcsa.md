@@ -2132,3 +2132,7 @@ Options:
 
 ![configure_networking_and_hostname_378.png](rhcsa_images/configure_networking_and_hostname_378.png)
 
+## Check Process Information:
+
+### a. Get details about a process:
+
