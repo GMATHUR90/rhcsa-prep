@@ -2118,3 +2118,6 @@ Options:
 
 - a.  **Check Service Status**:
 
+![configure_networking_and_hostname_374.png](rhcsa_images/configure_networking_and_hostname_374.png)
+
+
