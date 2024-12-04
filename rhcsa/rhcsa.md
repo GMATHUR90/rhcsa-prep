@@ -2122,4 +2122,7 @@ Options:
 
 - b. **Start/Stop a Service**
 
+![configure_networking_and_hostname_375.png](rhcsa_images/configure_networking_and_hostname_375.png)
+
+![configure_networking_and_hostname_376.png](rhcsa_images/configure_networking_and_hostname_376.png)
 
