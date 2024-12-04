@@ -2105,3 +2105,12 @@ Ensure the `NetworkManager.service` is enabled and active for managing network c
 ### **a. Use `ss` to Check Active Network Connections**:
 
 ![configure_networking_and_hostname_373.png](rhcsa_images/configure_networking_and_hostname_373.png)
+
+Options:
+
+- `l`: Show listening services.
+- `t`: Show TCP connections.
+- `u`: Show UDP connections.
+- `n`: Display numeric values for addresses and ports.
+- `p`: Display process information.
+
