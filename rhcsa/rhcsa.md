@@ -2128,3 +2128,7 @@ Options:
 
 - c. **Enable/Disable a Service at Boot**
 
+![configure_networking_and_hostname_377.png](rhcsa_images/configure_networking_and_hostname_377.png)
+
+![configure_networking_and_hostname_378.png](rhcsa_images/configure_networking_and_hostname_378.png)
+
