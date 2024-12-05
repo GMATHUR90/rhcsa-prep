@@ -2142,4 +2142,4 @@ Options:
 
 - install ‘lsof’ using ‘sudo dnf install lsof -y’
 
-[configure_networking_and_hostname_380.png](rhcsa_images/configure_networking_and_hostname_380.png)
+![configure_networking_and_hostname_380.png](rhcsa_images/configure_networking_and_hostname_380.png)
