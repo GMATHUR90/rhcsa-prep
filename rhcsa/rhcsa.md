@@ -2138,8 +2138,8 @@ Options:
 
 ![configure_networking_and_hostname_379.png](rhcsa_images/configure_networking_and_hostname_379.png)
 
-b. List open files by a process:
+### b. List open files by a process:
 
 - install ‘lsof’ using ‘sudo dnf install lsof -y’
 
-
+[configure_networking_and_hostname_380.png](rhcsa_images/configure_networking_and_hostname_380.png)
