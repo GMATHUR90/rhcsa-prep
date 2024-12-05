@@ -2156,4 +2156,5 @@ Options:
 sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo systemctl start firewalld && sudo systemctl status firewalld
 
 ```
+### b. Retrieve default zone:
 
