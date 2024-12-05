@@ -2158,8 +2158,9 @@ sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo system
 ```
 ### b. Retrieve default zone:
 
-![packet_filtering_with_firewalld_381.png](rhcsa_images/packet_filtering_with_firewalld_381)
+![packet_filtering_with_firewalld_381.png](rhcsa_images/packet_filtering_with_firewalld_381.png)
 
 ### c. Set default zone:
 
+![packet_filtering_with_firewalld_382.png](rhcsa_images/packet_filtering_with_firewalld_382.png)
 
