@@ -2144,7 +2144,16 @@ Options:
 
 ![configure_networking_and_hostname_380.png](rhcsa_images/configure_networking_and_hostname_380.png)
 
-### Packet Filtering with firewalld
+## Packet Filtering with firewalld
 
 **firewalld** is a dynamic firewall management tool in Linux that provides an interface to configure and manage network traffic rules using zones and services.
+
+### 1. **Default Zone Configuration**:
+
+### a. Configure firewalld:
+
+```bash
+sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo systemctl start firewalld && sudo systemctl status firewalld
+
+```
 
