@@ -2174,3 +2174,6 @@ sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo system
 
 ![packet_filtering_with_firewalld_384.png](rhcsa_images/packet_filtering_with_firewalld_384.png)
 
+### c. Remove service: 
+
+
