@@ -2166,6 +2166,9 @@ sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo system
 
 ### 2. **Listing and Managing Services**:
 
-- List all active configurations:
+### a.  List all active configurations:
 
 ![packet_filtering_with_firewalld_383.png](rhcsa_images/packet_filtering_with_firewalld_383.png)
+
+### b. Add service (e.g., HTTP):
+
