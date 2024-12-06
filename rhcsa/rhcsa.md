@@ -2182,4 +2182,6 @@ sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo system
 
 ### a. Add a specific port (e.g., 80/TCP):
 
+![packet_filtering_with_firewalld_386.png](rhcsa_images/packet_filtering_with_firewalld_386.png)
+
 
