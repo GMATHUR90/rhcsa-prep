@@ -2168,3 +2168,4 @@ sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo system
 
 - List all active configurations:
 
+![packet_filtering_with_firewalld_383.png](rhcsa_images/packet_filtering_with_firewalld_383.png)
