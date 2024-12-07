@@ -2196,3 +2196,5 @@ sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo system
 
 ### b. List active zones:
 
+![packet_filtering_with_firewalld_389.png](rhcsa_images/packet_filtering_with_firewalld_389.png)
+
