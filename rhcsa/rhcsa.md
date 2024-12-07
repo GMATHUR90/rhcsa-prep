@@ -2193,3 +2193,6 @@ sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo system
 ### a. Add a source to a zone:
 
 ![packet_filtering_with_firewalld_388.png](rhcsa_images/packet_filtering_with_firewalld_388.png)
+
+### b. List active zones:
+
