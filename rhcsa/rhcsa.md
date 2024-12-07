@@ -2186,3 +2186,4 @@ sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo system
 
 ### b. Remove a specific port:
 
+![packet_filtering_with_firewalld_387.png](rhcsa_images/packet_filtering_with_firewalld_387.png)
