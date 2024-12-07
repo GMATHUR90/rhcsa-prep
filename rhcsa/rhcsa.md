@@ -2198,3 +2198,6 @@ sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo system
 
 ![packet_filtering_with_firewalld_389.png](rhcsa_images/packet_filtering_with_firewalld_389.png)
 
+### c. Remove a source from a zone:
+
+
