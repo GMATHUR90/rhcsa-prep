@@ -2214,10 +2214,6 @@ sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo system
 
 ## Statically Route IP Traffic
 
-### **Static Route Configuration**:
-
-### a. **Adding Static Routes**:
-
 ### Scenario Details:
 
 - **Interface**: `eth0`
@@ -2226,3 +2222,7 @@ sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo system
 - **Destination Network**: Add static routes to example subnets `192.168.1.0/24` and `10.0.0.0/8`. 
 
 ![packet_filtering_with_firewalld_393.png](rhcsa_images/packet_filtering_with_firewalld_393.png)
+
+### **Static Route Configuration**
+
+### a. **Adding Static Routes**:
