@@ -2214,5 +2214,14 @@ sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo system
 
 ## Statically Route IP Traffic
 
-### **Static Route Configuration**: 
+### **Static Route Configuration**:
+
+a. **Adding Static Routes**:
+
+### Scenario Details:
+
+- **Interface**: `eth0`
+- **IPv4 Address**: `172.31.78.229/20`
+- **Gateway**: Assume the gateway is `172.31.64.1` (a typical default gateway for a `/20` subnet with a private IP starting from `172.31.64.0`).
+- **Destination Network**: Add static routes to example subnets `192.168.1.0/24` and `10.0.0.0/8`. 
 
