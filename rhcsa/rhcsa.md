@@ -2205,3 +2205,6 @@ sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo system
 ### 4. **Permanent and Runtime Configurations**:
 
 ### a. Make runtime changes permanent:
+
+![packet_filtering_with_firewalld_391.png](rhcsa_images/packet_filtering_with_firewalld_391.png)
+
