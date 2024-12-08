@@ -2216,7 +2216,7 @@ sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo system
 
 ### **Static Route Configuration**:
 
-a. **Adding Static Routes**:
+### a. **Adding Static Routes**:
 
 ### Scenario Details:
 
