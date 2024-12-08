@@ -2226,3 +2226,8 @@ sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo system
 ### **Static Route Configuration**
 
 ### a. **Adding Static Routes**:
+
+```bash
+sudo ip route add <destination_network>/<subnet_mask> via <gateway_ip> dev <interface>
+```
+
