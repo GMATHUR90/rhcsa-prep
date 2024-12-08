@@ -2208,3 +2208,5 @@ sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo system
 
 ![packet_filtering_with_firewalld_391.png](rhcsa_images/packet_filtering_with_firewalld_391.png)
 
+### b. Add a permanent rule (e.g., a port):
+
