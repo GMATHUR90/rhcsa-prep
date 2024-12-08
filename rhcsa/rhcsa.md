@@ -2225,3 +2225,4 @@ sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo system
 - **Gateway**: Assume the gateway is `172.31.64.1` (a typical default gateway for a `/20` subnet with a private IP starting from `172.31.64.0`).
 - **Destination Network**: Add static routes to example subnets `192.168.1.0/24` and `10.0.0.0/8`. 
 
+![packet_filtering_with_firewalld_393.png](rhcsa_images/packet_filtering_with_firewalld_393.png)
