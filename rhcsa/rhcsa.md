@@ -2212,3 +2212,7 @@ sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo system
 
 ![packet_filtering_with_firewalld_392.png](rhcsa_images/packet_filtering_with_firewalld_392.png)
 
+## Statically Route IP Traffic
+
+### **Static Route Configuration**: 
+
