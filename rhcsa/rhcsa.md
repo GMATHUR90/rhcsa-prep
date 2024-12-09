@@ -2243,3 +2243,5 @@ sudo ip route del <destination_network>/<subnet_mask> via <gateway_ip>
 sudo ip route add  default via <gateway_ip> dev <interface> 
 ```
 
+### d. **View Current Routing Table**:
+
