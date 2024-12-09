@@ -2252,3 +2252,7 @@ ip route show
 ### e. **Persist Routes (Optional, for RHEL-based Systems)**:
 Add the route to `/etc/sysconfig/network-scripts/route-<interface>`:
 
+```bash
+<destination_network>/<subnet_mask> via <gateway_ip> <dev interface>
+```
+
