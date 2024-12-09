@@ -2245,3 +2245,7 @@ sudo ip route add  default via <gateway_ip> dev <interface>
 
 ### d. **View Current Routing Table**:
 
+```bash
+ip route show
+```
+
