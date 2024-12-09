@@ -2262,3 +2262,7 @@ Add the route to `/etc/sysconfig/network-scripts/route-<interface>`:
 sudo nmcli device reapply <interface>
 ```
 
+## **Text-based User Interface**:
+
+- `sudo nmtui`: Launches a text-based interface for managing network connections.
+
