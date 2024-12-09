@@ -2266,3 +2266,7 @@ sudo nmcli device reapply <interface>
 
 - `sudo nmtui`: Launches a text-based interface for managing network connections.
 
+![static_route_configuration_394.png](rhcsa_images/static_route_configuration_394.png)
+
+![static_route_configuration_395.png](rhcsa_images/static_route_configuration_395.png)
+
