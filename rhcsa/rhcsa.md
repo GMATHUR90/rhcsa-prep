@@ -2233,4 +2233,7 @@ sudo ip route add <destination_network>/<subnet_mask> via <gateway_ip> dev <inte
 
 ### b. **Delete a Static Route**:
 
+```bash
+sudo ip route del <destination_network>/<subnet_mask> via <gateway_ip>
+```
 
