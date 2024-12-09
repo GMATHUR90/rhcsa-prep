@@ -2258,3 +2258,7 @@ Add the route to `/etc/sysconfig/network-scripts/route-<interface>`:
 
 ### f. **Apply Changes (if using NetworkManager)**:
 
+```bash
+sudo nmcli device reapply <interface>
+```
+
