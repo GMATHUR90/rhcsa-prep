@@ -2231,3 +2231,6 @@ sudo dnf install firewalld -y  && sudo systemctl enable firewalld && sudo system
 sudo ip route add <destination_network>/<subnet_mask> via <gateway_ip> dev <interface>
 ```
 
+### b. **Delete a Static Route**:
+
+
