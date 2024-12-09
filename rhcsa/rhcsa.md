@@ -2237,3 +2237,5 @@ sudo ip route add <destination_network>/<subnet_mask> via <gateway_ip> dev <inte
 sudo ip route del <destination_network>/<subnet_mask> via <gateway_ip>
 ```
 
+### c. **Set a Default Gateway**:
+
