@@ -2256,3 +2256,5 @@ Add the route to `/etc/sysconfig/network-scripts/route-<interface>`:
 <destination_network>/<subnet_mask> via <gateway_ip> <dev interface>
 ```
 
+### f. **Apply Changes (if using NetworkManager)**:
+
