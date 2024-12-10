@@ -2270,3 +2270,8 @@ sudo nmcli device reapply <interface>
 
 ![static_route_configuration_395.png](rhcsa_images/static_route_configuration_395.png)
 
+
+## Synchronize Time Using Network Peers:
+
+**NTP (Network Time Protocol)** is a protocol used to synchronize the clocks of computers over a network. It ensures that all systems maintain accurate time, which is critical for various operations such as logging, security, and scheduling.
+
