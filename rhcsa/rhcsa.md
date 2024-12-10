@@ -2277,3 +2277,5 @@ sudo nmcli device reapply <interface>
 
 a) Check NTP Service Status:
 
+![network_time_protocol_396.png](rhcsa_images/network_time_protocol_396.png)
+
