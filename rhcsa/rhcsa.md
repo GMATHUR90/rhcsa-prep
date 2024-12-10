@@ -2275,7 +2275,12 @@ sudo nmcli device reapply <interface>
 
 **NTP (Network Time Protocol)** is a protocol used to synchronize the clocks of computers over a network. It ensures that all systems maintain accurate time, which is critical for various operations such as logging, security, and scheduling.
 
-a) Check NTP Service Status:
+### a. Check NTP Service Status:
 
 ![network_time_protocol_396.png](rhcsa_images/network_time_protocol_396.png)
+
+NTP Sources: 169.254.169.123
+
+### b. **View Current Time Settings**
+
 
