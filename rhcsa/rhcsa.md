@@ -2284,3 +2284,6 @@ NTP Sources: 169.254.169.123
 ### b. **View Current Time Settings**
 
 ![network_time_protocol_397.png](rhcsa_images/network_time_protocol_397.png)
+
+### c. Change Time Zone:
+
