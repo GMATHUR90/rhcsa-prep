@@ -2305,3 +2305,5 @@ After enabling Chrony, use `timedatectl` to confirm the system clock is synchron
 
 ![network_time_protocol_401.png](rhcsa_images/network_time_protocol_401.png)
 
+### f. Enable NTP Synchronization:
+
