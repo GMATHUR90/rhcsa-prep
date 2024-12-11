@@ -2310,3 +2310,9 @@ After enabling Chrony, use `timedatectl` to confirm the system clock is synchron
 ![network_time_protocol_402.png](rhcsa_images/network_time_protocol_402.png)
 
 
+## Manage Local User Accounts
+
+### a. Adding Users
+
+
+
