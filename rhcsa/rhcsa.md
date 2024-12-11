@@ -2314,5 +2314,11 @@ After enabling Chrony, use `timedatectl` to confirm the system clock is synchron
 
 ### a. Adding Users
 
+Syntax:
+```bash
+useradd [options] username
+```
+
+
 
 
