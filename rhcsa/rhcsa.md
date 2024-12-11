@@ -2318,6 +2318,9 @@ Syntax:
 ```bash
 useradd [options] username
 ```
+![network_time_protocol_403.png](rhcsa_images/network_time_protocol_403.png)
+
+![network_time_protocol_404.png](rhcsa_images/network_time_protocol_404.png)
 
 
 
