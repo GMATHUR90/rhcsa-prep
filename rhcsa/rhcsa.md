@@ -2299,3 +2299,7 @@ NTP Sources: 169.254.169.123
 
 ![network_time_protocol_400.png](rhcsa_images/network_time_protocol_400.png)
 
+### e. Verify Synchronization:
+
+After enabling Chrony, use `timedatectl` to confirm the system clock is synchronized, and the NTP service is active.
+
