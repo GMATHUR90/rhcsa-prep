@@ -2297,3 +2297,5 @@ NTP Sources: 169.254.169.123
 
 - Start and enable the service with chronyd:
 
+![network_time_protocol_400.png](rhcsa_images/network_time_protocol_400.png)
+
