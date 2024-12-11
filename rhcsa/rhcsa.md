@@ -2303,3 +2303,5 @@ NTP Sources: 169.254.169.123
 
 After enabling Chrony, use `timedatectl` to confirm the system clock is synchronized, and the NTP service is active.
 
+![network_time_protocol_401.png](rhcsa_images/network_time_protocol_401.png)
+
