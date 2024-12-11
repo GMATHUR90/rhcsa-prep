@@ -2294,3 +2294,6 @@ NTP Sources: 169.254.169.123
 **Chrony**: A modern NTP implementation for systems with intermittent network connectivity.
 
 ![network_time_protocol_399.png](rhcsa_images/network_time_protocol_399.png)
+
+- Start and enable the service with chronyd:
+
