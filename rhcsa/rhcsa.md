@@ -2312,7 +2312,7 @@ After enabling Chrony, use `timedatectl` to confirm the system clock is synchron
 
 ## Manage Local User Accounts
 
-### a. Adding Users
+### 1. Adding Users
 
 Syntax:
 ```bash
@@ -2341,3 +2341,11 @@ useradd [options] username
       - -defaults: View/edit defaults
 
 ![manage_local_user_acc_407.png](rhcsa_images/manage_local_user_acc_407.png)
+
+
+### **2. Modifying Users**
+
+- **Changing Details:**
+
+### a. Change Home directory:
+
