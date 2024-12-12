@@ -2322,6 +2322,12 @@ useradd [options] username
 
 ![network_time_protocol_404.png](rhcsa_images/network_time_protocol_404.png)
 
+###### Options:
+
+- a.   - - shell/bin/othershell: Specify user’s login shell
+
+           - -home /home/dir : Specify home directory
+
 
 
 
