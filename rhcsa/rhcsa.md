@@ -2332,4 +2332,4 @@ useradd [options] username
 
 ### b. --uid [UID]: Set custom UID
 
-
+![manage_local_user_acc_406.png](rhcsa_images/manage_local_user_acc_406.png)
