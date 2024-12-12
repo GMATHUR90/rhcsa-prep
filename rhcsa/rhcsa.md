@@ -2340,3 +2340,4 @@ useradd [options] username
 
       - -defaults: View/edit defaults
 
+![manage_local_user_acc_407.png](rhcsa_images/manage_local_user_acc_407.png)
