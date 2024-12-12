@@ -2328,6 +2328,6 @@ useradd [options] username
 
            - -home /home/dir : Specify home directory
 
-
+![manage_local_user_acc_405.png](rhcsa_images/manage_local_user_acc_405.png)
 
 
