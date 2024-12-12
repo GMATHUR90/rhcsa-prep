@@ -2322,12 +2322,14 @@ useradd [options] username
 
 ![network_time_protocol_404.png](rhcsa_images/network_time_protocol_404.png)
 
-###### Options:
+### Options:
 
-- a.   - - shell/bin/othershell: Specify user’s login shell
+### a.   -- shell/bin/othershell: Specify user’s login shell
 
-           - -home /home/dir : Specify home directory
+           --home /home/dir : Specify home directory
 
 ![manage_local_user_acc_405.png](rhcsa_images/manage_local_user_acc_405.png)
+
+### b. --uid [UID]: Set custom UID
 
 
