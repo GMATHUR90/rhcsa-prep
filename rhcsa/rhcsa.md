@@ -2373,3 +2373,6 @@ original login name: jane
 
 ![manage_local_user_acc_413.png](rhcsa_images/manage_local_user_acc_413.png)
 
+### b. Unlocking a user account:
+
+
