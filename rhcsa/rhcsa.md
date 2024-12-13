@@ -2363,3 +2363,7 @@ original login name: jane
 
 ### c. Change Default Shell:
 
+![manage_local_user_acc_411.png](rhcsa_images/manage_local_user_acc_411.png)
+
+![manage_local_user_acc_412.png](rhcsa_images/manage_local_user_acc_412.png)
+
