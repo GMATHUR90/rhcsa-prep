@@ -2367,3 +2367,7 @@ original login name: jane
 
 ![manage_local_user_acc_412.png](rhcsa_images/manage_local_user_acc_412.png)
 
+## **Locking and Unlocking:**
+
+### a. Locking a user account:
+
