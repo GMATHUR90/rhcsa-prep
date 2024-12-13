@@ -2351,3 +2351,7 @@ useradd [options] username
 
 ![manage_local_user_acc_408.png](rhcsa_images/manage_local_user_acc_408.png)
 
+### b. Change Username:
+
+original login name: jane
+
