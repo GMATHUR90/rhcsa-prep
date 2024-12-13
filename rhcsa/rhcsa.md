@@ -2355,3 +2355,6 @@ useradd [options] username
 
 original login name: jane
 
+![manage_local_user_acc_409.png](rhcsa_images/manage_local_user_acc_409.png)
+
+![manage_local_user_acc_410.png](rhcsa_images/manage_local_user_acc_410.png)
