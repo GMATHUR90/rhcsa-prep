@@ -2399,3 +2399,4 @@ original login name: jane
 
 ### a. Limits password validity to 30 days
 
+![manage_local_user_acc_419.png](rhcsa_images/manage_local_user_acc_419.png)
