@@ -2387,3 +2387,4 @@ original login name: jane
 
 ### **b. Remove the expiry date:**
 
+![manage_local_user_acc_417.png](rhcsa_images/manage_local_user_acc_417.png)
