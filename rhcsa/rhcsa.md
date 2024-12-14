@@ -2393,3 +2393,5 @@ original login name: jane
 
 ### Force Password Change:
 
+![manage_local_user_acc_418.png](rhcsa_images/manage_local_user_acc_418.png)
+
