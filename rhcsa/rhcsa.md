@@ -2395,3 +2395,7 @@ original login name: jane
 
 ![manage_local_user_acc_418.png](rhcsa_images/manage_local_user_acc_418.png)
 
+### Password Validity Period:
+
+### a. Limits password validity to 30 days
+
