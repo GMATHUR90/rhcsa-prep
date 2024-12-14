@@ -2379,5 +2379,9 @@ original login name: jane
 
 ## **Account Expiry**
 
-### a. Sets an expiry date for the account.
+### a. Sets an expiry date for the account:
+
+![manage_local_user_acc_415.png](rhcsa_images/manage_local_user_acc_415.png)
+
+![manage_local_user_acc_416.png](rhcsa_images/manage_local_user_acc_416.png)
 
