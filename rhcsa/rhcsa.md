@@ -2377,3 +2377,7 @@ original login name: jane
 
 ![manage_local_user_acc_414.png](rhcsa_images/manage_local_user_acc_414.png)
 
+## **Account Expiry**
+
+### a. Sets an expiry date for the account.
+
