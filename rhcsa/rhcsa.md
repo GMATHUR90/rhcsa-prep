@@ -2402,3 +2402,7 @@ original login name: jane
 ![manage_local_user_acc_419.png](rhcsa_images/manage_local_user_acc_419.png)
 
 ### b. Removes the password expiry restriction
+
+![manage_local_user_acc_420.png](rhcsa_images/manage_local_user_acc_420.png)
+
+
