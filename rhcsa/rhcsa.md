@@ -2413,3 +2413,6 @@ userdel [options] username
 
 ### a. Deletes user's account and their home directory
 
+![manage_local_user_acc_421.png](rhcsa_images/manage_local_user_acc_421.png)
+
+
