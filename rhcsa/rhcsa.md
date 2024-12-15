@@ -2427,4 +2427,5 @@ userdel [options] username
 
 ![manage_local_user_acc_425.png](rhcsa_images/manage_local_user_acc_425.png)
 
+### **5 Viewing User Details:**
 
