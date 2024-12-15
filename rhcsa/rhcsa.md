@@ -2405,4 +2405,5 @@ original login name: jane
 
 ![manage_local_user_acc_420.png](rhcsa_images/manage_local_user_acc_420.png)
 
+### **4 Deleting Users:**
 
