@@ -2411,4 +2411,5 @@ original login name: jane
 userdel [options] username
 ```
 
+### a. Deletes user's account and their home directory
 
