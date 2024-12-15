@@ -2419,3 +2419,12 @@ userdel [options] username
 
 ### b. Delete a group:
 
+![manage_local_user_acc_422.png](rhcsa_images/manage_local_user_acc_422.png)
+
+![manage_local_user_acc_423.png](rhcsa_images/manage_local_user_acc_423.png)
+
+![manage_local_user_acc_424.png](rhcsa_images/manage_local_user_acc_424.png)
+
+![manage_local_user_acc_425.png](rhcsa_images/manage_local_user_acc_425.png)
+
+
