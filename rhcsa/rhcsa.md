@@ -2415,4 +2415,7 @@ userdel [options] username
 
 ![manage_local_user_acc_421.png](rhcsa_images/manage_local_user_acc_421.png)
 
+* `-r`: Delete user and home directory.
+
+### b. Delete a group:
 
