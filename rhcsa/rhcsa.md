@@ -2407,3 +2407,8 @@ original login name: jane
 
 ### **4 Deleting Users:**
 
+```bash
+userdel [options] username
+```
+
+
