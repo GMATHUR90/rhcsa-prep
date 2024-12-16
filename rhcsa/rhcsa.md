@@ -2405,7 +2405,7 @@ original login name: jane
 
 ![manage_local_user_acc_420.png](rhcsa_images/manage_local_user_acc_420.png)
 
-### **4. Deleting Users:**
+## **4. Deleting Users:**
 
 ```bash
 userdel [options] username
@@ -2427,7 +2427,7 @@ userdel [options] username
 
 ![manage_local_user_acc_425.png](rhcsa_images/manage_local_user_acc_425.png)
 
-### **5. Viewing User Details:**
+## **5. Viewing User Details:**
 
 ### a. Show UID, GID, and groups of the current user:
 
@@ -2440,3 +2440,8 @@ userdel [options] username
 ### c. Lists numeric UIDs and GIDs for directories under `/home/`:
 
 ![manage_local_user_acc_428.png](rhcsa_images/manage_local_user_acc_428.png)
+
+## 6   System Users:
+
+### a. Create a system account (non-login, for services):
+
