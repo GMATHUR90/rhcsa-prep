@@ -2433,3 +2433,5 @@ userdel [options] username
 
 ![manage_local_user_acc_426.png](rhcsa_images/manage_local_user_acc_426.png)
 
+### b. Shows user account information:
+
