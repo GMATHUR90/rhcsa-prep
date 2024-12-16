@@ -2445,5 +2445,5 @@ userdel [options] username
 
 ### a. Create a system account (non-login, for services):
 
-
+![manage_local_user_acc_429.png](rhcsa_images/manage_local_user_acc_429.png)
 
