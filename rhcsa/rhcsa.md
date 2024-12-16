@@ -2431,3 +2431,5 @@ userdel [options] username
 
 ### a. Show UID, GID, and groups of the current user:
 
+![manage_local_user_acc_426.png](rhcsa_images/manage_local_user_acc_426.png)
+
