@@ -2447,3 +2447,10 @@ userdel [options] username
 
 ![manage_local_user_acc_429.png](rhcsa_images/manage_local_user_acc_429.png)
 
+
+## 7  Configuration Files:
+
+- /etc/skel: Contains default files and settings copied to a new user's home directory upon account creation.
+- /etc/login.defs: Controls default system-wide settings for account creation and management.
+
+
