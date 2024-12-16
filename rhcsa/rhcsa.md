@@ -2437,3 +2437,6 @@ userdel [options] username
 
 ![manage_local_user_acc_427.png](rhcsa_images/manage_local_user_acc_427.png)
 
+### c. Lists numeric UIDs and GIDs for directories under `/home/`:
+
+
