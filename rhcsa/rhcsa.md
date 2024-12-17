@@ -2453,4 +2453,7 @@ userdel [options] username
 - /etc/skel: Contains default files and settings copied to a new user's home directory upon account creation.
 - /etc/login.defs: Controls default system-wide settings for account creation and management.
 
+## Local Groups and Group Memberships
+
+### 1. User and Group Creation:
 
