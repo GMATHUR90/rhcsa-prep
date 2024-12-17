@@ -2463,3 +2463,4 @@ userdel [options] username
 
 ### a. Adds `john`_413 to the `developers` group.
 
+![local_groups_and_group_membership_431.png](rhcsa_images/local_groups_and_group_membership_431.png)
