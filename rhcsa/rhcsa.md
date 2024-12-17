@@ -2461,6 +2461,10 @@ userdel [options] username
 
 ### 2. Managing Group Memberships:
 
-### a. Adds `john`_413 to the `developers` group.
+### a. Adds `john`_413 to the `developers` group:
 
 ![local_groups_and_group_membership_431.png](rhcsa_images/local_groups_and_group_membership_431.png)
+
+### b. Removes `john`_413 from the `developers` group:
+
+
