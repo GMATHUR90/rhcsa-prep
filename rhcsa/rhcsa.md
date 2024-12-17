@@ -2469,4 +2469,7 @@ userdel [options] username
 
 ![local_groups_and_group_membership_432.png](rhcsa_images/local_groups_and_group_membership_432.png)
 
+### 3. Changing Primary Group:
+
+### a. Sets `developers` as `john`_413 primary group:
 
