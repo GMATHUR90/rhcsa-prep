@@ -2467,4 +2467,6 @@ userdel [options] username
 
 ### b. Removes `john`_413 from the `developers` group:
 
+![local_groups_and_group_membership_432.png](rhcsa_images/local_groups_and_group_membership_432.png)
+
 
