@@ -2473,3 +2473,5 @@ userdel [options] username
 
 ### a. Sets `developers` as `john`_413 primary group:
 
+![local_groups_and_group_membership_433.png](rhcsa_images/local_groups_and_group_membership_433.png)
+
