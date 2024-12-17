@@ -2457,3 +2457,4 @@ userdel [options] username
 
 ### 1. User and Group Creation:
 
+![local_groups_and_group_membership_430.png](rhcsa_images/local_groups_and_group_membership_430.png)
