@@ -2493,3 +2493,9 @@ userdel [options] username
 
 ![local_groups_and_group_membership_438.png](rhcsa_images/local_groups_and_group_membership_438.png)
 
+### **Key Points:**
+
+- A user's primary group cannot be deleted.
+- Use `gpasswd` to manage group memberships and `usermod` to change primary groups.
+- `groupmod` renames groups, and `groupdel` removes them only if not in use as a primary group.
+
