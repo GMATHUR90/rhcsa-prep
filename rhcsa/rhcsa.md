@@ -2485,3 +2485,6 @@ userdel [options] username
 
 ### a. Renames `developers` to `programmers`
 
+![local_groups_and_group_membership_436.png](rhcsa_images/local_groups_and_group_membership_436.png)
+
+![local_groups_and_group_membership_437.png](rhcsa_images/local_groups_and_group_membership_437.png)
