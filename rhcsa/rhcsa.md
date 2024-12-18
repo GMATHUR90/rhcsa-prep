@@ -2477,3 +2477,8 @@ userdel [options] username
 
 ### b. Resets `john`'s primary group to his default group:
 
+![local_groups_and_group_membership_434.png](rhcsa_images/local_groups_and_group_membership_434.png)
+
+![local_groups_and_group_membership_435.png](rhcsa_images/local_groups_and_group_membership_435.png)
+
+
