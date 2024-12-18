@@ -2481,4 +2481,7 @@ userdel [options] username
 
 ![local_groups_and_group_membership_435.png](rhcsa_images/local_groups_and_group_membership_435.png)
 
+### 4. Renaming and Deleting Groups:
+
+### a. Renames `developers` to `programmers`
 
