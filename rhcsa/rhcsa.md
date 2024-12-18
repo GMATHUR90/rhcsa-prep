@@ -2488,3 +2488,6 @@ userdel [options] username
 ![local_groups_and_group_membership_436.png](rhcsa_images/local_groups_and_group_membership_436.png)
 
 ![local_groups_and_group_membership_437.png](rhcsa_images/local_groups_and_group_membership_437.png)
+
+### b. Deletes `programmers` after ensuring it’s not the primary group of any user:
+
