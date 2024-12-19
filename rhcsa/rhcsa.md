@@ -2519,5 +2519,6 @@ userdel [options] username
 
 ### b. Using su to Switch User:
 
+![manage_access_to_root_acc_441.png](rhcsa_images/manage_access_to_root_acc_441.png)
 
 
