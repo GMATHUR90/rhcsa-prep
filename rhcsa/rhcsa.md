@@ -2505,4 +2505,6 @@ userdel [options] username
 
 ![manage_access_to_root_acc_439.png](rhcsa_images/manage_access_to_root_acc_439.png)
 
+- This command is used to list the content of /root/ directory which is home directory of root user.
+- You need superuser privileges (via sudo) to access this directory.
 
