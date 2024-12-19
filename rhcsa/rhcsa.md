@@ -2499,3 +2499,6 @@ userdel [options] username
 - Use `gpasswd` to manage group memberships and `usermod` to change primary groups.
 - `groupmod` renames groups, and `groupdel` removes them only if not in use as a primary group.
 
+## Manage Access to the Root Account:
+
+### 1. Listing Root Directory
