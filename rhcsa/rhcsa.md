@@ -2521,4 +2521,7 @@ userdel [options] username
 
 ![manage_access_to_root_acc_441.png](rhcsa_images/manage_access_to_root_acc_441.png)
 
+- **su -** or **su -l** or **su - -login** starts a login shell as the root user, loading the root user’s environment.
+- You will need the **root  password** to execute it.
+
 
