@@ -2512,3 +2512,5 @@ userdel [options] username
 
 ### a. **Using sudo - -login or sudo -i:**
 
+![manage_access_to_root_acc_440.png](rhcsa_images/manage_access_to_root_acc_440.png)
+
