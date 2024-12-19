@@ -2514,3 +2514,6 @@ userdel [options] username
 
 ![manage_access_to_root_acc_440.png](rhcsa_images/manage_access_to_root_acc_440.png)
 
+- This commands give you **root shell** with root user’s environment fully loaded.
+- Equivalent to login in as root user directly.
+
