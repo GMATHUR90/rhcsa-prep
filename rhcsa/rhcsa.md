@@ -2517,3 +2517,7 @@ userdel [options] username
 - This commands give you **root shell** with root user’s environment fully loaded.
 - Equivalent to login in as root user directly.
 
+### b. Using su to Switch User:
+
+
+
