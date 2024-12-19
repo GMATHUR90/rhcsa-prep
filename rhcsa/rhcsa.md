@@ -2508,3 +2508,7 @@ userdel [options] username
 - This command is used to list the content of /root/ directory which is home directory of root user.
 - You need superuser privileges (via sudo) to access this directory.
 
+### 2. Switching to the Root User or Root Shell
+
+### a. **Using sudo - -login or sudo -i:**
+
