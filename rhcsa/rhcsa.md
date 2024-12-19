@@ -2501,4 +2501,8 @@ userdel [options] username
 
 ## Manage Access to the Root Account:
 
-### 1. Listing Root Directory
+### 1. Listing Root Directory:
+
+![manage_access_to_root_acc_439.png](rhcsa_images/manage_access_to_root_acc_439.png)
+
+
