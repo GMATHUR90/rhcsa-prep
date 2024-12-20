@@ -2528,9 +2528,9 @@ userdel [options] username
 - **`sudo`**: Executes commands with root privileges for your current user (provided your user has sudo permissions).
 - **`su`**: Switches to the root user (or another user if specified) entirely, requiring the password of the target account.
 
-### **3. Setting or Unlocking the Root Password**
+### **3. Setting or Unlocking the Root Password:**
 
-### **a. Set a New Password for the Root User**
+### **a. Set a New Password for the Root User:**
 
 ![manage_access_to_root_acc_442.png](rhcsa_images/manage_access_to_root_acc_442.png)
 
@@ -2540,4 +2540,7 @@ userdel [options] username
 
 ![manage_access_to_root_acc_443.png](rhcsa_images/manage_access_to_root_acc_443.png)
 
+- Unlocks the root account if it has been disabled (common in many distributions for security).
+
+### **4. Locking the Root Account:**
 
