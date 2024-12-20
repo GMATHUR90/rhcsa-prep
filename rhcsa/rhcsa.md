@@ -2546,3 +2546,26 @@ userdel [options] username
 
 ![manage_access_to_root_acc_444.png](rhcsa_images/manage_access_to_root_acc_444.png)
 
+- Lock the root account, disabling direct login access. Useful for enhancing security when the root account is not needed.
+
+### **Best Practices for Managing Root Access:**
+
+### 1. **Avoid Direct Root Logins:**
+    
+- Use `sudo` for administrative tasks instead of logging in as root.
+    
+### 2. **Lock the Root Account (if not needed):**
+    
+- Prevents unauthorized direct access to the root account.
+    
+### 3. **Use Strong Passwords:**
+    
+- Always set a strong and unique password for the root account.
+    
+### 4. **Use Role-Based Access Control:**
+    
+- Assign specific administrative permissions to users through `sudo` rather than enabling root access.
+    
+### 5. **Monitor Logs:**
+    
+- Keep track of root-level activities via system logs for auditing.
