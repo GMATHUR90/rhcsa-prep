@@ -2544,3 +2544,5 @@ userdel [options] username
 
 ### **4. Locking the Root Account:**
 
+![manage_access_to_root_acc_444.png](rhcsa_images/manage_access_to_root_acc_444.png)
+
