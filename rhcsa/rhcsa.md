@@ -2532,3 +2532,6 @@ userdel [options] username
 
 ### **a. Set a New Password for the Root User**
 
+![manage_access_to_root_acc_442.png](rhcsa_images/manage_access_to_root_acc_442.png)
+
+
