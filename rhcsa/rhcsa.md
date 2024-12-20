@@ -2528,3 +2528,7 @@ userdel [options] username
 - **`sudo`**: Executes commands with root privileges for your current user (provided your user has sudo permissions).
 - **`su`**: Switches to the root user (or another user if specified) entirely, requiring the password of the target account.
 
+### **3. Setting or Unlocking the Root Password**
+
+### **a. Set a New Password for the Root User**
+
