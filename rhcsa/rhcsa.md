@@ -2550,22 +2550,27 @@ userdel [options] username
 
 ### **Best Practices for Managing Root Access:**
 
-### 1. **Avoid Direct Root Logins:**
+### a. **Avoid Direct Root Logins:**
     
 - Use `sudo` for administrative tasks instead of logging in as root.
     
-### 2. **Lock the Root Account (if not needed):**
+### b. **Lock the Root Account (if not needed):**
     
 - Prevents unauthorized direct access to the root account.
     
-### 3. **Use Strong Passwords:**
+### c. **Use Strong Passwords:**
     
 - Always set a strong and unique password for the root account.
     
-### 4. **Use Role-Based Access Control:**
+### d. **Use Role-Based Access Control:**
     
 - Assign specific administrative permissions to users through `sudo` rather than enabling root access.
     
-### 5. **Monitor Logs:**
+### e. **Monitor Logs:**
     
 - Keep track of root-level activities via system logs for auditing.
+
+## Configure PAM:
+
+Pluggable Authentication Modules(PAM) is a framework for authentication that allows administrators to integrate various authentication technologies .
+
