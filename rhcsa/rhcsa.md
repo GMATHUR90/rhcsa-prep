@@ -2534,4 +2534,6 @@ userdel [options] username
 
 ![manage_access_to_root_acc_442.png](rhcsa_images/manage_access_to_root_acc_442.png)
 
+- Prompts for the new password for the root account.
 
+### **b. Unlock the Root Account**
