@@ -2537,3 +2537,7 @@ userdel [options] username
 - Prompts for the new password for the root account.
 
 ### **b. Unlock the Root Account**
+
+![manage_access_to_root_acc_443.png](rhcsa_images/manage_access_to_root_acc_443.png)
+
+
