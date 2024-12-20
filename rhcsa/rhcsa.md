@@ -2524,4 +2524,7 @@ userdel [options] username
 - **su -** or **su -l** or **su - -login** starts a login shell as the root user, loading the root user’s environment.
 - You will need the **root  password** to execute it.
 
+### **Difference Between `sudo` and `su`:**
+- **`sudo`**: Executes commands with root privileges for your current user (provided your user has sudo permissions).
+- **`su`**: Switches to the root user (or another user if specified) entirely, requiring the password of the target account.
 
