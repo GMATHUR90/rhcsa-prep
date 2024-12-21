@@ -2602,4 +2602,5 @@ password requisite pam_pwquality.so retry=3
 | **`optional`** | Not critical; used only if no "required" modules are present. | Success or failure does not affect the overall result unless it's the only module in the stack. |
 | **`include`** | References another PAM configuration file for additional rules. | Enables modular configuration by including other files for reusability and flexibility. |
 
+### 3. Backup Before Changes
 
