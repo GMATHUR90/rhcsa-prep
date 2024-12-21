@@ -2608,4 +2608,7 @@ password requisite pam_pwquality.so retry=3
 cp /etc/pam.d/system-auth /etc/pam.d/system-auth.bak
 cp /etc/pam.d/password-auth /etc/pam.d/password-auth.bak
 ```
+### **4. Enforce Password Complexity**
+
+### a. Configure in **/etc/security/pwquality.conf** :
 
