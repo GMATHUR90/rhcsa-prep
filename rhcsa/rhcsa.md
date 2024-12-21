@@ -2612,3 +2612,13 @@ cp /etc/pam.d/password-auth /etc/pam.d/password-auth.bak
 
 ### a. Configure in **/etc/security/pwquality.conf** :
 
+
+```bash
+minlen = 8
+dcredit = -1
+ucredit = -1
+ocredit = -1
+lcredit = -1
+
+```
+
