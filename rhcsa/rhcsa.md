@@ -2604,3 +2604,8 @@ password requisite pam_pwquality.so retry=3
 
 ### 3. Backup Before Changes
 
+```bash
+cp /etc/pam.d/system-auth /etc/pam.d/system-auth.bak
+cp /etc/pam.d/password-auth /etc/pam.d/password-auth.bak
+```
+
