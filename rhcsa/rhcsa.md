@@ -2585,4 +2585,11 @@ PAM configuration files are located in **/etc/pam.d/** . Each service has config
 ```bash
 <module-type> <control-flag> <module-path> [arguments]
 ```
+- Module Type: auth, account, password, session
+- Control Flags: required, requisite , sufficient, optional.
+- Example
+
+```bash
+password requisite pam_pwquality.so retry=3
+```
 
