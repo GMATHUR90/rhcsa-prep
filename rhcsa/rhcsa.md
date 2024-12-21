@@ -2578,3 +2578,6 @@ Pluggable Authentication Modules(PAM) is a framework for authentication that all
 
 PAM configuration files are located in **/etc/pam.d/** . Each service has configuration file in this directory.
 
+![configure_pam_445.png](rhcsa_images/configure_pam_445.png)
+
+
