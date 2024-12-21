@@ -2592,4 +2592,14 @@ PAM configuration files are located in **/etc/pam.d/** . Each service has config
 ```bash
 password requisite pam_pwquality.so retry=3
 ```
+### **PAM Control Flags**
+
+| **Control Flag** | **Behavior** | **Outcome** |
+| --- | --- | --- |
+| **`required`** | Must pass for overall success; continues checking other modules. | Final result is failure if this module fails, but errors appear only after checking all modules. |
+| **`requisite`** | Must pass for success; stops checking further if it fails. | Immediate failure if this module fails. |
+| **`sufficient`** | If it passes, authentication succeeds (unless a prior `required` failed). | Skips further checks if this passes, provided no "required" module failed earlier. |
+| **`optional`** | Not critical; used only if no "required" modules are present. | Success or failure does not affect the overall result unless it's the only module in the stack. |
+| **`include`** | References another PAM configuration file for additional rules. | Enables modular configuration by including other files for reusability and flexibility. |
+
 
