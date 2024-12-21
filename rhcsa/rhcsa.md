@@ -2581,3 +2581,8 @@ PAM configuration files are located in **/etc/pam.d/** . Each service has config
 ![configure_pam_445.png](rhcsa_images/configure_pam_445.png)
 
 ### 2. PAM File Syntax:
+
+```bash
+<module-type> <control-flag> <module-path> [arguments]
+```
+
