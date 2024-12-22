@@ -2656,3 +2656,7 @@ UsePAM yes
 systemctl start sshd
 ```
 
+### **7. Test and Monitor**
+
+### a. Test changes with a non-root user:
+
