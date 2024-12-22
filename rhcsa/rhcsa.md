@@ -2647,4 +2647,7 @@ account required pam_faillock.so
 
 ### a. Enable PAM in /etch/ssh/sshd_config:
 
+```bash
+UsePAM yes
+```
 
