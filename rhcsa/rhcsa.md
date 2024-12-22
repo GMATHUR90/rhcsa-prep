@@ -2643,4 +2643,8 @@ auth required pam_faillock.so authfail audit deny =3 unlock_time=600
 account required pam_faillock.so
 ```
 
+### 6. SSH Integration
+
+### a. Enable PAM in /etch/ssh/sshd_config:
+
 
