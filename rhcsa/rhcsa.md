@@ -2627,3 +2627,7 @@ lcredit = -1
 password requisite pam_pwquality.so retry=3
 ```
 
+### 5. Account Lockout Policy
+
+### a. **Configure /etc/security/failock.conf**:
+
