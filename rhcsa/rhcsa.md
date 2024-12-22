@@ -2670,3 +2670,10 @@ su - <test-user>
 tail -f /var/log/secure
 ```
 
+### 8. Restore Backup if Needed
+
+```bash
+mv /etc/pam.d/system-auth.bak /etc/pam.d/system-auth
+mv /etc/pam.d/password-auth.bak /etc/pam.d/password-auth
+
+```
