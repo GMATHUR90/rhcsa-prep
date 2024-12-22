@@ -2635,5 +2635,12 @@ password requisite pam_pwquality.so retry=3
 deny=3
 unlock_time=600
 ```
+### b. Add to PAM file:
+
+```bash
+auth required pam_faillock.so preauth silent audit deny=3 unlock_time=600
+auth required pam_faillock.so authfail audit deny =3 unlock_time=600 
+account required pam_faillock.so
+```
 
 
