@@ -2660,3 +2660,7 @@ systemctl start sshd
 
 ### a. Test changes with a non-root user:
 
+```bash
+su - <test-user>
+```
+
