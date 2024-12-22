@@ -2621,4 +2621,9 @@ ocredit = -1
 lcredit = -1
 
 ```
+### b.  Add to PAM file:
+
+```bash
+password requisite pam_pwquality.so retry=3
+```
 
