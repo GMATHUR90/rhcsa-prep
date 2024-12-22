@@ -2650,4 +2650,9 @@ account required pam_faillock.so
 ```bash
 UsePAM yes
 ```
+### b. Restart SSH service:
+
+```bash
+systemctl start sshd
+```
 
