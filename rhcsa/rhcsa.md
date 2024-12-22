@@ -2664,3 +2664,9 @@ systemctl start sshd
 su - <test-user>
 ```
 
+### b. Monitor PAM logs:
+
+```bash
+tail -f /var/log/secure
+```
+
