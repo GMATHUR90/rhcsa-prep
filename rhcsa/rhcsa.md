@@ -2631,3 +2631,9 @@ password requisite pam_pwquality.so retry=3
 
 ### a. **Configure /etc/security/failock.conf**:
 
+```bash
+deny=3
+unlock_time=600
+```
+
+
