@@ -2695,8 +2695,12 @@ ssh-keygen -t rsa -b 2048
 - `t rsa`: Specifies the RSA algorithm.
 - `b 2048`: Sets the key length to 2048 bits.
 
-* You'll be prompted to provide:
+ You'll be prompted to provide:
 
 - File to save the key (default: `~/.ssh/id_rsa`).
 - Passphrase (optional, for additional security).
+
+### **2. Copy the Public Key to the Remote Server**
+
+### a. Use the `ssh-copy-id` command to transfer the public key:
 
