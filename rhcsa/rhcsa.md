@@ -2704,3 +2704,9 @@ ssh-keygen -t rsa -b 2048
 
 ### a. Use the `ssh-copy-id` command to transfer the public key:
 
+```bash
+ssh-copy-id user@remote-server
+```
+- Replace `user` with your username on the remote server.
+- Replace `remote-server` with the IP address or hostname of the server.
+
