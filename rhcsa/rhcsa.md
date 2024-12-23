@@ -2720,3 +2720,15 @@ ssh-copy-id user@remote-server
 cat ~/.ssh/id_rsa.pub
 ```
 
+- On the remote server, append the public key to the `~/.ssh/authorized_keys` file:
+
+```bash
+echo "<public-key-content>" >> ~/.ssh/authorized_keys
+```
+
+- Ensure correct permissions:
+
+```bash
+chmod 600 ~/.ssh/authorized_keys
+```
+
