@@ -2685,3 +2685,12 @@ mv /etc/pam.d/password-auth.bak /etc/pam.d/password-auth
 - Log in to the client machine (the one initiating the SSH connection).
 - Open a terminal and run:
 
+```bash
+ssh-keygen -t rsa -b 2048
+
+```
+
+### **Options:**
+
+- `t rsa`: Specifies the RSA algorithm.
+- `b 2048`: Sets the key length to 2048 bits.
