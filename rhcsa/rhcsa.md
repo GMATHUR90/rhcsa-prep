@@ -2731,4 +2731,7 @@ echo "<public-key-content>" >> ~/.ssh/authorized_keys
 ```bash
 chmod 600 ~/.ssh/authorized_keys
 ```
+### 3. Configure the SSH Server (Optional)
+
+### a. Edit the SSH configuration file on the server:
 
