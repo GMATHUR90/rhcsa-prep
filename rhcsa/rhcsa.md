@@ -2747,3 +2747,9 @@ PasswordAuthentication no
 ```
 - `PasswordAuthentication no` disables password-based login for enhanced security.
 
+### c) Restart the SSH service to apply changes:
+
+```bash
+sudo systemctl restart sshd
+```
+
