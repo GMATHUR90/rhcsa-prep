@@ -2739,3 +2739,11 @@ chmod 600 ~/.ssh/authorized_keys
 sudo vi /etc/ssh/sshd_config
 ```
 
+### b. Ensure the following lines are set:
+
+```bash
+PubkeyAuthentication yes
+PasswordAuthentication no
+```
+- `PasswordAuthentication no` disables password-based login for enhanced security.
+
