@@ -2710,3 +2710,13 @@ ssh-copy-id user@remote-server
 - Replace `user` with your username on the remote server.
 - Replace `remote-server` with the IP address or hostname of the server.
 
+### b. Enter the password for the remote server when prompted:
+
+- Note: If ssh-copy-id is not available, you can manually copy the key.
+ 
+- View the public key:
+
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+
