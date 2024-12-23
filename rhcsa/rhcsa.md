@@ -2735,3 +2735,7 @@ chmod 600 ~/.ssh/authorized_keys
 
 ### a. Edit the SSH configuration file on the server:
 
+```bash
+sudo vi /etc/ssh/sshd_config
+```
+
