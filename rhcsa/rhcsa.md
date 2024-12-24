@@ -2812,4 +2812,8 @@ unconfined_u:object_r:user_home_t:s0 archive.tar.gz
 
 - ps axZ: Displays SELinux context for processes.
 
+![SeLinux_446.png](rhcsa_images/SeLinux_446.png)
 
+![SeLinux_447.png](rhcsa_images/SeLinux_447.png)
+
+![SeLinux_448.png](rhcsa_images/SeLinux_448.png)
