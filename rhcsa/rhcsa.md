@@ -2777,4 +2777,9 @@ chmod 644 ~/.ssh/id_rsa.pub
 
 ```
 
+## List and identify SeLinux file and process context
+
+## SeLinux( Security Enhanced Linux):
+
+- A security model enforcing **Mandatory Access Control(MAC)** to enhance system security.
 
