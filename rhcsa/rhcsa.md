@@ -2756,6 +2756,9 @@ sudo systemctl restart sshd
 
 ### a. From the client machine, connect to the server:
 
+```bash
+ssh user@remote-server
+```
 
 
 
