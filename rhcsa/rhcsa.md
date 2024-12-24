@@ -2760,6 +2760,10 @@ sudo systemctl restart sshd
 ssh user@remote-server
 ```
 
+### b. If successful, you won't be prompted for a password (unless you set a passphrase).
+
+### **5. (Optional) Secure Key Pair**
+
 
 
 
