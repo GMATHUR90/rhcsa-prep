@@ -2788,3 +2788,14 @@ chmod 644 ~/.ssh/id_rsa.pub
 
 ### **1. SELinux Context**:
 
+Every file, process, or user in a SELinux-enabled system has context. This context consist of:
+
+- **User:** e.g. unconfined_u , system_u
+- **Role:** e.g. unconfined_u , system_u
+- **Type**: e.g. user_home_t , sshd_exec_t
+- **Level:** Security Levels, e.g. : s0-s0:c0.c01023
+
+**Format:** <user>:<role>:<type>:<level>
+
+**Example:** unconfined_u:object_r:user_home_t:s0
+
