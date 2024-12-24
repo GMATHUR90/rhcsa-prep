@@ -2752,4 +2752,11 @@ PasswordAuthentication no
 ```bash
 sudo systemctl restart sshd
 ```
+### **4. Test Key-Based Authentication**
+
+### a. From the client machine, connect to the server:
+
+
+
+
 
