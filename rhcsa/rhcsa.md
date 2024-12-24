@@ -2783,3 +2783,8 @@ chmod 644 ~/.ssh/id_rsa.pub
 
 - A security model enforcing **Mandatory Access Control(MAC)** to enhance system security.
 
+
+### Key Concepts in SELinux from the Output
+
+### **1. SELinux Context**:
+
