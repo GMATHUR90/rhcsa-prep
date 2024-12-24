@@ -2810,4 +2810,6 @@ $ ls -Z
 unconfined_u:object_r:user_home_t:s0 archive.tar.gz
 ```
 
+- ps axZ: Displays SELinux context for processes.
+
 
