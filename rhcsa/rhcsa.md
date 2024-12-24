@@ -2795,7 +2795,19 @@ Every file, process, or user in a SELinux-enabled system has context. This conte
 - **Type**: e.g. user_home_t , sshd_exec_t
 - **Level:** Security Levels, e.g. : s0-s0:c0.c01023
 
+```bash
 **Format:** <user>:<role>:<type>:<level>
 
 **Example:** unconfined_u:object_r:user_home_t:s0
+```
+
+### 2. Commands:
+
+- ls -Z: Shows SELinux context for file.
+
+```bash
+$ ls -Z
+unconfined_u:object_r:user_home_t:s0 archive.tar.gz
+```
+
 
