@@ -2731,7 +2731,9 @@ echo "<public-key-content>" >> ~/.ssh/authorized_keys
 ```bash
 chmod 600 ~/.ssh/authorized_keys
 ```
+
 ### 3. Configure the SSH Server (Optional)
+
 
 ### a. Edit the SSH configuration file on the server:
 
@@ -2752,7 +2754,9 @@ PasswordAuthentication no
 ```bash
 sudo systemctl restart sshd
 ```
+
 ### **4. Test Key-Based Authentication**
+
 
 ### a. From the client machine, connect to the server:
 
@@ -2762,8 +2766,15 @@ ssh user@remote-server
 
 ### b. If successful, you won't be prompted for a password (unless you set a passphrase).
 
+
 ### **5. (Optional) Secure Key Pair**
 
+- Set appropriate permissions for your key files
 
+```bash
+chmod 600 ~/.ssh/id_rsa
+chmod 644 ~/.ssh/id_rsa.pub
+
+```
 
 
