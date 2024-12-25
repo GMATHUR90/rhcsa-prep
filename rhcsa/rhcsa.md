@@ -2863,3 +2863,4 @@ SELinux enforces strict access control rules. Users and processes are only allow
 ### a. **Listing All Parameters**:
 - sysctl -a: Lists all current parameters and their current values.
 
+![SeLinux_452.png](rhcsa_images/SeLinux_452.png)
