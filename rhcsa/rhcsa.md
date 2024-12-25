@@ -2836,7 +2836,7 @@ unconfined_u:object_r:user_home_t:s0 archive.tar.gz
 2. Permissive: Logs violation without enforcement.
 3. Disabled : SELinux is off
 
-i. **SELinux Features and Role Highlights**
+### i. **SELinux Features and Role Highlights**
 
 ### **a. Mandatory Access Control (MAC)**:
 
@@ -2855,3 +2855,11 @@ SELinux enforces strict access control rules. Users and processes are only allow
 
 - **MLS (Multi-Level Security):** Defines hierarchical levels.
 - **MCS (Multi-Category Security):** Adds granularity with ranges.
+
+## Change kernel time parameter, persistent and non persistent
+
+### Key Points from the Commands
+
+### a. **Listing All Parameters**:
+- sysctl -a: Lists all current parameters and their current values.
+
