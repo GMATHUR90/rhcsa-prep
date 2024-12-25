@@ -2819,3 +2819,6 @@ unconfined_u:object_r:user_home_t:s0 archive.tar.gz
 ![SeLinux_448.png](rhcsa_images/SeLinux_448.png)
 
 - getenforce: Check the SELinux Mode(Enforcing,Permissive, Disabled)
+
+![SeLinux_449.png](rhcsa_images/SeLinux_449.png)
+
