@@ -2847,3 +2847,7 @@ SELinux enforces strict access control rules. Users and processes are only allow
 - Specific SELinux roles (e.g. sysadmin_r, guest_r) dictate what a user can do.
 - Process runs in the domain( e.g. sshd_t , unconfined_t) that defines their permissions.
 
+### c. **Types and Type Enforcement**:
+
+- Files and processes have specific types (e.g.,sshd_exec_t for SSH daemon executables). Access between types is governed by policies.
+
