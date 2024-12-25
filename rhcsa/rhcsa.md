@@ -2830,3 +2830,9 @@ unconfined_u:object_r:user_home_t:s0 archive.tar.gz
 
 ![SeLinux_451.png](rhcsa_images/SeLinux_451.png)
 
+### 3. SELinux Modes:
+
+1. Enforcing: Policies are enforced.
+2. Permissive: Logs violation without enforcement.
+3. Disabled : SELinux is off
+
