@@ -2826,3 +2826,5 @@ unconfined_u:object_r:user_home_t:s0 archive.tar.gz
 
 ![SeLinux_450.png](rhcsa_images/SeLinux_450.png)
 
+- sudo semanage user -l: Lists SELinux Users and their roles.
+
