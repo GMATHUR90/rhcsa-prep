@@ -2838,7 +2838,12 @@ unconfined_u:object_r:user_home_t:s0 archive.tar.gz
 
 i. **SELinux Features and Role Highlights**
 
-**a. Mandatory Access Control (MAC)**:
+### **a. Mandatory Access Control (MAC)**:
 
 SELinux enforces strict access control rules. Users and processes are only allowed actions explicitly permitted.
+
+### b. **User Roles and Domains**:
+
+- Specific SELinux roles (e.g. sysadmin_r, guest_r) dictate what a user can do.
+- Process runs in the domain( e.g. sshd_t , unconfined_t) that defines their permissions.
 
