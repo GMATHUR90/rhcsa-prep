@@ -2851,3 +2851,7 @@ SELinux enforces strict access control rules. Users and processes are only allow
 
 - Files and processes have specific types (e.g.,sshd_exec_t for SSH daemon executables). Access between types is governed by policies.
 
+### d. **Levels (MLS/MCS):**
+
+- **MLS (Multi-Level Security):** Defines hierarchical levels.
+- **MCS (Multi-Category Security):** Adds granularity with ranges.
