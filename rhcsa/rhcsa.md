@@ -2824,3 +2824,5 @@ unconfined_u:object_r:user_home_t:s0 archive.tar.gz
 
 - sudo semanage login -l: Maps Linux Users to Selinux user
 
+![SeLinux_450.png](rhcsa_images/SeLinux_450.png)
+
