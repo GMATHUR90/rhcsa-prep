@@ -2874,4 +2874,5 @@ SELinux enforces strict access control rules. Users and processes are only allow
 ```bash
 sysctl <parameter_name>
 ```
+![SeLinux_453.png](rhcsa_images/SeLinux_453.png)
 
