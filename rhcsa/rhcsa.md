@@ -2896,4 +2896,11 @@ sudo vim /etc/sysctl.d/swap-less.conf
 ```bash
 vm.swappiness=10
 ```
+### e. Apply the Configuration File
+
+```bash
+sudo sysctl -p /etc/sysctl.d/swap-less.conf
+```
+
+- Applies changes from the specified configuration file to make them effective immediately.
 
