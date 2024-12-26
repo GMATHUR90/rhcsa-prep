@@ -2871,3 +2871,7 @@ SELinux enforces strict access control rules. Users and processes are only allow
 
 - Display the value of the specified parameter.
 
+```bash
+sysctl <parameter_name>
+```
+
