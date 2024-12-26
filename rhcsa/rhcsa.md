@@ -2880,4 +2880,4 @@ sysctl <parameter_name>
 
 - Changes the value of parameter at runtime and changes made this way are not persistent across reboots.
 
-
+![kernel_parameter_454.png](rhcsa_images/kernel_parameter_454.png)
