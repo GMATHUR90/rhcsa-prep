@@ -2908,4 +2908,12 @@ sudo sysctl -p /etc/sysctl.d/swap-less.conf
 
 - Changes made with `sysctl -w` are temporary and will revert after a reboot. To make them persistent:
     - Add the parameter and its value to a configuration file under `/etc/sysctl.d/` or `/etc/sysctl.conf`.
-    - Apply the changes using `sysctl -p` with the file path if needed
+    - Apply the changes using `sysctl -p` with the file path if needed.
+
+## SELinux Policies and Troubleshooting
+
+### SELinux Modes:
+
+
+
+
