@@ -2881,3 +2881,10 @@ sysctl <parameter_name>
 - Changes the value of parameter at runtime and changes made this way are not persistent across reboots.
 
 ![kernel_parameter_454.png](rhcsa_images/kernel_parameter_454.png)
+
+-w : write, modify kernel parameter but not persistent.
+
+### **d. Making Changes Persistent**:
+
+- Step 1: Create or edit a configuration file, e.g., /etc/sysctl.d/swap-less.conf, using an editor like vim.
+
