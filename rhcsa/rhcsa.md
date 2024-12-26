@@ -2888,3 +2888,12 @@ sysctl <parameter_name>
 
 - Step 1: Create or edit a configuration file, e.g., /etc/sysctl.d/swap-less.conf, using an editor like vim.
 
+```bash
+sudo vim /etc/sysctl.d/swap-less.conf
+```
+- Add the desired parameter and value, such as:
+
+```bash
+vm.swappiness=10
+```
+
