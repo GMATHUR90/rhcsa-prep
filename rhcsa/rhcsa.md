@@ -2864,3 +2864,10 @@ SELinux enforces strict access control rules. Users and processes are only allow
 - sysctl -a: Lists all current parameters and their current values.
 
 ![SeLinux_452.png](rhcsa_images/SeLinux_452.png)
+
+- Errors like sysctl : permission denied occurs when you attempt to access protected parameters without sufficient privileges.
+
+### b. **Viewing Specific Parameter Values**:
+
+- Display the value of the specified parameter.
+
