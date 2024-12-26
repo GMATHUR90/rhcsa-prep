@@ -2876,3 +2876,8 @@ sysctl <parameter_name>
 ```
 ![SeLinux_453.png](rhcsa_images/SeLinux_453.png)
 
+### c. **Modifying Runtime Parameters**:
+
+- Changes the value of parameter at runtime and changes made this way are not persistent across reboots.
+
+
