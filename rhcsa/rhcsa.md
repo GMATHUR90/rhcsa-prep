@@ -2923,4 +2923,7 @@ sudo sysctl -p /etc/sysctl.d/swap-less.conf
 ### c. Disabled Mode(selinux=0):
 - Turn off SELinux(not recommended for production)
 
+### Force Autorelabel:
+- Reset the security context
+
 
