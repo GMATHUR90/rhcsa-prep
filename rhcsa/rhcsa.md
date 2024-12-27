@@ -2938,3 +2938,4 @@ Command:
 
 - System Logs: journalctl -xe
 
+![selinux_policies_and_troubleshooting_455.png](rhcsa_images/selinux_policies_and_troubleshooting_455.png)
