@@ -2920,5 +2920,7 @@ sudo sysctl -p /etc/sysctl.d/swap-less.conf
 ### b. Permissive Mode:
 - Logs unauthorized action( for troubleshooting)
 
+### c. Disabled Mode(selinux=0):
+- Turn off SELinux(not recommended for production)
 
 
