@@ -2914,6 +2914,9 @@ sudo sysctl -p /etc/sysctl.d/swap-less.conf
 
 ### SELinux Modes:
 
+### a. Enforcing Mode(enforcing=0) :
+- Blocks unauthorized actions( enforcing=0 for disable temporarily)
+
 
 
 
