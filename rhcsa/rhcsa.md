@@ -2931,3 +2931,10 @@ Command:
 /.autorelabel(create file) ---> Reboot or autorelabel=1
 ```
 
+
+## Troubleshooting Context:
+
+### a. Check Logs:
+
+- System Logs: journalctl -xe
+
