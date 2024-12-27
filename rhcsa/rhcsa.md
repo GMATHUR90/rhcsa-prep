@@ -2917,6 +2917,8 @@ sudo sysctl -p /etc/sysctl.d/swap-less.conf
 ### a. Enforcing Mode(enforcing=0) :
 - Blocks unauthorized actions( enforcing=0 for disable temporarily)
 
+### b. Permissive Mode:
+- Logs unauthorized action( for troubleshooting)
 
 
 
