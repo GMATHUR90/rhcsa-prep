@@ -2943,3 +2943,9 @@ Command:
 - Filter for issues: grep “httpd” /var/log/messages | less
 
 ### b. Audit Denials:
+
+### i. Extract issues:
+
+```bash
+ausearch -c 'httpd' --raw | audit2allow -M my-httpd
+```
