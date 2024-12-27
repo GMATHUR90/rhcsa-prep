@@ -2926,4 +2926,8 @@ sudo sysctl -p /etc/sysctl.d/swap-less.conf
 ### Force Autorelabel:
 - Reset the security context
 
+Command:
+```bash
+/.autorelabel(create file) ---> Reboot or autorelabel=1
+```
 
