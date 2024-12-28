@@ -2973,4 +2973,8 @@ semanage fcontext -a -t httpd_sys_content_t "/kodekloud(/.*)?"
 ```
 ### iii. Apply changes to the contexts:
 
+```bash
+restorecon -R /kodekloud
+```
+
 
