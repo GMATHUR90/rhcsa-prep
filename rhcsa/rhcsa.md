@@ -2952,3 +2952,7 @@ ausearch -c 'httpd' --raw | audit2allow -M my-httpd
 
 ### c. Apply Policy:
 
+```bash
+semodule -X 300 -i my-httpd.pp
+```
+
