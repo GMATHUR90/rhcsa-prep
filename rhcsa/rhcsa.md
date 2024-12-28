@@ -2964,3 +2964,7 @@ semodule -X 300 -i my-httpd.pp
 ls -laZ /kodekloud/
 ```
 
+### ii. Sets context for New Files:
+
+- Assign the type httpd_sys_content_t to the directory.
+
