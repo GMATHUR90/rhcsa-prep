@@ -2956,3 +2956,7 @@ ausearch -c 'httpd' --raw | audit2allow -M my-httpd
 semodule -X 300 -i my-httpd.pp
 ```
 
+## Manage File Context:
+
+### i	. View SELinux Contexts:
+
