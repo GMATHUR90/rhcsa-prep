@@ -2981,3 +2981,7 @@ restorecon -R /kodekloud
 
 ### a. **Start Service:**
 
+```bash
+systemctl start httpd.service
+```
+
