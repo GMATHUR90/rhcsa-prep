@@ -2968,3 +2968,7 @@ ls -laZ /kodekloud/
 
 - Assign the type httpd_sys_content_t to the directory.
 
+```bash
+semanage fcontext -a -t httpd_sys_content_t "/kodekloud(/.*)?"
+```
+
