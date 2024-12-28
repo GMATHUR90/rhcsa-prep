@@ -2949,3 +2949,6 @@ Command:
 ```bash
 ausearch -c 'httpd' --raw | audit2allow -M my-httpd
 ```
+
+### c. Apply Policy:
+
