@@ -2958,5 +2958,9 @@ semodule -X 300 -i my-httpd.pp
 
 ## Manage File Context:
 
-### i	. View SELinux Contexts:
+### i.View SELinux Contexts:
+
+```bash
+ls -laZ /kodekloud/
+```
 
