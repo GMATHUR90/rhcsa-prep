@@ -2985,3 +2985,11 @@ restorecon -R /kodekloud
 systemctl start httpd.service
 ```
 
+### b. Test Access:
+
+```bash
+curl 127.0.0.1:88
+curl 127.0.0.1:88/kodekloud.html
+
+```
+
