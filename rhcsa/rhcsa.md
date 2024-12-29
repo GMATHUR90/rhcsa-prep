@@ -2999,3 +2999,8 @@ curl 127.0.0.1:88/kodekloud.html
 ### 3. Validate using `curl` or similar testing tools.
 
 
+## Manage, configure and container management using podman
+
+- Podman is a container management tool that its daemonless, rootless, and compatible with OCI standards differing from docker by not requiring a central daemon and enabling enhanced security and flexibility.
+
+
