@@ -3019,4 +3019,7 @@ podman pull <image>
 
 - Run Container
 
+```bash
+sudo podman run -d --name <name> -p <host-port>:<container-port> <image>
+```
 
