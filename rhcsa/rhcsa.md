@@ -3013,3 +3013,7 @@ podman --version
 
 - Pull Image
 
+```bash
+podman pull <image>
+```
+
