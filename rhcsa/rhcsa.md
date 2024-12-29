@@ -3022,4 +3022,5 @@ podman pull <image>
 ```bash
 sudo podman run -d --name <name> -p <host-port>:<container-port> <image>
 ```
+- List running container
 
