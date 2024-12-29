@@ -3009,4 +3009,7 @@ curl 127.0.0.1:88/kodekloud.html
 sudo dnf install podman -y
 podman --version 
 ```
+### Basic Commands:
+
+- Pull Image
 
