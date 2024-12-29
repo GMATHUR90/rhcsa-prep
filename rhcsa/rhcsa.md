@@ -3005,3 +3005,8 @@ curl 127.0.0.1:88/kodekloud.html
 
 ### Installation:
 
+```bash
+sudo dnf install podman -y
+podman --version 
+```
+
