@@ -2992,4 +2992,10 @@ curl 127.0.0.1:88
 curl 127.0.0.1:88/kodekloud.html
 
 ```
+### Summary Flow:
+
+### 1. Investigate issues using `journalctl` or `ausearch`.
+### 2. Create and apply SELinux policies using `audit2allow` and `semanage`.
+### 3. Validate using `curl` or similar testing tools.
+
 
