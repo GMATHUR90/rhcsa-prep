@@ -3017,3 +3017,6 @@ podman --version
 podman pull <image>
 ```
 
+- Run Container
+
+
