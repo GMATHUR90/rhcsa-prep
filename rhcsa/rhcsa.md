@@ -3040,3 +3040,5 @@ sudo podman exec -it <container_name> /bin/bash
 sudo podman stop <name>
 ```
 
+- Remove Container
+
