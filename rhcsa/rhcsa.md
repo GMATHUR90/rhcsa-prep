@@ -3042,3 +3042,7 @@ sudo podman stop <name>
 
 - Remove Container
 
+```bash
+sudo podman rm <name>
+```
+
