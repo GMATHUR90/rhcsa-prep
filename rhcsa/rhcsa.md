@@ -3024,3 +3024,7 @@ sudo podman run -d --name <name> -p <host-port>:<container-port> <image>
 ```
 - List running container
 
+```bash
+sudo podman ps -a
+```
+
