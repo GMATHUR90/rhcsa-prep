@@ -3056,3 +3056,7 @@ sudo podman rmi <image>
 
 - Create Pod:
 
+```bash
+sudo podman pod create --name <pod-name> -p <host-port>:<container-port>
+```
+
