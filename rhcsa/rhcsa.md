@@ -3052,3 +3052,7 @@ sudo podman rm <name>
 sudo podman rmi <image>
 ```
 
+### Pod Management:
+
+- Create Pod:
+
