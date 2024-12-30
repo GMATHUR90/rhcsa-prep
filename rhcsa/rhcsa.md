@@ -3028,3 +3028,5 @@ sudo podman run -d --name <name> -p <host-port>:<container-port> <image>
 sudo podman ps -a
 ```
 
+- Access Container Shell
+
