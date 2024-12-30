@@ -3046,3 +3046,5 @@ sudo podman stop <name>
 sudo podman rm <name>
 ```
 
+- Remove images
+
