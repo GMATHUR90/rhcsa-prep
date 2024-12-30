@@ -3048,3 +3048,7 @@ sudo podman rm <name>
 
 - Remove images
 
+```bash
+sudo podman rmi <image>
+```
+
