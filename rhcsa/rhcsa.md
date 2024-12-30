@@ -3030,3 +3030,7 @@ sudo podman ps -a
 
 - Access Container Shell
 
+```bash
+sudo podman exec -it <container_name> /bin/bash
+```
+
