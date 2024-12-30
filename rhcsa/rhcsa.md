@@ -3036,3 +3036,7 @@ sudo podman exec -it <container_name> /bin/bash
 
 - Stop Container
 
+```bash
+sudo podman stop <name>
+```
+
