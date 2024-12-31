@@ -3068,3 +3068,7 @@ sudo podman run -d --pod <pod-name> <image>
 
 - List Pods:
 
+```bash
+sudo podman pod ls
+```
+
