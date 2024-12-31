@@ -3093,3 +3093,7 @@ sudo podman pod rm <pod-name>
 
 - Inspect Container
 
+```bash
+sudo podman inspect <name>
+```
+
