@@ -3079,3 +3079,7 @@ sudo podman pod inspect <pod-name>
 ```
 - Stop Pods:
 
+```bash
+sudo podman pod stop <pod-name>
+```
+
