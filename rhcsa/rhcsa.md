@@ -3097,3 +3097,5 @@ sudo podman pod rm <pod-name>
 sudo podman inspect <name>
 ```
 
+- View Logs
+
