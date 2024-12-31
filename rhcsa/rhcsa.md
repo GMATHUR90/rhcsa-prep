@@ -3074,3 +3074,7 @@ sudo podman pod ls
 
 - Inspect Pods:
 
+```bash
+sudo podman pod inspect <pod-name>
+```
+
