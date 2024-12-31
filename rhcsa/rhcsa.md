@@ -3066,4 +3066,5 @@ sudo podman pod create --name <pod-name> -p <host-port>:<container-port>
 sudo podman run -d --pod <pod-name> <image>
 ```
 
+- List Pods:
 
