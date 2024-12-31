@@ -3089,3 +3089,7 @@ sudo podman pod stop <pod-name>
 sudo podman pod rm <pod-name>
 ```
 
+### Other useful commands
+
+- Inspect Container
+
