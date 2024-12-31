@@ -3083,3 +3083,5 @@ sudo podman pod inspect <pod-name>
 sudo podman pod stop <pod-name>
 ```
 
+- Remove Pod:
+
