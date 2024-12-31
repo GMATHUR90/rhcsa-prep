@@ -3072,3 +3072,5 @@ sudo podman run -d --pod <pod-name> <image>
 sudo podman pod ls
 ```
 
+- Inspect Pods:
+
