@@ -3077,4 +3077,5 @@ sudo podman pod ls
 ```bash
 sudo podman pod inspect <pod-name>
 ```
+- Stop Pods:
 
