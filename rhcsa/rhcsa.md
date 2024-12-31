@@ -3085,3 +3085,7 @@ sudo podman pod stop <pod-name>
 
 - Remove Pod:
 
+```bash
+sudo podman pod rm <pod-name>
+```
+
