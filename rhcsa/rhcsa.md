@@ -3129,4 +3129,8 @@ sudo podman generate systemd --name <name> --files --new
 
 - Move File
 
+```bash
+sudo mv <file>.service /etc/systemd/system/
+```
+
 
