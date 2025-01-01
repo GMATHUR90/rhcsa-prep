@@ -3102,5 +3102,11 @@ sudo podman inspect <name>
 ```bash
 sudo podman logs <name>
 ```
+
 - Prune Unused Resources
+
+```bash
+sudo podman system prune -a
+```
+
 
