@@ -3099,3 +3099,6 @@ sudo podman inspect <name>
 
 - View Logs
 
+```bash
+sudo podman logs <name>
+```
