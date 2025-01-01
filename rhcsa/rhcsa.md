@@ -3132,5 +3132,6 @@ sudo podman generate systemd --name <name> --files --new
 ```bash
 sudo mv <file>.service /etc/systemd/system/
 ```
+- Enable/start service
 
 
