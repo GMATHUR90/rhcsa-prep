@@ -3111,4 +3111,12 @@ sudo podman system prune -a
 
 - Export/Import Images
 
+```bash
+Export:
+sudo podman save -o <file>.tar <image>
+
+Import:
+sudo podman load -i <file>.tar
+```
+
 
