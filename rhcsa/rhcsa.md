@@ -3123,4 +3123,8 @@ sudo podman load -i <file>.tar
 
 - Generate Service:
 
+```bash
+sudo podman generate systemd --name <name> --files --new
+```
+
 
