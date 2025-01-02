@@ -3158,4 +3158,7 @@ skopeo inspect docker://registry.fedoraproject.org/fedora:latest
 
 - Displays image metadata: name, digest, tags, creation date, architecture, OS layers and environment variable.
 
+![Skopeo_457.png](rhcsa_images/Skopeo_457.png)
+
+![Skopeo_458.png](rhcsa_images/Skopeo_458.png)
 
