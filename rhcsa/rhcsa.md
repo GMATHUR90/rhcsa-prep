@@ -3156,3 +3156,6 @@ sudo yum install skopeo
 skopeo inspect docker://registry.fedoraproject.org/fedora:latest
 ```
 
+- Displays image metadata: name, digest, tags, creation date, architecture, OS layers and environment variable.
+
+
