@@ -3145,3 +3145,7 @@ Skopeo is a command line utility for managing and interacting with container ima
 
 ### a. Installing Skopeo
 
+```bash
+sudo yum install skopeo
+```
+
