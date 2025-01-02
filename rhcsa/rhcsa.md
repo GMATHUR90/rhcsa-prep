@@ -3152,3 +3152,7 @@ sudo yum install skopeo
 
 ### b. Inspecting Remote Images
 
+```bash
+skopeo inspect docker://registry.fedoraproject.org/fedora:latest
+```
+
