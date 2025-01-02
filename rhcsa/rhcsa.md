@@ -3143,3 +3143,5 @@ sudo systemctl start <name>.service
 
 Skopeo is a command line utility for managing and interacting with container images and registries.
 
+### a. Installing Skopeo
+
