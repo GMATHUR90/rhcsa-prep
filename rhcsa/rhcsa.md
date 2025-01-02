@@ -3134,4 +3134,8 @@ sudo mv <file>.service /etc/systemd/system/
 ```
 - Enable/start service
 
+```bash
+sudo systemctl enable <name>.service
+sudo systemctl start <name>.service
+```
 
