@@ -3149,3 +3149,6 @@ Skopeo is a command line utility for managing and interacting with container ima
 sudo yum install skopeo
 ```
 ![Skopeo_456.png](rhcsa_images/Skopeo_456.png)
+
+### b. Inspecting Remote Images
+
