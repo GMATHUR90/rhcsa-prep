@@ -3162,3 +3162,5 @@ skopeo inspect docker://registry.fedoraproject.org/fedora:latest
 
 ![Skopeo_458.png](rhcsa_images/Skopeo_458.png)
 
+### Enhanced Inspection:
+
