@@ -3168,3 +3168,7 @@ skopeo inspect docker://registry.fedoraproject.org/fedora:latest
 skopeo inspect --config docker://registry.fedoraproject.org/fedora:latest | jq
 ```
 
+![Skopeo_459.png](rhcsa_images/Skopeo_459.png)
+
+![Skopeo_460.png](rhcsa_images/Skopeo_460.png)
+
