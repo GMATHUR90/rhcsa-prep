@@ -3176,3 +3176,7 @@ skopeo inspect --config docker://registry.fedoraproject.org/fedora:latest | jq
 
 ### c. Copying Images:
 
+```bash
+skopeo copy docker://source_registry/image_docker://dest_registry/image
+```
+
