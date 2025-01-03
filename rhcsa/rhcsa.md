@@ -3164,3 +3164,7 @@ skopeo inspect docker://registry.fedoraproject.org/fedora:latest
 
 ### Enhanced Inspection:
 
+```bash
+skopeo inspect --config docker://registry.fedoraproject.org/fedora:latest | jq
+```
+
