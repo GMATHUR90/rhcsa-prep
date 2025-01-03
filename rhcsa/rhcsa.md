@@ -3185,5 +3185,9 @@ skopeo copy docker://source_registry/image_docker://dest_registry/image
 ```bash
 skopeo copy oci:layout:latest dir:local_directory
 ```
+- Copy an oci layout image into local directory.
+
+### d. Deleting Images:
+
 
 
