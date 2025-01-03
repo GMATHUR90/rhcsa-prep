@@ -3189,5 +3189,9 @@ skopeo copy oci:layout:latest dir:local_directory
 
 ### d. Deleting Images:
 
+```bash
+skopeo delete docker://localhost:5000/imagename:latest
+```
+
 
 
