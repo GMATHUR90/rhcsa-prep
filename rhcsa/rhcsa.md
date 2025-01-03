@@ -3181,3 +3181,9 @@ skopeo copy docker://source_registry/image_docker://dest_registry/image
 ```
 
 ### i. Copies an image between registries:
+
+```bash
+skopeo copy oci:layout:latest dir:local_directory
+```
+
+
