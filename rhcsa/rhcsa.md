@@ -3180,3 +3180,4 @@ skopeo inspect --config docker://registry.fedoraproject.org/fedora:latest | jq
 skopeo copy docker://source_registry/image_docker://dest_registry/image
 ```
 
+### i. Copies an image between registries:
