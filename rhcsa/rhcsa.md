@@ -3172,3 +3172,7 @@ skopeo inspect --config docker://registry.fedoraproject.org/fedora:latest | jq
 
 ![Skopeo_460.png](rhcsa_images/Skopeo_460.png)
 
+- Provide configuration details like cmd, rootfs, history.
+
+### c. Copying Images:
+
