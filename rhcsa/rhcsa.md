@@ -3201,5 +3201,9 @@ skopeo delete docker://localhost:5000/imagename:latest
 skopeo sync --src docker --dest dir registery.example.com/image /local/dir
 ```
 
+- Syncs images from a registry to a local directory.
+
+### f. Documentation Commands:
+
 
 
