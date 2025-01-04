@@ -3205,5 +3205,10 @@ skopeo sync --src docker --dest dir registery.example.com/image /local/dir
 
 ### f. Documentation Commands:
 
+```bash
+man skopeo: Overview of skopeo commands
+man skopeo-copy: Details on copying images 
+```
+
 
 
