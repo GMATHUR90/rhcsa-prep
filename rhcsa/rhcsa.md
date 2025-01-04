@@ -3193,5 +3193,9 @@ skopeo copy oci:layout:latest dir:local_directory
 skopeo delete docker://localhost:5000/imagename:latest
 ```
 
+- Remove an image from local or remote repository
+
+### e. Syncing Image:
+
 
 
