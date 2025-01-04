@@ -3197,5 +3197,9 @@ skopeo delete docker://localhost:5000/imagename:latest
 
 ### e. Syncing Image:
 
+```bash
+skopeo sync --src docker --dest dir registery.example.com/image /local/dir
+```
+
 
 
