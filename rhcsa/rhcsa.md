@@ -3236,4 +3236,10 @@ sudo yum module install container-tools:3.0
 
 ### b. Create Configuration and Storage Directories:
 
+```bash
+mkdir -p ~/.config/systemd/user
+mkdir ~/container_storage
+echo "Hello" > ~/container_storage/hello.html
+```
+
 
