@@ -3224,5 +3224,8 @@ Persistent Storage for Containers
 
 Container Tool is a software module by RHEL that contain Podman , skopeo, Buildah , eunc etc.
 
+### 1. Containers Tool and Storage Setup:
+
+### a. Reset and Install Container Tools:
 
 
