@@ -3242,4 +3242,6 @@ mkdir ~/container_storage
 echo "Hello" > ~/container_storage/hello.html
 ```
 
+- Create  a directory for systemd user services(~/.config/systemd/user)
+- Creates a directory for persistent container storage(~/container_storage) and adds test file to hello.html.
 
