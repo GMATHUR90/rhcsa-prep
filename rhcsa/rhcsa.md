@@ -3219,4 +3219,10 @@ man skopeo-copy: Details on copying images
 
 - Skopeos simplifying container management without requiring a container runtime.
 
+## Containers as Services and
+Persistent Storage for Containers
+
+Container Tool is a software module by RHEL that contain Podman , skopeo, Buildah , eunc etc.
+
+
 
