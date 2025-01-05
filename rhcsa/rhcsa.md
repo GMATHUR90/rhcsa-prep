@@ -3228,4 +3228,9 @@ Container Tool is a software module by RHEL that contain Podman , skopeo, Builda
 
 ### a. Reset and Install Container Tools:
 
+```bash
+sudo yum module reset container-tools
+sudo yum module install container-tools:3.0
+```
+
 
