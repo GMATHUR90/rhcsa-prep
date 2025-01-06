@@ -3245,3 +3245,8 @@ echo "Hello" > ~/container_storage/hello.html
 - Create  a directory for systemd user services(~/.config/systemd/user)
 - Creates a directory for persistent container storage(~/container_storage) and adds test file to hello.html.
 
+![container_as_service_and_persistent_storage_461.png](rhcsa_images/container_as_service_and_persistent_storage_461.png)
+
+![container_as_service_and_persistent_storage_462.png](rhcsa_images/container_as_service_and_persistent_storage_462.png)
+
+![container_as_service_and_persistent_storage_463.png](rhcsa_images/container_as_service_and_persistent_storage_463.png)
