@@ -3255,3 +3255,7 @@ echo "Hello" > ~/container_storage/hello.html
 
 ### c. Run a container with persistent storage:
 
+```bash
+sudo podman run -d --name container_service -p 1025:8080 -v ~/container_storage:/var/www/html:Z registry.access.redhat.com/rhscl/httpd-24-rhel7
+```
+
