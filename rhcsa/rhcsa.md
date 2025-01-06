@@ -3250,3 +3250,8 @@ echo "Hello" > ~/container_storage/hello.html
 ![container_as_service_and_persistent_storage_462.png](rhcsa_images/container_as_service_and_persistent_storage_462.png)
 
 ![container_as_service_and_persistent_storage_463.png](rhcsa_images/container_as_service_and_persistent_storage_463.png)
+
+### 2. Create Container and Attach Storage:
+
+### c. Run a container with persistent storage:
+
