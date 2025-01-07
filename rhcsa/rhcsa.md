@@ -3271,3 +3271,5 @@ curl http://127.0.0.1:1025/hello.html
 ```
 - verifies that the hello.html file is accessible through the containerised HTTPD service.
 
+![container_as_service_and_persistent_storage_465.png](rhcsa_images/container_as_service_and_persistent_storage_465.png)
+
