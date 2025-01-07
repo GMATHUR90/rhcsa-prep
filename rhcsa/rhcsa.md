@@ -3265,3 +3265,8 @@ sudo podman run -d --name container_service -p 1025:8080 -v ~/container_storage:
 ![container_as_service_and_persistent_storage_464.png](rhcsa_images/container_as_service_and_persistent_storage_464.png)
 
 ### d. Test the container:
+
+```bash
+curl http://127.0.0.1:1025/hello.html
+```
+
