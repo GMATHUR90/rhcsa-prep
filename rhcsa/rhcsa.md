@@ -3269,4 +3269,5 @@ sudo podman run -d --name container_service -p 1025:8080 -v ~/container_storage:
 ```bash
 curl http://127.0.0.1:1025/hello.html
 ```
+- verifies that the hello.html file is accessible through the containerised HTTPD service.
 
